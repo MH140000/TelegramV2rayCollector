@@ -121,7 +121,11 @@
                 "رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @V2RayTz | RELAY🚩 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | BZ🇧🇿 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣"
             ]
         },
         {
@@ -139,7 +143,11 @@
                 "رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @V2RayTz | RELAY🚩 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | BZ🇧🇿 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -422,6 +430,90 @@
                 "path": "\/join.----------------Telegram-EiiiM----------------Telegram-EiiiM---------------.Telegram-EiiiM.",
                 "headers": {
                     "Host": "eiiim.eiiim.online"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @ConfigsHUB | BZ🇧🇿 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "91.209.70.106",
+            "server_port": 443,
+            "password": "a77ad20a55",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru1.connecton.surf",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "3.79.218.250",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "3.77.120.235",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣",
+            "type": "trojan",
+            "server": "51.20.111.166",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
