@@ -112,10 +112,10 @@
                 "URL-TEST | رایگان",
                 "رایگان | SS | @iP_CF | NO🇳🇴 | 0️⃣1️⃣",
                 "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @V2rayngninja | RU🇷🇺 | 0️⃣1️⃣",
@@ -129,10 +129,10 @@
             "outbounds": [
                 "رایگان | SS | @iP_CF | NO🇳🇴 | 0️⃣1️⃣",
                 "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @V2rayngninja | RU🇷🇺 | 0️⃣1️⃣",
@@ -164,16 +164,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣3️⃣",
-            "type": "shadowsocks",
-            "server": "51.105.36.101",
-            "server_port": 13928,
-            "method": "chacha20-ietf-poly1305",
-            "password": "2gxDsKmZRuz4wRCKyXJdJl",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "ca.yangon.club",
@@ -194,7 +184,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @DeamNet_Proxy | NL🇳🇱 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "89.19.216.18",
+            "server_port": 8388,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NC7jORVNrruV\/+3+PwOJrnnOeG7n75X1",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "149.202.82.172",
             "server_port": 8888,
