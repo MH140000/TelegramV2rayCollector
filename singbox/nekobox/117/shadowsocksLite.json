@@ -107,6 +107,7 @@
                 "URL-TEST | رایگان",
                 "رایگان | SS | @iP_CF | NO🇳🇴 | 0️⃣1️⃣",
                 "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣1️⃣",
@@ -123,6 +124,7 @@
             "outbounds": [
                 "رایگان | SS | @iP_CF | NO🇳🇴 | 0️⃣1️⃣",
                 "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣1️⃣",
@@ -148,6 +150,16 @@
         },
         {
             "tag": "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "51.104.194.81",
+            "server_port": 51000,
+            "method": "chacha20-ietf-poly1305",
+            "password": "MYC2rdkydCyYksvKb2QvLK",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @iP_CF | GB🇬🇧 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "51.105.36.101",
             "server_port": 13928,
