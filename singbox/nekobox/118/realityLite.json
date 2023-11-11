@@ -131,10 +131,10 @@
                 "رایگان | REALITY | @vpn_xw | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @vpn_xw | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | REALITY | @vpn_xw | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | REALITY | @liq_VPN | HK🇭🇰 | 0️⃣1️⃣",
-                "رایگان | REALITY | @liq_VPN | TR🇹🇷 | 0️⃣2️⃣",
+                "رایگان | REALITY | @liq_VPN | TR🇹🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @servermomo | FI🇫🇮 | 0️⃣1️⃣",
                 "رایگان | REALITY | @iP_CF | HU🇭🇺 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2rayCollector | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | RU🇷🇺 | 1️⃣3️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 1️⃣4️⃣",
                 "رایگان | REALITY | @ProxyForOpeta | RU🇷🇺 | 0️⃣2️⃣",
@@ -237,8 +237,6 @@
                 "رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 7️⃣5️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 7️⃣6️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 7️⃣7️⃣",
-                "رایگان | REALITY | @majidreza_rahnavard | Donated | IN🇮🇳 | 0️⃣1️⃣",
-                "رایگان | REALITY | @majidreza_rahnavard | Donated | IN🇮🇳 | 0️⃣2️⃣",
                 "رایگان | REALITY | @neda_aghasoltan | Donated | RU🇷🇺 | 0️⃣1️⃣"
             ]
         },
@@ -267,10 +265,10 @@
                 "رایگان | REALITY | @vpn_xw | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @vpn_xw | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | REALITY | @vpn_xw | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | REALITY | @liq_VPN | HK🇭🇰 | 0️⃣1️⃣",
-                "رایگان | REALITY | @liq_VPN | TR🇹🇷 | 0️⃣2️⃣",
+                "رایگان | REALITY | @liq_VPN | TR🇹🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @servermomo | FI🇫🇮 | 0️⃣1️⃣",
                 "رایگان | REALITY | @iP_CF | HU🇭🇺 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2rayCollector | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | RU🇷🇺 | 1️⃣3️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 1️⃣4️⃣",
                 "رایگان | REALITY | @ProxyForOpeta | RU🇷🇺 | 0️⃣2️⃣",
@@ -373,8 +371,6 @@
                 "رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 7️⃣5️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 7️⃣6️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 7️⃣7️⃣",
-                "رایگان | REALITY | @majidreza_rahnavard | Donated | IN🇮🇳 | 0️⃣1️⃣",
-                "رایگان | REALITY | @majidreza_rahnavard | Donated | IN🇮🇳 | 0️⃣2️⃣",
                 "رایگان | REALITY | @neda_aghasoltan | Donated | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1096,42 +1092,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @liq_VPN | HK🇭🇰 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "dubi.liq-english-78.site",
-            "server_port": 443,
-            "uuid": "f1fe3e31-f8b4-4ec1-b22d-bf0b66cacc67",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "duckduckgo.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NC5bzD1004GpExH3XOMGxyXyJtGQiDHTGKLaZfq_-Tc",
-                    "short_id": "da684733"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @liq_VPN | TR🇹🇷 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @liq_VPN | TR🇹🇷 | 0️⃣1️⃣",
             "type": "vless",
             "server": "turk.liq-english-78.site",
             "server_port": 15376,
@@ -1226,6 +1187,41 @@
                     "public_key": "fNJIVjRaZgVD0UmjEqsCkU4cfaM0G4wEa7lSvLaX3W8",
                     "short_id": "ddf07dc7"
                 }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @V2rayCollector | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "5.75.238.19",
+            "server_port": 2087,
+            "uuid": "980594a8-6e6c-41e7-db61-78efc31d5ab0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WnT8w6Vtfzx2u47S6hTHPRAPn3myMXmqsyx__R_GFyE",
+                    "short_id": "638ca3d3"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -4452,62 +4448,6 @@
                     "enabled": true,
                     "public_key": "v9kQRkrqIGdwItPd5EEeBSLaRe8SH101MMOazwilJVA",
                     "short_id": "1249e9c0"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @majidreza_rahnavard | Donated | IN🇮🇳 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "148.113.3.134",
-            "server_port": 443,
-            "uuid": "42bd78be-4008-4993-9575-ea62cc493362",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oMNdNFZOc6vhepLrmFankR_ucI12sjk1xV_x-aqNiUU",
-                    "short_id": "c6a9c8836de6e101"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @majidreza_rahnavard | Donated | IN🇮🇳 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "148.113.3.134",
-            "server_port": 22,
-            "uuid": "ed52c12c-b5a4-4b2f-9caa-3de6730f2388",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oMNdNFZOc6vhepLrmFankR_ucI12sjk1xV_x-aqNiUU",
-                    "short_id": "c6a9c8836de6e101"
                 }
             }
         },
