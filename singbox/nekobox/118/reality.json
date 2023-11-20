@@ -167,6 +167,8 @@
                 "رایگان | REALITY | @VPNCLOP | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣3️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣8️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 2️⃣6️⃣",
@@ -190,6 +192,7 @@
                 "رایگان | REALITY | @reality_daily | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | REALITY | @reality_daily | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | REALITY | @reality_daily | RU🇷🇺 | 0️⃣3️⃣",
+                "رایگان | REALITY | @sarina_esmailzadeh | Donated | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | RU🇷🇺 | 0️⃣5️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | RU🇷🇺 | 0️⃣6️⃣",
@@ -304,6 +307,8 @@
                 "رایگان | REALITY | @VPNCLOP | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣3️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣8️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 2️⃣6️⃣",
@@ -336,6 +341,7 @@
                 "رایگان | REALITY | @reality_daily | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | REALITY | @reality_daily | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | REALITY | @reality_daily | RU🇷🇺 | 0️⃣3️⃣",
+                "رایگان | REALITY | @sarina_esmailzadeh | Donated | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | RU🇷🇺 | 0️⃣5️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | RU🇷🇺 | 0️⃣6️⃣",
@@ -1603,6 +1609,76 @@
             }
         },
         {
+            "tag": "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "nesferaah.moftinet.xyz",
+            "server_port": 443,
+            "uuid": "d6ec3716-498a-4d17-8b6a-92c4e5e0e826",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "account.zula.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0QvTPBr_PJQUC4aS_qwtlA2WqywwEdvs-n5IE2eM-R4",
+                    "short_id": "124dc37d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Moftinet  @Moftinet  @Moftinet  @Moftinet",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "join.bede.vmessorg.mokhin.me",
+            "server_port": 2052,
+            "uuid": "5bb287f2-78ab-456b-ba4f-5944798de4eb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ghbi.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0_saBLvWIi4jSHO4DljmiylzJvCgpPnKlwa4-8Nb1AI",
+                    "short_id": "026b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@vmessorg",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣3️⃣",
             "type": "vless",
             "server": "162.55.209.153",
@@ -2327,6 +2403,34 @@
                     "enabled": true,
                     "public_key": "QXFJrCyeCTMq6NqwNuvPdWKXMhUmxbRspEG5mqFI82Y",
                     "short_id": "7787457ed3962ce0"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @sarina_esmailzadeh | Donated | RU🇷🇺 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "176.124.198.154",
+            "server_port": 22,
+            "uuid": "93f61301-a0ba-4973-abbd-9f4595bc273d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "d7ZoJrEW_7ISQJVlSEXemoW3gZGAx61yE_0hEvWgHxk",
+                    "short_id": "625a1077766ff0c1"
                 }
             }
         },
