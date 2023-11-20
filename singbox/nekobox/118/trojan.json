@@ -127,8 +127,8 @@
                 "رایگان | TROJAN | @VmessProtocol | AE🇦🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @proxystore11 | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -170,8 +170,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @proxystore11 | US🇺🇸 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @proxystore11 | US🇺🇸 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -181,7 +180,8 @@
             "tag": "RELAY🚩",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -328,11 +328,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @proxystore11 | US🇺🇸 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "cdn.proxystore11.site",
-            "server_port": 2083,
-            "password": "Qk5naxAaTd",
+            "server": "190.93.246.241",
+            "server_port": 2087,
+            "password": "hpS304VqvF",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -340,7 +340,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.proxystore11.site",
+                "server_name": "panel.proxystore11.site",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -356,11 +356,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣3️⃣",
             "type": "trojan",
-            "server": "190.93.246.241",
-            "server_port": 2087,
-            "password": "hpS304VqvF",
+            "server": "cdn.proxystore11.site",
+            "server_port": 2083,
+            "password": "Qk5naxAaTd",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -368,7 +368,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "panel.proxystore11.site",
+                "server_name": "cdn.proxystore11.site",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
