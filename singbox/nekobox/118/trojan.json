@@ -114,7 +114,7 @@
                 "FR🇫🇷",
                 "US🇺🇸",
                 "DE🇩🇪",
-                "ES🇪🇸",
+                "RELAY🚩",
                 "KR🇰🇷",
                 "MT🇲🇹"
             ]
@@ -130,7 +130,7 @@
                 "رایگان | TROJAN | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @VmessProtocol | ES🇪🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | KR🇰🇷 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @proxystore11 | MT🇲🇹 | 0️⃣1️⃣"
             ],
@@ -182,10 +182,10 @@
             "tolerance": 50
         },
         {
-            "tag": "ES🇪🇸",
+            "tag": "RELAY🚩",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @VmessProtocol | ES🇪🇸 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -357,7 +357,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @VmessProtocol | ES🇪🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "vp1n3ip.vpweb.cfd",
             "server_port": 443,
