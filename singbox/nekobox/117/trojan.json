@@ -107,8 +107,8 @@
                 "URL-TEST | رایگان",
                 "FR🇫🇷",
                 "IE🇮🇪",
-                "RO🇷🇴",
-                "DE🇩🇪"
+                "DE🇩🇪",
+                "RO🇷🇴"
             ]
         },
         {
@@ -120,8 +120,9 @@
                 "رایگان | TROJAN | @yaney_01 | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | RO🇷🇴 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @VmessProtocol | DE🇩🇪 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @VmessProtocol | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @oneclickvpnkeys | RO🇷🇴 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -151,20 +152,21 @@
             "tolerance": 50
         },
         {
-            "tag": "RO🇷🇴",
+            "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @oneclickvpnkeys | RO🇷🇴 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @VmessProtocol | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "DE🇩🇪",
+            "tag": "RO🇷🇴",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @VmessProtocol | DE🇩🇪 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | RO🇷🇴 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -267,7 +269,49 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @oneclickvpnkeys | RO🇷🇴 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "5.104.108.120",
+            "server_port": 443,
+            "password": "b8810c0b-f0a8-4bc3-baff-7e7ffb85a08c",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "20-24-33-134.nhost.00cdn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @VmessProtocol | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "5.104.108.120",
+            "server_port": 443,
+            "password": "b8810c0b-f0a8-4bc3-baff-7e7ffb85a08c",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "20-24-33-134.nhost.00cdn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @oneclickvpnkeys | RO🇷🇴 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "149.5.172.218",
             "server_port": 995,
@@ -291,27 +335,6 @@
                 "path": "\/twcdn-warp",
                 "headers": {
                     "Host": "fi.pqmin.online"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @VmessProtocol | DE🇩🇪 | 0️⃣2️⃣",
-            "type": "trojan",
-            "server": "5.104.108.120",
-            "server_port": 443,
-            "password": "b8810c0b-f0a8-4bc3-baff-7e7ffb85a08c",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "20-24-33-134.nhost.00cdn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
