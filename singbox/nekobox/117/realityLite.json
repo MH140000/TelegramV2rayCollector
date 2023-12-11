@@ -112,14 +112,15 @@
                 "رایگان | REALITY | @V2pedia | FI🇫🇮 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2pedia | FI🇫🇮 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2pedia | FI🇫🇮 | 0️⃣3️⃣",
-                "رایگان | REALITY | @lightning6 | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @DigiV2ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @lightning6 | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | US🇺🇸 | 0️⃣5️⃣",
                 "رایگان | REALITY | @v2rayNG_Matsuri | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @v2rayNG_Matsuri | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2rayNG_Matsuri | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @ServerNett | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @v2ray1_ng | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ConfigsHUB | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ConfigsHUB | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VPNCLOP | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @fnet00 | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | IR🇮🇷 | 0️⃣3️⃣",
@@ -276,14 +277,15 @@
                 "رایگان | REALITY | @V2pedia | FI🇫🇮 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2pedia | FI🇫🇮 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2pedia | FI🇫🇮 | 0️⃣3️⃣",
-                "رایگان | REALITY | @lightning6 | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @DigiV2ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @lightning6 | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | US🇺🇸 | 0️⃣5️⃣",
                 "رایگان | REALITY | @v2rayNG_Matsuri | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @v2rayNG_Matsuri | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2rayNG_Matsuri | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @ServerNett | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @v2ray1_ng | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ConfigsHUB | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ConfigsHUB | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VPNCLOP | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @fnet00 | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | IR🇮🇷 | 0️⃣3️⃣",
@@ -664,7 +666,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @lightning6 | DE🇩🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @lightning6 | IR🇮🇷 | 0️⃣2️⃣",
             "type": "vless",
             "server": "LIGHTNING6-joinbedee.mamd.sbs",
             "server_port": 8080,
@@ -693,41 +695,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@LIGHTNING6",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @DigiV2ray | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "5.75.215.191",
-            "server_port": 443,
-            "uuid": "738c5e99-7faa-4893-81a8-4d6655adde62",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "44pa79d1pgsXBDhuaoAorrir4k2OSTNdOuMEXFw9zXc",
-                    "short_id": "ab7b40b2"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Digiv2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -910,6 +877,69 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",@V2ray1_Ng,@V2ray1_Ng,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ConfigsHUB | IR🇮🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "128.140.24.151",
+            "server_port": 443,
+            "uuid": "896efe15-7363-4d6c-97aa-cb0bb5499228",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gB2mHBv8PQXA0HSxOlOcB91nq5luio58GPdkjAgmk2M",
+                    "short_id": "10ff054b"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ConfigsHUB | IR🇮🇷 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "128.140.90.193",
+            "server_port": 443,
+            "uuid": "funza",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "univ-grenoble-alpes.fr",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lKHOngAEHe_kzZg4sVLyh__TN7MoVz6RLuRKb0IbLHQ",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "----------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
