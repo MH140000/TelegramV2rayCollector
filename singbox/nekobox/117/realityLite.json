@@ -105,8 +105,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣0️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣4️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣2️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @vpnmasi | DE🇩🇪 | 0️⃣2️⃣",
@@ -202,8 +203,9 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣0️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣4️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣2️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @vpnmasi | DE🇩🇪 | 0️⃣2️⃣",
@@ -299,7 +301,35 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "91.107.150.99",
+            "server_port": 35517,
+            "uuid": "41bd3b32-3d71-488f-838a-b26813b7e638",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uQj3GQEayrF-EubsrWd89A3g8DBPc1S6R9GLK-ykxDI",
+                    "short_id": "1c3b838d"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣4️⃣",
             "type": "vless",
             "server": "178.79.161.229",
             "server_port": 2024,
@@ -327,7 +357,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣0️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣2️⃣",
             "type": "vless",
             "server": "kamyarservers.camdvr.org",
             "server_port": 443,
