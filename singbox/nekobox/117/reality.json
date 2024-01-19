@@ -106,7 +106,7 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "DE🇩🇪",
-                "AU🇦🇺"
+                "IR🇮🇷"
             ]
         },
         {
@@ -115,7 +115,7 @@
             "outbounds": [
                 "رایگان | REALITY | @CloudCityy | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @vpnmasi | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @Outlinev2rayNG | AU🇦🇺 | 0️⃣2️⃣"
+                "رایگان | REALITY | @iP_CF | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -133,10 +133,10 @@
             "tolerance": 50
         },
         {
-            "tag": "AU🇦🇺",
+            "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @Outlinev2rayNG | AU🇦🇺 | 0️⃣2️⃣"
+                "رایگان | REALITY | @iP_CF | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -213,12 +213,12 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @Outlinev2rayNG | AU🇦🇺 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @iP_CF | IR🇮🇷 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "richard.dgi000.store",
-            "server_port": 45454,
-            "uuid": "Azadi-az-inja-migzare",
-            "flow": "xtls-rprx-vision",
+            "server": "91.107.181.102",
+            "server_port": 29790,
+            "uuid": "75a747f3-f914-47dd-af5c-ec2f0a1438a6",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -227,17 +227,24 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "richard.dgi000.store",
+                "server_name": "ea.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "x_c1xN7STkeMumpLPU32WDeZ0UacaiAlvyj1zXEwljk",
-                    "short_id": "3dae8e8d"
+                    "public_key": "gHpgh7fQoB9kzze4I6Pwvo8sXiAPIbja2ieX03dVjkE",
+                    "short_id": "1bd52d06"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
