@@ -106,13 +106,12 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "US🇺🇸",
+                "CA🇨🇦",
                 "SG🇸🇬",
                 "GB🇬🇧",
                 "JP🇯🇵",
                 "RU🇷🇺",
-                "CA🇨🇦",
-                "FR🇫🇷",
-                "SE🇸🇪"
+                "FR🇫🇷"
             ]
         },
         {
@@ -123,6 +122,8 @@
                 "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | SS | @DeamNet_Proxy | SG🇸🇬 | 0️⃣1️⃣",
                 "رایگان | SS | @vmess_vless_pro | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @vmess_vless_pro | GB🇬🇧 | 0️⃣2️⃣",
@@ -132,11 +133,7 @@
                 "رایگان | SS | @VPNGate_Config | JP🇯🇵 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | SS | @VmessProtocol | CA🇨🇦 | 0️⃣3️⃣",
-                "رایگان | SS | @bright_vpn | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣"
+                "رایگان | SS | @bright_vpn | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -150,6 +147,17 @@
                 "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "CA🇨🇦",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | CA🇨🇦 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -201,32 +209,10 @@
             "tolerance": 50
         },
         {
-            "tag": "CA🇨🇦",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @VmessProtocol | CA🇨🇦 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
             "tag": "FR🇫🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @bright_vpn | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | FR🇫🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "SE🇸🇪",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣"
+                "رایگان | SS | @bright_vpn | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -269,6 +255,26 @@
             "server_port": 801,
             "method": "chacha20-ietf-poly1305",
             "password": "tvX1v#NSFP_LG_bJ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "ca.yangon.club",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "HNkkkcxRgCkPDQ0Z0ln7wx",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VmessProtocol | CA🇨🇦 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "132.145.102.60",
+            "server_port": 21001,
+            "method": "chacha20-ietf-poly1305",
+            "password": "783ea1c5-928f-4d4a-a091-ea8ae1988063",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -363,52 +369,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @VmessProtocol | CA🇨🇦 | 0️⃣3️⃣",
-            "type": "shadowsocks",
-            "server": "132.145.102.60",
-            "server_port": 21001,
-            "method": "chacha20-ietf-poly1305",
-            "password": "783ea1c5-928f-4d4a-a091-ea8ae1988063",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "رایگان | SS | @bright_vpn | FR🇫🇷 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.178.87.37",
             "server_port": 810,
             "method": "chacha20-ietf-poly1305",
             "password": "G!yBwPWH3Vao",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | FR🇫🇷 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "51.178.87.37",
-            "server_port": 800,
-            "method": "chacha20-ietf-poly1305",
-            "password": "G!yBwPWH3Vao",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "buy-business.h0stname.net",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "UV20xs1WJTo706fjTJBJQuOPBrGr7pRbM0YNV4EVhXE=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣",
-            "type": "shadowsocks",
-            "server": "13.50.247.128",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "UV20xs1WJTo706fjTJBJQuOPBrGr7pRbM0YNV4EVhXE=",
             "plugin": "",
             "plugin_opts": ""
         },
