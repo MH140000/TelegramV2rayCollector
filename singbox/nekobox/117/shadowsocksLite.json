@@ -119,7 +119,8 @@
                 "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @bright_vpn | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣"
             ]
         },
         {
@@ -140,7 +141,8 @@
                 "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @bright_vpn | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -190,9 +192,9 @@
             "tag": "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.77.53.200",
-            "server_port": 2375,
+            "server_port": 3306,
             "method": "aes-256-gcm",
-            "password": "faBAoD54k87UJG7",
+            "password": "Y6R9pAtvxxzmGC",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -200,9 +202,9 @@
             "tag": "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "51.77.53.200",
-            "server_port": 9102,
+            "server_port": 7306,
             "method": "aes-256-gcm",
-            "password": "e4FCWrgpkji3QY",
+            "password": "FoOiGlkAA9yPEGP",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -210,7 +212,7 @@
             "tag": "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "51.77.53.200",
-            "server_port": 8009,
+            "server_port": 8008,
             "method": "aes-256-gcm",
             "password": "XKFKl2rULjIp74",
             "plugin": "",
@@ -293,6 +295,16 @@
             "server_port": 443,
             "method": "aes-128-gcm",
             "password": "shadowsocks",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "toronto.telegavpn.org",
+            "server_port": 31024,
+            "method": "chacha20-ietf-poly1305",
+            "password": "SknTii7Ogmhie8gSDsSMmL",
             "plugin": "",
             "plugin_opts": ""
         },
