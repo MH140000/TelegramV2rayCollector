@@ -113,8 +113,8 @@
                 "US🇺🇸",
                 "GB🇬🇧",
                 "JP🇯🇵",
-                "GI🇬🇮",
                 "RU🇷🇺",
+                "GI🇬🇮",
                 "FR🇫🇷"
             ]
         },
@@ -132,9 +132,9 @@
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @VPNGate_Config | JP🇯🇵 | 0️⃣1️⃣",
-                "رایگان | SS | @VmessProtocol | GI🇬🇮 | 0️⃣1️⃣",
+                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | GI🇬🇮 | 0️⃣1️⃣",
                 "رایگان | SS | @bright_vpn | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -197,21 +197,21 @@
             "tolerance": 50
         },
         {
-            "tag": "GI🇬🇮",
+            "tag": "RU🇷🇺",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @VmessProtocol | GI🇬🇮 | 0️⃣1️⃣"
+                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "RU🇷🇺",
+            "tag": "GI🇬🇮",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣"
+                "رایگان | SS | @VmessProtocol | GI🇬🇮 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -328,12 +328,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @VmessProtocol | GI🇬🇮 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣2️⃣",
             "type": "shadowsocks",
-            "server": "95.164.69.152",
-            "server_port": 8388,
+            "server": "92.223.109.205",
+            "server_port": 51348,
             "method": "chacha20-ietf-poly1305",
-            "password": "MzFiY",
+            "password": "ackkokOi",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -348,12 +348,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @VmessProtocol | GI🇬🇮 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "vpn-ru.wwp.im",
-            "server_port": 15174,
+            "server": "95.164.69.152",
+            "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
-            "password": "XJd4PTLIjNNJRuQqmlEAn5",
+            "password": "MzFiY",
             "plugin": "",
             "plugin_opts": ""
         },
