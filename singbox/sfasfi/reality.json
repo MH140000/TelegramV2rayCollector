@@ -110,7 +110,7 @@
                 "URL-TEST | رایگان",
                 "GB🇬🇧",
                 "DE🇩🇪",
-                "SE🇸🇪"
+                "IR🇮🇷"
             ]
         },
         {
@@ -119,8 +119,8 @@
             "outbounds": [
                 "رایگان | REALITY | @v2logy | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | REALITY | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
-                "رایگان | REALITY | @Outlinev2rayNG | SE🇸🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣6️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -141,17 +141,17 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣6️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "SE🇸🇪",
+            "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @Outlinev2rayNG | SE🇸🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -214,7 +214,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣6️⃣",
             "type": "vless",
             "server": "116.202.99.47",
             "server_port": 49124,
@@ -242,11 +242,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @Outlinev2rayNG | SE🇸🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "13.49.231.106",
-            "server_port": 8080,
-            "uuid": "049f97b8-7180-4b67-d79d-9541ff116fe8",
+            "server": "194.31.194.175",
+            "server_port": 2046,
+            "uuid": "5ebf801c-eb58-4e9e-96df-39112c54b25c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -256,21 +256,21 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.google.com",
+                "server_name": "igap.net",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tj4NuuQRH5GMJqWUYRYsCPvhR4KCRQ58TqF7gqCf9lQ",
-                    "short_id": "21e3"
+                    "public_key": "d5lQ5iM3LcZe802055DfB5FN7-c3f6gkWMLKTCQxzQg",
+                    "short_id": "116f6684"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@kiava",
+                "service_name": "",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
