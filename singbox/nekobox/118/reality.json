@@ -110,36 +110,36 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "DE🇩🇪"
+                "RO🇷🇴"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | RO🇷🇴 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "DE🇩🇪",
+            "tag": "RO🇷🇴",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | RO🇷🇴 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | RO🇷🇴 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "164.90.170.74",
-            "server_port": 443,
-            "uuid": "Venom-Servers",
-            "flow": "",
+            "server": "nodes.mrzb.artydev.ru",
+            "server_port": 8443,
+            "uuid": "964736c9-abc2-400d-b7de-378d9de2e4c0",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -148,7 +148,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cloud.digitalocean.com",
+                "server_name": "discordapp.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -156,8 +156,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ByI5ywQuT7VC2tbcAp673v8rurHKZ4SK4KNn-wi-dg4",
-                    "short_id": "6f3bed2c"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
