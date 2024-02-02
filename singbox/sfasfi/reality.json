@@ -110,8 +110,7 @@
                 "URL-TEST | رایگان",
                 "DE🇩🇪",
                 "RU🇷🇺",
-                "RO🇷🇴",
-                "FR🇫🇷"
+                "US🇺🇸"
             ]
         },
         {
@@ -122,8 +121,7 @@
                 "رایگان | REALITY | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣3️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | RO🇷🇴 | 0️⃣8️⃣",
-                "رایگان | REALITY | @forwardv2ray | FR🇫🇷 | 0️⃣3️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | US🇺🇸 | 0️⃣8️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -152,20 +150,10 @@
             "tolerance": 50
         },
         {
-            "tag": "RO🇷🇴",
+            "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2rayCollectorDonate | RO🇷🇴 | 0️⃣8️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "FR🇫🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @forwardv2ray | FR🇫🇷 | 0️⃣3️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | US🇺🇸 | 0️⃣8️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -291,7 +279,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | RO🇷🇴 | 0️⃣8️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | US🇺🇸 | 0️⃣8️⃣",
             "type": "vless",
             "server": "nodes.mrzb.artydev.ru",
             "server_port": 8443,
@@ -315,34 +303,6 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @forwardv2ray | FR🇫🇷 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "51.75.86.63",
-            "server_port": 443,
-            "uuid": "974d4696-a900-4d44-b627-9833b8a7b27a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "flightradar24.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UDABcxpKzAYkuyE4pmST0OSzEUJpQNuSgYIKcgppeh8",
-                    "short_id": "d73382b02fa94fc2"
                 }
             }
         },
