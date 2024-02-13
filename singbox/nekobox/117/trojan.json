@@ -119,8 +119,9 @@
                 "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @fnet00 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
@@ -128,9 +129,7 @@
                 "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -145,8 +144,9 @@
                 "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @fnet00 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -181,9 +181,7 @@
             "tag": "RELAY🚩",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -276,19 +274,35 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "ru-full.privateip.net",
+            "server": "b2n.ir",
             "server_port": 443,
-            "password": "a6711b97-5e8e-4e7d-8b42-845dd31c265b",
+            "password": "hwiyBDgN65hGmiwxPcfMUA",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdntuk17.reservedns.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cdntuk17.reservedns.com"
+                }
             }
         },
         {
-            "tag": "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "b2n.ir",
             "server_port": 443,
@@ -316,11 +330,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @fnet00 | US🇺🇸 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "b2n.ir",
-            "server_port": 443,
-            "password": "hwiyBDgN65hGmiwxPcfMUA",
+            "server": "cdn13.cdn2cdn.com",
+            "server_port": 2083,
+            "password": "qG9K8AGnn9XH5jUqeFu96g",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -328,7 +342,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdnttr212.reservedns.com",
+                "server_name": "cdn13.cdn2cdn.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -339,8 +353,20 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "cdnttr212.reservedns.com"
+                    "Host": null
                 }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣3️⃣",
+            "type": "trojan",
+            "server": "ru-full.privateip.net",
+            "server_port": 443,
+            "password": "a6711b97-5e8e-4e7d-8b42-845dd31c265b",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -477,11 +503,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
             "type": "trojan",
-            "server": "hongkong.followerpanell.ir",
-            "server_port": 8443,
-            "password": "e40c26851093180",
+            "server": "b2n.ir",
+            "server_port": 443,
+            "password": "hwiyBDgN65hGmiwxPcfMUA",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -489,7 +515,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "cdnttr212.reservedns.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -497,15 +523,15 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "162.159.1.94",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cdnttr212.reservedns.com"
+                }
             }
         },
         {
-            "tag": "رایگان | TROJAN | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "162.159.1.94",
             "server_port": 443,
@@ -530,62 +556,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "cdn13.cdn2cdn.com",
-            "server_port": 2083,
-            "password": "qG9K8AGnn9XH5jUqeFu96g",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn13.cdn2cdn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": null
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "b2n.ir",
-            "server_port": 443,
-            "password": "hwiyBDgN65hGmiwxPcfMUA",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdntuk17.reservedns.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cdntuk17.reservedns.com"
-                }
             }
         },
         {
