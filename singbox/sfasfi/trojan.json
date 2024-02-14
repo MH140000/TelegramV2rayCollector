@@ -108,9 +108,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
+                "FR🇫🇷",
                 "DE🇩🇪",
-                "SE🇸🇪",
                 "CA🇨🇦",
+                "RELAY🚩",
                 "US🇺🇸"
             ]
         },
@@ -118,12 +119,24 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @v2ray_swhil | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @fnet00 | US🇺🇸 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "FR🇫🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -133,18 +146,8 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "SE🇸🇪",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -161,20 +164,31 @@
             "tolerance": 50
         },
         {
-            "tag": "US🇺🇸",
+            "tag": "RELAY🚩",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @v2ray_swhil | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @fnet00 | US🇺🇸 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "US🇺🇸",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "18.195.93.19",
+            "server": "13.37.146.100",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -195,7 +209,7 @@
         {
             "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "18.156.159.178",
+            "server": "18.195.93.19",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -214,9 +228,9 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
             "type": "trojan",
-            "server": "16.171.90.79",
+            "server": "18.156.159.178",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -237,7 +251,7 @@
         {
             "tag": "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "15.157.76.9",
+            "server": "3.97.100.116",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -256,35 +270,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @v2ray_swhil | US🇺🇸 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "hongkong.followerpanell.ir",
-            "server_port": 8443,
-            "password": "e40c26851093180",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "162.159.1.94",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @fnet00 | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "cdn13.cdn2cdn.com",
             "server_port": 2083,
@@ -309,6 +295,90 @@
                 "headers": {
                     "Host": null
                 }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "104.19.171.3",
+            "server_port": 443,
+            "password": "f0eb8c92ce8946aaba856569cff1a16b",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sherasheba.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/6b777a91",
+                "headers": {
+                    "Host": "sherasheba.com"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣3️⃣",
+            "type": "trojan",
+            "server": "104.19.159.144",
+            "server_port": 443,
+            "password": "4aec4e7f8cf8454ea4613659822e1a61",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "avianrecruit.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/6b777a91",
+                "headers": {
+                    "Host": "avianrecruit.com"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "172.67.204.84",
+            "server_port": 443,
+            "password": "qj1Dz1CJmFQRhWr1SP80aA",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn-21.gsmxreality.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "443trojan",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
