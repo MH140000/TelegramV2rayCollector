@@ -112,7 +112,7 @@
                 "URL-TEST | رایگان",
                 "GB🇬🇧",
                 "NL🇳🇱",
-                "SE🇸🇪"
+                "DE🇩🇪"
             ]
         },
         {
@@ -120,8 +120,9 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | REALITY | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣"
+                "رایگان | REALITY | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣3️⃣",
+                "رایگان | REALITY | @FalconPolV2rayNG | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -131,7 +132,8 @@
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | REALITY | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -141,17 +143,17 @@
             "tag": "NL🇳🇱",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣2️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "SE🇸🇪",
+            "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣"
+                "رایگان | REALITY | @FalconPolV2rayNG | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -186,7 +188,35 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "144.126.234.182",
+            "server_port": 51697,
+            "uuid": "22f3cbcc-55b5-4d71-a3ca-9d6f3287aace",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.sourceforge.net",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3KmWh8OPrAr-gBXyVdyS4IaB8DKUTtdIpbv5qvN15RY",
+                    "short_id": "c2abcb19"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣3️⃣",
             "type": "vless",
             "server": "104.248.194.223",
             "server_port": 443,
@@ -221,11 +251,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @FalconPolV2rayNG | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "103.25.85.38",
+            "server": "188.34.194.108",
             "server_port": 443,
-            "uuid": "a7551511-e2b8-4a19-ac0c-1c320ce4afb5",
+            "uuid": "cb00ef4a-fcf7-484a-8c49-6a2422ed84e6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -235,17 +265,24 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "addons.mozilla.org",
+                "server_name": "ftp.debian.org",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "7OXAPa32fyCtzBapDtZ8DUj6Bb1M0xD7taJT0TpzI2s",
-                    "short_id": ""
+                    "public_key": "W6ol7KU4fjV1mBS2aG_xs8emIKsqF8y6Ufva-2MRa20",
+                    "short_id": "9d2b63ad"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
