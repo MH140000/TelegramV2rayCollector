@@ -115,8 +115,7 @@
                 "DE🇩🇪",
                 "US🇺🇸",
                 "ES🇪🇸",
-                "IT🇮🇹",
-                "GB🇬🇧"
+                "IT🇮🇹"
             ]
         },
         {
@@ -125,17 +124,15 @@
             "outbounds": [
                 "رایگان | TROJAN | @iP_CF | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @forwardv2ray | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | ES🇪🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | IT🇮🇹 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | IT🇮🇹 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -147,7 +144,6 @@
             "outbounds": [
                 "رایگان | TROJAN | @iP_CF | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -158,8 +154,7 @@
             "tag": "FR🇫🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @forwardv2ray | FR🇫🇷 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -181,6 +176,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -202,16 +198,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @oneclickvpnkeys | IT🇮🇹 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "GB🇬🇧",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -274,34 +260,6 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd",
-            "server_port": 2053,
-            "password": "ApwYvE71Pe",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/t.me\/VmessProtocol",
-                "headers": {
-                    "Host": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd"
-                }
-            }
-        },
-        {
             "tag": "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
             "type": "trojan",
             "server": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd",
@@ -343,27 +301,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.miwan.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @forwardv2ray | FR🇫🇷 | 0️⃣2️⃣",
-            "type": "trojan",
-            "server": "45.32.148.182",
-            "server_port": 443,
-            "password": "wkmY1R4EcP",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "z-v2-002805.kailib.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -442,6 +379,34 @@
             }
         },
         {
+            "tag": "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd",
+            "server_port": 2053,
+            "password": "ApwYvE71Pe",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/t.me\/VmessProtocol",
+                "headers": {
+                    "Host": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd"
+                }
+            }
+        },
+        {
             "tag": "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd",
@@ -504,27 +469,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "18.169.91.85",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
