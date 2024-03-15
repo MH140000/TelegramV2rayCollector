@@ -119,9 +119,9 @@
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @proxyymeliii | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣"
             ],
@@ -155,7 +155,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -167,6 +166,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @proxyymeliii | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣"
             ],
@@ -266,34 +266,6 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "flixeon.me",
-            "server_port": 443,
-            "password": "52701795-3c3b-46b4-b7cf-c5978b3a4cf2",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfyc1.achaemenidempireofpersia.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xw7uebRG4KlUXGGYTVEagC5V7fI",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
             "type": "trojan",
             "server": "1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd",
@@ -344,6 +316,34 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "443trojan",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @proxyymeliii | US🇺🇸 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "flixeon.me",
+            "server_port": 443,
+            "password": "52701795-3c3b-46b4-b7cf-c5978b3a4cf2",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfyc1.achaemenidempireofpersia.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xw7uebRG4KlUXGGYTVEagC5V7fI",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
