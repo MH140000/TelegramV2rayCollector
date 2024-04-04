@@ -111,9 +111,10 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "DE🇩🇪",
-                "AL🇦🇱",
+                "FI🇫🇮",
                 "IR🇮🇷",
-                "TR🇹🇷"
+                "TR🇹🇷",
+                "NL🇳🇱"
             ]
         },
         {
@@ -121,9 +122,10 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @CloudCityy | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @azadi_az_inja_migzare | AL🇦🇱 | 0️⃣2️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 1️⃣0️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣3️⃣"
+                "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -140,10 +142,10 @@
             "tolerance": 50
         },
         {
-            "tag": "AL🇦🇱",
+            "tag": "FI🇫🇮",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @azadi_az_inja_migzare | AL🇦🇱 | 0️⃣2️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 1️⃣0️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -163,7 +165,17 @@
             "tag": "TR🇹🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣3️⃣"
+                "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "NL🇳🇱",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -205,12 +217,12 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @azadi_az_inja_migzare | AL🇦🇱 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 1️⃣0️⃣",
             "type": "vless",
-            "server": "zerocool.cheshmsabz.toP",
-            "server_port": 45102,
-            "uuid": "687970f6-cd47-4fc2-91a4-6f0e4d49089f",
-            "flow": "xtls-rprx-vision",
+            "server": "pub2.legendaryking.link",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -219,7 +231,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "icloud.com",
+                "server_name": "fortune.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -227,9 +239,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ",
-                    "short_id": "9f935adfaf516589"
+                    "public_key": "8UMZ6q74yjStq0Gad3QhEVYUZW3traIgWx9QWHpYLBI",
+                    "short_id": "e1ac93f1"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -261,7 +280,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣3️⃣",
+            "tag": "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣1️⃣",
             "type": "vless",
             "server": "mado3.maghzkadehturky.com.tr",
             "server_port": 2053,
@@ -293,6 +312,34 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "allrevolt.r8volt.com",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
+                }
             }
         },
         {
