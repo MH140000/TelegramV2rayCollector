@@ -127,7 +127,6 @@
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VMESS | @Hope_Net | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣2️⃣",
@@ -155,7 +154,6 @@
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VMESS | @Hope_Net | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣2️⃣",
@@ -400,7 +398,33 @@
         {
             "tag": "رایگان | VMESS | @oneclickvpnkeys | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "hms182.glweidf.sbs",
+            "server": "cfcdn3.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "c74c2fd1-7e5b-4c20-be9f-f3c3b7fd6248",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/Zo98PYfE",
+                "headers": {
+                    "Host": "kvjqqknzjp6.yofnhkfc.xyz"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @oneclickvpnkeys | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "172.67.170.103",
             "server_port": 443,
             "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
@@ -428,42 +452,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @oneclickvpnkeys | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "104.21.80.53",
-            "server_port": 2053,
-            "uuid": "869caccc-12af-4276-f458-366fa256f8a0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "qin15.rong1104.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/qin15",
-                "headers": {
-                    "Host": "qin15.rong1104.uk"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -715,23 +703,6 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @Hope_Net | IR🇮🇷 | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "94.182.150.230",
-            "server_port": 80,
-            "uuid": "2b7ce1d2-0372-4104-aa06-f7d999f26e1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
