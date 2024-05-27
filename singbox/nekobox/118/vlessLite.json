@@ -215,9 +215,7 @@
                 "رایگان | VLESS | @Proxy_PJ | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Proxy_PJ | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Proxy_PJ | SE🇸🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @v2ray_swhil | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣3️⃣",
@@ -372,9 +370,7 @@
                 "رایگان | VLESS | @Proxy_PJ | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Proxy_PJ | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Proxy_PJ | SE🇸🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @v2ray_swhil | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣3️⃣",
@@ -3113,57 +3109,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @v2ray_swhil | SE🇸🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "185.146.173.122",
-            "server_port": 8080,
-            "uuid": "f2935d71-b188-4669-aa5e-fb38288c1bcf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "V2ray-_-_-_-_-MdVpnSec.TelegramChannelJoinBede.com."
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "172.67.217.107",
-            "server_port": 80,
-            "uuid": "7143e704-5957-42db-bd38-670062722461",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "buyz.ribiwa9933.workers.dev"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "104.16.54.14",
+            "server": "188.114.96.6",
             "server_port": 443,
-            "uuid": "3cdbc462-6272-4c2a-9a2d-1525a81c7dfa",
+            "uuid": "7abaae82-3681-4b61-899f-4cdfb275d09f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3173,7 +3123,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "xeeqi.kevani8800.workers.dev",
+                "server_name": "v2ray1ng.pages.dev",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -3182,16 +3132,39 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@V2ray1_ng,@V2ray1_ng,@V2ray1_ng",
                 "headers": {
-                    "Host": "xeeqi.kevani8800.workers.dev"
+                    "Host": "v2ray1ng.pages.dev"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
             "tag": "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "ch.ni-ham.info",
+            "server_port": 2082,
+            "uuid": "fb385886-22b1-46a7-9aab-4d354a3ce0df",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2087",
+                "headers": {
+                    "Host": "a8d1inj3or-germany18.f-vipa.ir"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
             "server": "cw.ni-ham.info",
             "server_port": 2082,
@@ -3214,7 +3187,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "ch.ni-ham.info",
             "server_port": 2082,
@@ -3231,29 +3204,6 @@
                 "path": "\/?ed=2087",
                 "headers": {
                     "Host": "acza2hklfz-germany18.datam-co.ir"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "ch.ni-ham.info",
-            "server_port": 2082,
-            "uuid": "cae48682-7c3f-4a91-bec7-2465c8256059",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2087",
-                "headers": {
-                    "Host": "a3envbw4cl-germany7.datam-co.ir"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
