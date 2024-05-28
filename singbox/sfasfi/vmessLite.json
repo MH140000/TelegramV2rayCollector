@@ -981,6 +981,32 @@
         {
             "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
+            "server": "cfcdn1.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "e83f27c4-b1cb-4311-907c-ea16d32348e1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/GQ2qE5Us9g",
+                "headers": {
+                    "Host": "tw1bQiWSE4x.fzbqfrse.xyz"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vmess",
             "server": "104.18.14.19",
             "server_port": 80,
             "uuid": "4e63f0da-80ff-4b1e-8f68-80158ad0ff2a",
@@ -1001,32 +1027,6 @@
                     "Host": "thus-appliance-passenger-shoes.trycloudflare.com"
                 },
                 "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "104.21.70.242",
-            "server_port": 2086,
-            "uuid": "246eb986-96f3-4abe-be9e-5dcf76717980",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": "de01.appleid.bf"
-                },
-                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
