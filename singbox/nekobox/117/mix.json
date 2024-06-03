@@ -220,6 +220,7 @@
                 "رایگان | VLESS | @V2rayngninja | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣3️⃣",
@@ -252,7 +253,6 @@
                 "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | REALITY | @Capital_NET | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Parsashonam | SE🇸🇪 | 0️⃣2️⃣",
@@ -313,7 +313,6 @@
                 "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | AU🇦🇺 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | KR🇰🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @VmessProtocol | KR🇰🇷 | 0️⃣2️⃣",
                 "رایگان | SS | @VPNGate_Config | JP🇯🇵 | 0️⃣1️⃣",
                 "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @vmess_vless_v2rayng | AE🇦🇪 | 0️⃣1️⃣"
@@ -422,6 +421,7 @@
                 "رایگان | VLESS | @V2rayngninja | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣3️⃣",
@@ -481,7 +481,6 @@
                 "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | REALITY | @Capital_NET | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣1️⃣"
             ],
@@ -595,8 +594,7 @@
             "tag": "KR🇰🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @VmessProtocol | KR🇰🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @VmessProtocol | KR🇰🇷 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @VmessProtocol | KR🇰🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -3396,6 +3394,38 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "Mci.dgi000.store",
+            "server_port": 2087,
+            "uuid": "f4674168-f45c-45ed-8e6c-78ed71d3114f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mAh3.irAnWeB.ShOP",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@mahsa_net @azadi_az_inja_migzare",
+                "headers": {
+                    "Host": "mAh3.irAnWeB.ShOP"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -4246,38 +4276,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "ton.apple"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "Mci.dgi000.store",
-            "server_port": 2087,
-            "uuid": "f4674168-f45c-45ed-8e6c-78ed71d3114f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mAh3.irAnWeB.ShOP",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@mahsa_net @azadi_az_inja_migzare",
-                "headers": {
-                    "Host": "mAh3.irAnWeB.ShOP"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -5625,34 +5623,6 @@
             "type": "trojan",
             "server": "146.56.171.182",
             "server_port": 11659,
-            "password": "NISHIKUITAN222",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "t331.ylks.link",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "t331.ylks.link"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @VmessProtocol | KR🇰🇷 | 0️⃣2️⃣",
-            "type": "trojan",
-            "server": "210.126.38.13",
-            "server_port": 33452,
             "password": "NISHIKUITAN222",
             "multiplex": {
                 "enabled": false,
