@@ -116,7 +116,8 @@
                 "NL🇳🇱",
                 "AM🇦🇲",
                 "IR🇮🇷",
-                "US🇺🇸"
+                "US🇺🇸",
+                "GB🇬🇧"
             ]
         },
         {
@@ -270,7 +271,8 @@
                 "رایگان | VLESS | @ProxyForOpeta | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VmessProtocol | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | REALITY | @Capital_NET | US🇺🇸 | 0️⃣1️⃣"
+                "رایگان | REALITY | @Capital_NET | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @flyv2ray | GB🇬🇧 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -482,6 +484,16 @@
                 "رایگان | REALITY | @VmessProtocol | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | REALITY | @Capital_NET | US🇺🇸 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "GB🇬🇧",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @flyv2ray | GB🇬🇧 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -3042,9 +3054,9 @@
         {
             "tag": "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "1cfc04b9-7a82-482c-a5c8-66840d231a8c",
+            "server": "xpn-team-mci.eystem.ir",
+            "server_port": 2087,
+            "uuid": "HEMAYAT-XPNTEAM-TELEGRAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3052,14 +3064,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xpn-team-mci.eystem.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.V2ray.Community."
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "type": "grpc",
+                "service_name": "",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -4132,9 +4151,9 @@
         {
             "tag": "رایگان | VLESS | @flyv2ray | SE🇸🇪 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "1cfc04b9-7a82-482c-a5c8-66840d231a8c",
+            "server": "185.146.173.9",
+            "server_port": 2095,
+            "uuid": "1fb07abf-05c0-43bb-abca-958bc6f3336e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -4144,9 +4163,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "VPNCUSTOMIZE.V2ray.Community."
+                    "Host": "V2ray-_-_-_-_-_ShhProxy.TelegramChannelJoinBede.com."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -4411,6 +4430,20 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @flyv2ray | GB🇬🇧 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "xpn-team-mtn.eystem.ir",
+            "server_port": 36762,
+            "uuid": "HEMAYAT-XPNTEAM-TELEGRAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
