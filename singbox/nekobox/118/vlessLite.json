@@ -117,6 +117,7 @@
                 "رایگان | VLESS | @shopingv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @shopingv2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VPNCUSTOMIZE | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VPNCUSTOMIZE | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VPNCUSTOMIZE | SE🇸🇪 | 0️⃣3️⃣",
@@ -228,7 +229,9 @@
                 "رایگان | VLESS | @lrnbymaa | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | SE🇸🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
@@ -261,6 +264,7 @@
                 "رایگان | VLESS | @shopingv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @shopingv2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VPNCUSTOMIZE | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VPNCUSTOMIZE | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VPNCUSTOMIZE | SE🇸🇪 | 0️⃣3️⃣",
@@ -372,7 +376,9 @@
                 "رایگان | VLESS | @lrnbymaa | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | SE🇸🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
@@ -546,6 +552,38 @@
             "tag": "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
             "server": "3.72.131.23",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "35.157.203.144",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -3464,11 +3502,43 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "185.146.173.25",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "104.21.49.18",
+            "server_port": 443,
+            "uuid": "6d154bf6-d60c-11ee-aaa8-00505603e70d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "st-fr-1.brocdn.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket?ed=@MARAMBASHI,@MARAMBASHI,@MARAMBASHI,@MARAMBASHI",
+                "headers": {
+                    "Host": "st-fr-1.brocdn.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "185.146.173.9",
+            "server_port": 2095,
+            "uuid": "7641993f-4308-43e4-91cd-54a5bc8ee54d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3478,12 +3548,26 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "4.V.v.V.v.V.v.V.v.V-_-_-V2ray-_-_-v.xn--9iqtb0z3kmg58ejur6wfbwf9muugk7rck30b0frbqkvk2bye0bm1a.goldtwatches.Online."
+                    "Host": "V2ray-_-_-_-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "e60c6e3a-b54d-438b-8ffd-4fc060315188",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
