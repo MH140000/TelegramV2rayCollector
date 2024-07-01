@@ -815,9 +815,9 @@
         {
             "tag": "رایگان | VMESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "::ffff:0e66:e42b",
-            "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "server": "vlscdn.nimaxmusic.ir",
+            "server_port": 2052,
+            "uuid": "a04be4ef-1797-4ca9-a549-4385ce42494c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -828,21 +828,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram\/XV2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "germany-linkws.pages.dev"
+                    "Host": "vmess.nimaxmusic.ir"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
