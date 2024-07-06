@@ -194,7 +194,8 @@
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
@@ -244,6 +245,7 @@
                 "رایگان | VLESS | @V2RayTz | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VmessProtocol | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | SE🇸🇪 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxystore11 | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @fnet00 | SE🇸🇪 | 0️⃣1️⃣",
@@ -347,7 +349,8 @@
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
@@ -406,6 +409,7 @@
                 "رایگان | VLESS | @V2RayTz | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VmessProtocol | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | SE🇸🇪 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxystore11 | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @fnet00 | SE🇸🇪 | 0️⃣1️⃣",
@@ -2289,7 +2293,7 @@
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 8080,
-            "uuid": "Join_VPNCUSTOMIZE",
+            "uuid": "Come_to_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2312,7 +2316,7 @@
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
-            "uuid": "Join_VPNCUSTOMIZE",
+            "uuid": "Come_to_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2565,11 +2569,34 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "104.24.196.20",
-            "server_port": 2053,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "channel_ExpressVPN_420",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420",
+                "headers": {
+                    "Host": "www.google.com.grm7vrayng.cfd."
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "8ae167dc-c09c-47f3-802f-daedbd307eae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2579,7 +2606,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
+                "server_name": "q.zibashoporg.com.",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -2588,11 +2615,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/KkhHL0gsSoZ7M6id\/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "936a99B4.vDE5-MLx81LANeO.pAgeS.DEV"
+                    "Host": "q.zibashoporg.com."
                 },
-                "max_early_data": 0,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -3003,7 +3030,7 @@
         {
             "tag": "رایگان | VLESS | @VlessConfig | SE🇸🇪 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "13.48.160.208",
+            "server": "13.53.219.5",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -3175,7 +3202,7 @@
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 2095,
-            "uuid": "2f264012-6b8c-4b79-b8c9-a6b7b4b7fc43",
+            "uuid": "8d228ecc-8e96-4395-aad5-7fb11b0720d5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3198,7 +3225,7 @@
             "type": "vless",
             "server": "185.146.173.95",
             "server_port": 2095,
-            "uuid": "b5fdfbbf-9739-4802-98f8-46e6d8be5fc8",
+            "uuid": "f6f0196d-4484-4a17-9553-0c4b646cde7c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3221,7 +3248,7 @@
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 2095,
-            "uuid": "252ea4b1-2c13-4631-81e1-69eb47f31504",
+            "uuid": "2f264012-6b8c-4b79-b8c9-a6b7b4b7fc43",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3667,7 +3694,7 @@
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Join_VPNCUSTOMIZE",
+            "uuid": "Come_to_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3832,6 +3859,29 @@
                     "Host": "dcc4.servernet.fun."
                 },
                 "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "185.146.173.92",
+            "server_port": 80,
+            "uuid": "channel_ExpressVPN_420",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420",
+                "headers": {
+                    "Host": "www.google.com.grm7vrayng.cfd."
+                },
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
