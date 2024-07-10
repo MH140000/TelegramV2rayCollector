@@ -181,7 +181,6 @@
                 "رایگان | VLESS | @V2rayNGn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayNGn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣1️⃣",
@@ -328,7 +327,6 @@
                 "رایگان | VLESS | @V2rayNGn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayNGn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣1️⃣",
@@ -712,7 +710,7 @@
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
-            "uuid": "c90f9de9-ad48-492c-8c16-6892fe1cd080",
+            "uuid": "fec86f61-55bf-4090-862d-690fbc82bd25",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -735,7 +733,7 @@
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
-            "uuid": "547045a7-3ca1-41b7-af58-f74f8d43426a",
+            "uuid": "c90f9de9-ad48-492c-8c16-6892fe1cd080",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -745,7 +743,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@NIM_VPN_ir,@NIM_VPN_ir",
                 "headers": {
                     "Host": "asdwds.kolacghi.ir"
                 },
@@ -758,7 +756,7 @@
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
-            "uuid": "63194432-5fab-46bb-8df7-d23661e57770",
+            "uuid": "547045a7-3ca1-41b7-af58-f74f8d43426a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1959,38 +1957,6 @@
                 "path": "\/yuyg5ujoovohfscy?ed",
                 "headers": {
                     "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "172.66.45.32",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
