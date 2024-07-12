@@ -202,7 +202,6 @@
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
@@ -222,7 +221,6 @@
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ipV2Ray | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ipV2Ray | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2pedia | SE🇸🇪 | 0️⃣1️⃣",
@@ -247,6 +245,7 @@
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2ray_swhil | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | SE🇸🇪 | 0️⃣3️⃣",
@@ -349,7 +348,6 @@
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
@@ -368,8 +366,7 @@
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣3️⃣"
+                "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -403,6 +400,7 @@
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2ray_swhil | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | SE🇸🇪 | 0️⃣3️⃣",
@@ -2534,11 +2532,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "162.159.24.142",
+            "server": "162.159.129.17",
             "server_port": 80,
-            "uuid": "c4a33847-5816-4462-e1a0-61bc46c9a8ec",
+            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2548,43 +2546,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/df38fGe9tgDG0dddakg84LsdfOdjg8.",
+                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=2560",
                 "headers": {
-                    "Host": "57-rEFAqat.yAraYARaGAHI12.InfO"
+                    "Host": "rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.sha102.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--g28h.dns-dynamic.net."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-joi",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "c.1.www.speedtest.net.zula.ir.zemestanil.ir"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "190.93.247.247",
-            "server_port": 443,
-            "uuid": "Parsashonam-9",
+            "server": "zula.ir",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2592,20 +2567,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mail.offch.blog.",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "mail.offch.blog"
+                    "Host": "wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3110,29 +3076,6 @@
                     "Host": "all5.savagev2ray.site"
                 },
                 "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-mkp",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "c.1.www.speedtest.net.zula.ir.zemestanil.ir"
-                },
-                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -3692,6 +3635,29 @@
                 "path": "\/",
                 "headers": {
                     "Host": "dcc12.servernet.fun."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "185.146.173.68",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAy",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DigiconnecT?ed=1024",
+                "headers": {
+                    "Host": "wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
