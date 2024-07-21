@@ -112,7 +112,7 @@
                 "KR🇰🇷",
                 "US🇺🇸",
                 "LT🇱🇹",
-                "HK🇭🇰"
+                "IR🇮🇷"
             ]
         },
         {
@@ -209,7 +209,7 @@
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
@@ -254,7 +254,7 @@
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FreakConfig | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outline_Vpn | LT🇱🇹 | 0️⃣3️⃣",
-                "رایگان | REALITY | @VmessProtocol | HK🇭🇰 | 0️⃣2️⃣"
+                "رایگان | VLESS | @v2ray_swhil | IR🇮🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -354,7 +354,7 @@
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
@@ -459,10 +459,10 @@
             "tolerance": 50
         },
         {
-            "tag": "HK🇭🇰",
+            "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @VmessProtocol | HK🇭🇰 | 0️⃣2️⃣"
+                "رایگان | VLESS | @v2ray_swhil | IR🇮🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2767,7 +2767,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
+            "tag": "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
             "server": "172.67.199.19",
             "server_port": 2082,
@@ -3955,31 +3955,17 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @VmessProtocol | HK🇭🇰 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @v2ray_swhil | IR🇮🇷 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "157.254.21.242",
-            "server_port": 33600,
-            "uuid": "44c6e217-7e65-4cfd-b1ad-df48a6085c86",
-            "flow": "xtls-rprx-vision",
+            "server": "31.7.78.80",
+            "server_port": 46036,
+            "uuid": "3fa4c645-f6a7-4a02-85ee-7289530a6d1e",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.python.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "487NTwO5yyrUqkI1_p0MM6iZmyTgxBLD8_WGLX9xPjU",
-                    "short_id": "e47fd975"
-                }
             }
         },
         {
