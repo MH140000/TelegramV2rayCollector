@@ -192,8 +192,6 @@
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣3️⃣",
@@ -215,6 +213,7 @@
                 "رایگان | VLESS | @polproxy | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
@@ -319,8 +318,6 @@
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣3️⃣",
@@ -342,6 +339,7 @@
                 "رایگان | VLESS | @polproxy | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
@@ -2221,9 +2219,9 @@
         {
             "tag": "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "104.24.20.71",
-            "server_port": 443,
-            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
+            "server": "104.16.11.133",
+            "server_port": 80,
+            "uuid": "1e2ce910-bbe4-4e8b-8257-fde1916abbc6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2231,84 +2229,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "de1-moryvpnbot.pages.dev",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
                 "headers": {
-                    "Host": "de1-moryvpnbot.pages.dev"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "104.22.25.85",
-            "server_port": 2083,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gU-2r-E35m-eO-2rTT-3f-b-CDq-2G4t-t5-Hdr4-6Yvd-35gH-dwE64-w.pAGes.Dev",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TSBgGkLqaxnignSz\/NjIuMy4xMi4xODU=?ed=2560",
-                "headers": {
-                    "Host": "gU-2r-E35m-eO-2rTT-3f-b-CDq-2G4t-t5-Hdr4-6Yvd-35gH-dwE64-w.pAGes.Dev"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "172.66.47.126",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/yuyg5ujoovohfscy?ed=2560",
-                "headers": {
-                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
+                    "Host": "Vpn_Mikey-speedtest.net.Amir-Mikey.Tech."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2849,6 +2774,38 @@
                     "Host": "v2ra1.ecrgpk.workers.dev"
                 },
                 "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "172.66.47.126",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/yuyg5ujoovohfscy?ed=2560",
+                "headers": {
+                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
+                },
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
