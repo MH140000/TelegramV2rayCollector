@@ -227,7 +227,9 @@
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @free1_vpn | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @fnet00 | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | VLESS | @fnet00 | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @polproxy | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
@@ -364,7 +366,9 @@
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @free1_vpn | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @fnet00 | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | VLESS | @fnet00 | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @polproxy | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
@@ -2097,7 +2101,7 @@
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 80,
-            "uuid": "67ce895d-e92f-41ed-a243-071f6d4d1b21",
+            "uuid": "a0ec908f-7bae-4624-9afb-0c3c32fe8e9b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2119,8 +2123,8 @@
             "tag": "رایگان | VLESS | @V2rayNGn | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
             "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "0b2f0dd1-248a-4f3c-b125-6609c52e98ba",
+            "server_port": 80,
+            "uuid": "e8f8236e-5f83-419d-8b0c-5b6ff27c2da6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2142,8 +2146,8 @@
             "tag": "رایگان | VLESS | @V2rayNGn | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "bea33381-de3f-4943-a651-b2aeb082840b",
+            "server_port": 80,
+            "uuid": "67ce895d-e92f-41ed-a243-071f6d4d1b21",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3320,7 +3324,53 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @fnet00 | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "help.footballfantasyforum.com",
+            "server_port": 2456,
+            "uuid": "de584bc7-3191-4b75-972b-5a422f8d3324",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmlazaus2.hiiumaaisland.online",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @fnet00 | IR🇮🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "help.footballfantasyforum.com",
+            "server_port": 3456,
+            "uuid": "137a4bd1-c389-443f-9259-106eb3171999",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmlned1.footballfantasyforum.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8080,
