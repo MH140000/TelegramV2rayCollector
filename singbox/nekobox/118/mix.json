@@ -145,6 +145,7 @@
                 "رایگان | VMESS | @proxystore11 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VMESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @FreakConfig | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Helix_Servers | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Helix_Servers | RELAY🚩 | 0️⃣2️⃣",
@@ -259,7 +260,6 @@
                 "رایگان | SS | @OutlineVpnOfficial | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | IE🇮🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @prrofile_purple | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | VMESS | @FreakConfig | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DarkTeam_VPN | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | VMESS | @prrofile_purple | NL🇳🇱 | 0️⃣3️⃣",
                 "رایگان | VMESS | @v2Line | NL🇳🇱 | 0️⃣1️⃣",
@@ -293,7 +293,6 @@
                 "رایگان | VLESS | @UnlimitedDev | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @fnet00 | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | SG🇸🇬 | 0️⃣2️⃣",
@@ -326,6 +325,7 @@
                 "رایگان | VMESS | @proxystore11 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VMESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @FreakConfig | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Helix_Servers | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Helix_Servers | RELAY🚩 | 0️⃣2️⃣",
@@ -476,7 +476,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @prrofile_purple | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | VMESS | @FreakConfig | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DarkTeam_VPN | FR🇫🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -564,7 +563,6 @@
                 "رایگان | VLESS | @UnlimitedDev | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @fnet00 | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | IR🇮🇷 | 0️⃣2️⃣"
             ],
@@ -1058,6 +1056,42 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "linja05.hwcar.sbs"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "104.21.4.6",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.cfd"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3897,42 +3931,6 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @FreakConfig | FR🇫🇷 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "104.21.4.6",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @DarkTeam_VPN | FR🇫🇷 | 0️⃣3️⃣",
             "type": "vless",
             "server": "51.38.111.250",
@@ -4692,20 +4690,6 @@
             "type": "vless",
             "server": "81.12.92.158",
             "server_port": 18895,
-            "uuid": "6a99725d-2af8-d27c-cef5-302fbbe54c07",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "81.12.92.130",
-            "server_port": 18989,
             "uuid": "6a99725d-2af8-d27c-cef5-302fbbe54c07",
             "flow": "",
             "packet_encoding": "xudp",
