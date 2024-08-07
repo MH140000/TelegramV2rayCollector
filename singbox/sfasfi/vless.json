@@ -113,7 +113,6 @@
                 "SE🇸🇪",
                 "FR🇫🇷",
                 "US🇺🇸",
-                "IR🇮🇷",
                 "IT🇮🇹"
             ]
         },
@@ -195,6 +194,8 @@
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
@@ -245,8 +246,6 @@
                 "رایگان | VLESS | @Outline_Vpn | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VmessProtocol | IT🇮🇹 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -331,6 +330,8 @@
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @MTConfig | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
@@ -417,17 +418,6 @@
                 "رایگان | VLESS | @Outline_Vpn | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "IR🇮🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -535,7 +525,7 @@
             "type": "vless",
             "server": "190.93.247.247",
             "server_port": 443,
-            "uuid": "Parsashonam-27",
+            "uuid": "Parsashonam-28",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -567,7 +557,7 @@
             "type": "vless",
             "server": "104.24.185.137",
             "server_port": 8080,
-            "uuid": "Parsashonam-27",
+            "uuid": "Parsashonam-28",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -590,7 +580,7 @@
             "type": "vless",
             "server": "104.21.19.124",
             "server_port": 8880,
-            "uuid": "Parsashonam-27",
+            "uuid": "Parsashonam-28",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2284,11 +2274,48 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "uuid": "25cd1189-0320-4831-9e83-6959792fe314",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560",
+                "headers": {
+                    "Host": "shhproxy.com.www.speedtest.net.www.zula.ir.cloudflare.com.mozdfree.bUzz."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "104.17.148.22",
             "server_port": 8880,
-            "uuid": "9c165a99-c39f-4024-a6ad-4d20ba0bd15c",
+            "uuid": "fac5d63f-c66d-4e8e-838e-68c2177244fc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3505,34 +3532,6 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "81.12.92.135",
-            "server_port": 16317,
-            "uuid": "f110e62b-c579-de82-d5b8-61c53cde88a5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @V2RayTz | IR🇮🇷 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "81.12.92.130",
-            "server_port": 16362,
-            "uuid": "f110e62b-c579-de82-d5b8-61c53cde88a5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
