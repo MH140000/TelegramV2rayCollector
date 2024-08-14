@@ -191,6 +191,7 @@
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
@@ -215,7 +216,6 @@
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Lockey_vpn | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Lockey_vpn | SE🇸🇪 | 0️⃣2️⃣",
@@ -317,6 +317,7 @@
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
@@ -350,7 +351,6 @@
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | US🇺🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1520,9 +1520,9 @@
         {
             "tag": "رایگان | VLESS | @V2rayNGn | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "www.parspack.com",
+            "server": "braelyn.ns.cloudflare.com",
             "server_port": 80,
-            "uuid": "Telegram-VPNCUSTOMIZE",
+            "uuid": "Join-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1543,9 +1543,9 @@
         {
             "tag": "رایگان | VLESS | @V2rayNGn | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "braelyn.ns.cloudflare.com",
+            "server": "www.parsvds.ir",
             "server_port": 80,
-            "uuid": "Join-VPNCUSTOMIZE",
+            "uuid": "feb83e1f-038a-484d-b86d-0a1673311dd4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1568,7 +1568,7 @@
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 80,
-            "uuid": "feb83e1f-038a-484d-b86d-0a1673311dd4",
+            "uuid": "f949cc8f-9d1a-4d56-9c6e-3daec4c92010",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2231,6 +2231,38 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "Mci.dgi000.store",
+            "server_port": 2087,
+            "uuid": "f4674168-f45c-45ed-8e6c-78ed71d3114f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mAh3.irAnWeB.ShOP",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@mahsa_net @azadi_az_inja_migzare",
+                "headers": {
+                    "Host": "mAh3.irAnWeB.ShOP"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -2831,38 +2863,6 @@
                 "path": "\/?ed",
                 "headers": {
                     "Host": "fraud.chase"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "Mci.dgi000.store",
-            "server_port": 2087,
-            "uuid": "f4674168-f45c-45ed-8e6c-78ed71d3114f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mAh3.irAnWeB.ShOP",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@mahsa_net @azadi_az_inja_migzare",
-                "headers": {
-                    "Host": "mAh3.irAnWeB.ShOP"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
