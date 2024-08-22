@@ -114,7 +114,9 @@
                 "SE🇸🇪",
                 "US🇺🇸",
                 "DE🇩🇪",
-                "NL🇳🇱"
+                "NL🇳🇱",
+                "JP🇯🇵",
+                "KR🇰🇷"
             ]
         },
         {
@@ -237,7 +239,9 @@
                 "رایگان | VLESS | @ARv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @CloudCityy | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VpnWLF | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ShadowProxy66 | NL🇳🇱 | 0️⃣1️⃣"
+                "رایگان | VLESS | @ShadowProxy66 | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | VLESS | @VmessProtocol | JP🇯🇵 | 0️⃣1️⃣",
+                "رایگان | VLESS | @VmessProtocol | KR🇰🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -400,6 +404,26 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VLESS | @ShadowProxy66 | NL🇳🇱 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "JP🇯🇵",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @VmessProtocol | JP🇯🇵 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "KR🇰🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @VmessProtocol | KR🇰🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -805,7 +829,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "402d9dc9-f72c-4fc8-8f3c-c6a79a879e09",
+            "uuid": "46e2b56c-71f5-4d31-891a-c1ff60d5461f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -828,7 +852,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "923e22f9-1606-405f-8f89-15c903d1896b",
+            "uuid": "402d9dc9-f72c-4fc8-8f3c-c6a79a879e09",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -851,7 +875,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "923e22f9-1606-405f-8f89-15c903d1896b",
+            "uuid": "402d9dc9-f72c-4fc8-8f3c-c6a79a879e09",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3208,6 +3232,70 @@
                     "Host": "kriminalvarden.se"
                 },
                 "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @VmessProtocol | JP🇯🇵 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "152.69.199.70",
+            "server_port": 8443,
+            "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dns68.putata.eu.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "dns68.putata.eu.org"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @VmessProtocol | KR🇰🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "140.238.8.194",
+            "server_port": 15800,
+            "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dns68.putata.eu.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "dns68.putata.eu.org"
+                },
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
