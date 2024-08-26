@@ -209,14 +209,13 @@
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | REALITY | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣",
-                "رایگان | REALITY | @VmessProtocol | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣3️⃣",
+                "رایگان | REALITY | @VmessProtocol | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣1️⃣",
@@ -337,14 +336,13 @@
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | REALITY | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣",
-                "رایگان | REALITY | @VmessProtocol | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣3️⃣",
+                "رایگان | REALITY | @VmessProtocol | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣1️⃣",
@@ -2728,35 +2726,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "82.153.135.50",
-            "server_port": 34171,
-            "uuid": "ac74dfae-6039-43c0-fa55-fbf6e6630df6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dmcc.ae",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @VmessProtocol | SE🇸🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @VmessProtocol | SE🇸🇪 | 0️⃣1️⃣",
             "type": "vless",
             "server": "77.221.143.183",
             "server_port": 33000,
@@ -2791,7 +2761,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣3️⃣",
+            "tag": "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
             "type": "vless",
             "server": "172.232.38.249",
             "server_port": 12345,
@@ -2927,7 +2897,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @bright_vpn | US🇺🇸 | 0️⃣3️⃣",
+            "tag": "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "Mci.dgi000.store",
             "server_port": 2087,
