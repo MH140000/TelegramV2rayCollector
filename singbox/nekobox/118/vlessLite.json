@@ -189,6 +189,7 @@
                 "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
@@ -317,6 +318,7 @@
                 "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
@@ -1944,9 +1946,9 @@
         {
             "tag": "رایگان | VLESS | @ProxyForOpeta | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "104.18.18.37",
-            "server_port": 2053,
-            "uuid": "5e2a0dff-3392-476d-bbaa-c7b35380495e",
+            "server": "104.26.10.137",
+            "server_port": 443,
+            "uuid": "1e8e2283-4c2d-11ef-ad7f-00505605a82d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1956,7 +1958,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "FrEeDOM2.paGES.dEV",
+                "server_name": "cdn-fr.brocdn.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1965,20 +1967,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-proxy_mtm",
+                "path": "\/websocket",
                 "headers": {
-                    "Host": "FrEeDOM2.paGES.dEV"
+                    "Host": "cdn-fr.brocdn.com"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
             "tag": "رایگان | VLESS | @ProxyForOpeta | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "104.24.20.71",
-            "server_port": 443,
-            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "83c4cb63-c8af-4234-9e9d-6d9ac7361b17",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1986,22 +1988,13 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "de1-moryvpnbot.pages.dev",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "de1-moryvpnbot.pages.dev"
+                    "Host": "join.2.kiava.cloud.speedtest.net.xn--mgba2h8quf.cdn.ws88.awscloudfront.net.kiava.fun"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -2333,6 +2326,38 @@
                     "Host": "bpb-worker-panel3.pages.dev"
                 },
                 "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "104.24.20.71",
+            "server_port": 443,
+            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de1-moryvpnbot.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "de1-moryvpnbot.pages.dev"
+                },
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
