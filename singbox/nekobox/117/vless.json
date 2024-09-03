@@ -1455,9 +1455,9 @@
         {
             "tag": "رایگان | VLESS | @ProxyForOpeta | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "104.16.61.8",
-            "server_port": 8080,
-            "uuid": "f32a99e8-05dd-478a-82c0-7688848121bd",
+            "server": "172.64.143.172",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1465,11 +1465,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "mkhy.daozhang.link"
+                    "Host": "mmdv2.pages.dev"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
