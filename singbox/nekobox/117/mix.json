@@ -234,6 +234,7 @@
                 "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2pedia | US🇺🇸 | 0️⃣1️⃣",
@@ -255,7 +256,6 @@
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣4️⃣",
                 "رایگان | VLESS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣9️⃣",
-                "رایگان | VLESS | @ProxyForOpeta | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣2️⃣",
@@ -410,6 +410,7 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
+                "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2pedia | US🇺🇸 | 0️⃣1️⃣",
@@ -440,7 +441,6 @@
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣4️⃣",
                 "رایگان | VLESS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣9️⃣",
-                "رایگان | VLESS | @ProxyForOpeta | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣2️⃣",
@@ -2204,9 +2204,9 @@
         {
             "tag": "رایگان | VLESS | @ProxyForOpeta | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 2095,
-            "uuid": "65f299ae-a727-4df7-abd6-383d427f4ace",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "13f842a4-fce1-434e-8f0d-d761ac4678cc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2216,11 +2216,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "Academi-82.com.www.speedtest.net.www.zula.ir.cloudflare.com.AcadeMigroup.IR."
+                    "Host": "join.2.kiava.cloud.speedtest.net.xn--mgba2h8quf.cdn.ws89.awscloudfront.net.kiava.fun"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -2406,9 +2406,9 @@
         {
             "tag": "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "104.18.214.233",
-            "server_port": 80,
-            "uuid": "8b19f5e0-7e51-4311-92da-0c56fda12f63",
+            "server": "104.18.172.40",
+            "server_port": 8080,
+            "uuid": "98524a0e-319e-47e3-bcf7-3bd349fe4b3c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2418,7 +2418,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=80",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
                     "Host": "join-to.vmessorg.Community."
                 },
@@ -2429,9 +2429,9 @@
         {
             "tag": "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "parsvds.com",
-            "server_port": 80,
-            "uuid": "8b19f5e0-7e51-4311-92da-0c56fda12f63",
+            "server": "104.16.100.84",
+            "server_port": 8080,
+            "uuid": "e6fa4064-2834-471c-bdaf-93a59bc5390c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2441,7 +2441,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=80",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
                     "Host": "join-to.vmessorg.Community."
                 },
@@ -2939,7 +2939,7 @@
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2Ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2962,7 +2962,7 @@
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2985,7 +2985,7 @@
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3395,6 +3395,23 @@
             }
         },
         {
+            "tag": "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣",
+            "type": "vmess",
+            "server": "23.154.136.47",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
             "type": "vmess",
             "server": "87.248.145.59",
@@ -3655,9 +3672,9 @@
         {
             "tag": "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "66.235.200.77",
-            "server_port": 80,
-            "uuid": "8b19f5e0-7e51-4311-92da-0c56fda12f63",
+            "server": "66.235.200.6",
+            "server_port": 8080,
+            "uuid": "e6fa4064-2834-471c-bdaf-93a59bc5390c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3667,7 +3684,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=80",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
                     "Host": "join-to.vmessorg.Community."
                 },
@@ -3925,29 +3942,6 @@
                     "Host": "rsfndc1.cpiforpersia.uk"
                 },
                 "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ProxyForOpeta | SE🇸🇪 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "185.146.173.32",
-            "server_port": 80,
-            "uuid": "03d25a8c-2d35-5e37-b689-95cc627ef40f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/JoinTelegram-@ELiV2ry-@ELiV2ry-",
-                "headers": {
-                    "Host": "www.crypto.com.joinTelegram.ELiV2ry.com.be2.vless.Sitespeedtest.net."
-                },
-                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
