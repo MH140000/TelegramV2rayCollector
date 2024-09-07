@@ -114,9 +114,9 @@
                 "DE🇩🇪",
                 "GB🇬🇧",
                 "FR🇫🇷",
+                "CN🇨🇳",
                 "PL🇵🇱",
                 "CH🇨🇭",
-                "RU🇷🇺",
                 "TR🇹🇷"
             ]
         },
@@ -283,9 +283,9 @@
                 "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @iP_CF | PL🇵🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @iP_CF | CH🇨🇭 | 0️⃣3️⃣",
-                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | HY2 | @iP_CF | TR🇹🇷 | 0️⃣1️⃣",
                 "رایگان | HY2 | @iP_CF | TR🇹🇷 | 0️⃣2️⃣"
             ],
@@ -507,6 +507,16 @@
             "tolerance": 50
         },
         {
+            "tag": "CN🇨🇳",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "PL🇵🇱",
             "type": "urltest",
             "outbounds": [
@@ -521,16 +531,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @iP_CF | CH🇨🇭 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "RU🇷🇺",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2324,7 +2324,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "b14da791-0efc-431e-8dae-e6562c1f39fe",
+            "uuid": "13bec8ea-44d8-4a7d-9de2-ecde71f01241",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2347,7 +2347,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "13bec8ea-44d8-4a7d-9de2-ecde71f01241",
+            "uuid": "93852e78-e70c-4596-a811-fc822177768d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2370,7 +2370,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "13bec8ea-44d8-4a7d-9de2-ecde71f01241",
+            "uuid": "93852e78-e70c-4596-a811-fc822177768d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -4470,6 +4470,18 @@
             }
         },
         {
+            "tag": "رایگان | TROJAN | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "df.xiguajiasu.xyz",
+            "server_port": 46002,
+            "password": "4ea1d07c-41c2-42b5-954d-414fee051856",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "رایگان | SS | @iP_CF | PL🇵🇱 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "45.144.48.63",
@@ -4486,16 +4498,6 @@
             "server_port": 443,
             "method": "aes-128-gcm",
             "password": "shadowsocks",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "92.223.109.205",
-            "server_port": 51348,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ackkokOi",
             "plugin": "",
             "plugin_opts": ""
         },
