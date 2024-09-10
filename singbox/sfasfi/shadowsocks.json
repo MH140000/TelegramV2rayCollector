@@ -108,10 +108,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
+                "SG🇸🇬",
                 "JP🇯🇵",
                 "US🇺🇸",
-                "ES🇪🇸",
-                "RU🇷🇺",
                 "GB🇬🇧",
                 "PL🇵🇱",
                 "NL🇳🇱",
@@ -122,10 +121,9 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @free4allVPN | JP🇯🇵 | 0️⃣1️⃣",
-                "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | SS | @DeamNet_Proxy | ES🇪🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @free4allVPN | SG🇸🇬 | 0️⃣1️⃣",
+                "رایگان | SS | @free4allVPN | JP🇯🇵 | 0️⃣2️⃣",
+                "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣1️⃣",
@@ -139,10 +137,20 @@
             "tolerance": 50
         },
         {
+            "tag": "SG🇸🇬",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @free4allVPN | SG🇸🇬 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "JP🇯🇵",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @free4allVPN | JP🇯🇵 | 0️⃣1️⃣"
+                "رایگان | SS | @free4allVPN | JP🇯🇵 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -152,27 +160,7 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "ES🇪🇸",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @DeamNet_Proxy | ES🇪🇸 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "RU🇷🇺",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣"
+                "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -222,7 +210,17 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | SS | @free4allVPN | JP🇯🇵 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @free4allVPN | SG🇸🇬 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "159.65.129.128",
+            "server_port": 18814,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ZdWZ9QvFlbOOGreMoE3Bq8",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @free4allVPN | JP🇯🇵 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "185.172.113.182",
             "server_port": 804,
@@ -232,32 +230,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "15.204.87.225",
             "server_port": 8118,
             "method": "aes-256-gcm",
             "password": "cdBIDV42DCwnfIN",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @DeamNet_Proxy | ES🇪🇸 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "194.87.45.189",
-            "server_port": 40076,
-            "method": "chacha20-ietf-poly1305",
-            "password": "kgEzSguyxYHRFHC8ssuN7e",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "92.223.109.205",
-            "server_port": 51348,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ackkokOi",
             "plugin": "",
             "plugin_opts": ""
         },
