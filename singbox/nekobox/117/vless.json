@@ -109,8 +109,7 @@
                 "US🇺🇸",
                 "SE🇸🇪",
                 "DE🇩🇪",
-                "NL🇳🇱",
-                "IR🇮🇷"
+                "NL🇳🇱"
             ]
         },
         {
@@ -180,8 +179,8 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @polproxy | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
-                "TELEGRAM-MARAMBASHI\/?ed=2048&security=none&encryption=none&host=127.0.0.1.www.sheedtest.com.mrarsha車的人.kомната0.房間.wonkacapitano.buzz.&type=ws#رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+                "TELEGRAM-MARAMBASHI\/?ed=2048&security=none&encryption=none&host=127.0.0.1.www.sheedtest.com.mrarsha車的人.kомната0.房間.wonkacapitano.buzz.&type=ws#رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣1️⃣",
@@ -230,8 +229,7 @@
                 "رایگان | REALITY | @vpn_xw | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VpnWLF | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @Capital_NET | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @iP_CF | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣2️⃣"
+                "رایگان | VLESS | @iP_CF | NL🇳🇱 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -304,8 +302,8 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @polproxy | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
-                "TELEGRAM-MARAMBASHI\/?ed=2048&security=none&encryption=none&host=127.0.0.1.www.sheedtest.com.mrarsha車的人.kомната0.房間.wonkacapitano.buzz.&type=ws#رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+                "TELEGRAM-MARAMBASHI\/?ed=2048&security=none&encryption=none&host=127.0.0.1.www.sheedtest.com.mrarsha車的人.kомната0.房間.wonkacapitano.buzz.&type=ws#رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣1️⃣",
@@ -391,16 +389,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VLESS | @iP_CF | NL🇳🇱 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "IR🇮🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -1873,6 +1861,38 @@
         {
             "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
+            "server": "avval.ir",
+            "server_port": 2053,
+            "uuid": "cd8002d9-e8fd-4411-8bb6-fc80310ff81d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip1-romax-tiktok.hsjsak.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/?ed",
+                "headers": {
+                    "Host": "vip1-romax-tiktok.hsjsak.ir"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
             "uuid": "c2122a8d-914b-414b-e6b5-c1575c2b09e0",
@@ -1894,25 +1914,11 @@
             }
         },
         {
-            "tag": "TELEGRAM-MARAMBASHI\/?ed=2048&security=none&encryption=none&host=127.0.0.1.www.sheedtest.com.mrarsha車的人.kомната0.房間.wonkacapitano.buzz.&type=ws#رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "TELEGRAM-MARAMBASHI\/?ed=2048&security=none&encryption=none&host=127.0.0.1.www.sheedtest.com.mrarsha車的人.kомната0.房間.wonkacapitano.buzz.&type=ws#رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "104.19.16.243",
             "server_port": 80,
             "uuid": "8269dbfc-fc76-4b5a-91ba-4364915799a9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2086,
-            "uuid": "7212e15a-74d8-4e0c-abcd-ca78ce70aa37",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3202,29 +3208,6 @@
                 "path": "\/admin?ed=1024",
                 "headers": {
                     "Host": "www.cloudflare.com.www.microsoft.com.www.bing.com.digikala.com.www.speedtest.com.soft98.ir.blackgame.shop"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "81.12.27.91",
-            "server_port": 21807,
-            "uuid": "fdb60214-1d03-4b83-c4b7-3d2d33c08073",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
