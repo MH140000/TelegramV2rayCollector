@@ -113,6 +113,7 @@
                 "DE🇩🇪",
                 "SG🇸🇬",
                 "JP🇯🇵",
+                "TR🇹🇷",
                 "GB🇬🇧"
             ]
         },
@@ -264,6 +265,7 @@
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | SS | @free4allVPN | SG🇸🇬 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | JP🇯🇵 | 0️⃣2️⃣",
+                "رایگان | SS | @OutlineVpnOfficial | TR🇹🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣"
             ],
@@ -482,6 +484,16 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @free4allVPN | JP🇯🇵 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "TR🇹🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @OutlineVpnOfficial | TR🇹🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -4193,6 +4205,16 @@
             "server_port": 804,
             "method": "chacha20-ietf-poly1305",
             "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @OutlineVpnOfficial | TR🇹🇷 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "5.188.36.54",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD",
             "plugin": "",
             "plugin_opts": ""
         },
