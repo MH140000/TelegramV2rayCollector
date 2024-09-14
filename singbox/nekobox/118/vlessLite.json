@@ -223,7 +223,7 @@
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣"
             ]
@@ -345,7 +345,7 @@
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣"
             ],
@@ -3271,11 +3271,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "eb11f083-a3f7-477a-bec4-12b441ceb501",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "55349db5-b030-452e-82f0-9ace27b04406",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3283,13 +3283,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/melo\/",
+                "path": "\/@melov2ray\/ws",
                 "headers": {
-                    "Host": "ch.我的名字伊斯梅洛.site."
+                    "Host": "i-am-melo.com"
                 },
-                "max_early_data": 0,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -3298,7 +3307,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "38490907-e1cf-415a-a50e-157cd4832a00",
+            "uuid": "d5905480-dd42-4aef-b78a-b0a3978062d2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3330,7 +3339,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "25102a1a-e0ea-4a0d-a40d-c68f74d2fe9f",
+            "uuid": "95cbdd0d-7345-403f-8dc7-a7e3cf36b108",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
