@@ -3006,6 +3006,70 @@
         {
             "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "ddb240e0-c7b1-44e3-bfa8-921915fe98cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tel.VPNCUSTOMIZE.www.speedtest.net.Naziitness.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/www.speedtest.net\/VPNCSTOMIZE?ed=8443",
+                "headers": {
+                    "Host": "tel.VPNCUSTOMIZE.www.speedtest.net.Naziitness.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "172.66.44.86",
+            "server_port": 443,
+            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nooshin-2d9.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "nooshin-2d9.pages.dev"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vless",
             "server": "172.67.193.87",
             "server_port": 8880,
             "uuid": "9aaedc51-2367-4239-a88b-0756dfc9689e",
@@ -3021,70 +3085,6 @@
                 "path": "\/gPPi3HNBe90lwSgS?ed=2540",
                 "headers": {
                     "Host": "dFB.De.sOccERsTAr.cOM--Mx-1hs-38xk.miTsOnIc.cOm"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "fef0a926-099e-4c26-a1fb-d9f76438cb6f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VPNCUSTOMIZEe.www.speedtest.net.Naziitness.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/www.speedtest.net\/VPNCSTOMIZE?ed=8443",
-                "headers": {
-                    "Host": "VPNCUSTOMIZEe.www.speedtest.net.Naziitness.com"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "162.159.153.210",
-            "server_port": 443,
-            "uuid": "1d399c5a-1c32-4fff-a4d0-d78fd3328a4c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.teasalo.cloudns.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?proxyip=proxyip.us.fxxk.dedyn.io",
-                "headers": {
-                    "Host": "pages.teasalo.cloudns.org"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
