@@ -143,6 +143,8 @@
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @iP_CF | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @iP_CF | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @iP_CF | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @V2rayCollector | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayCollector | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2rayCollector | RELAY🚩 | 0️⃣3️⃣",
@@ -257,6 +259,8 @@
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @iP_CF | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @iP_CF | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @iP_CF | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @V2rayCollector | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayCollector | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2rayCollector | RELAY🚩 | 0️⃣3️⃣",
@@ -923,7 +927,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "b49f0bde-caa4-4127-8ea0-6094f1a65235",
+            "uuid": "a4a79d51-8f99-407a-8e82-973eaf8d9101",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -946,7 +950,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "b2b43d02-f17b-4f29-bdb1-907e31eb2d74",
+            "uuid": "b49f0bde-caa4-4127-8ea0-6094f1a65235",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -969,7 +973,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "b2b43d02-f17b-4f29-bdb1-907e31eb2d74",
+            "uuid": "b49f0bde-caa4-4127-8ea0-6094f1a65235",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1162,7 +1166,53 @@
         {
             "tag": "رایگان | VLESS | @iP_CF | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "104.19.32.28",
+            "server": "172.67.193.87",
+            "server_port": 8880,
+            "uuid": "9aaedc51-2367-4239-a88b-0756dfc9689e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/gPPi3HNBe90lwSgS?ed=2540",
+                "headers": {
+                    "Host": "dFB.De.sOccERsTAr.cOM--Mx-1hs-38xk.miTsOnIc.cOm"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @iP_CF | SE🇸🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "07aa30ea-6170-494d-8ae2-80a5e18b37f0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernett",
+                "headers": {
+                    "Host": "lc44.lebasnoo.ir."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @iP_CF | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "96110.cf.090227.xyz",
             "server_port": 443,
             "uuid": "1d399c5a-1c32-4fff-a4d0-d78fd3328a4c",
             "flow": "",
@@ -1183,7 +1233,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?proxyip=proxyip.oracle.fxxk.dedyn.io",
+                "path": "\/?ed=2560",
                 "headers": {
                     "Host": "pages.teasalo.cloudns.org"
                 },
