@@ -174,13 +174,13 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Parsashonam | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @VlessConfig | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ipV2Ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ipV2Ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ipV2Ray | US🇺🇸 | 0️⃣3️⃣",
@@ -292,6 +292,7 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣1️⃣",
@@ -307,7 +308,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VLESS | @Parsashonam | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @VlessConfig | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ipV2Ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ipV2Ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ipV2Ray | US🇺🇸 | 0️⃣3️⃣",
@@ -510,7 +510,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "c1a44aa0-e5e5-41f7-849a-d47dc92eae77",
+            "uuid": "ddca6017-2f13-48ff-9edc-84b822d29235",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -533,7 +533,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "b997e757-7b1c-469b-a8b2-e8be9977e24b",
+            "uuid": "c1a44aa0-e5e5-41f7-849a-d47dc92eae77",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -556,7 +556,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "b997e757-7b1c-469b-a8b2-e8be9977e24b",
+            "uuid": "c1a44aa0-e5e5-41f7-849a-d47dc92eae77",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1755,6 +1755,29 @@
         {
             "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
+            "server": "190.93.247.155",
+            "server_port": 80,
+            "uuid": "Join-Telegram-Picumin",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/robots.txt?ed=2560",
+                "headers": {
+                    "Host": "discord.com.PQN.iranserver.com.digikala.com.nobitex.ir.leader.ir.IMsrV2rayJGiioii92129TxTul.SawMINSWEDEN2.PaQmin.LAt"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
             "server": "172.66.45.7",
             "server_port": 443,
             "uuid": "00d7256f-6ef2-42ee-8319-d4a49536b918",
@@ -1785,7 +1808,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "104.18.41.138",
             "server_port": 8443,
@@ -1958,38 +1981,6 @@
                 "path": "\/@Parsashonam\/ws?ed=2560",
                 "headers": {
                     "Host": "Parsashonam0.com"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @VlessConfig | US🇺🇸 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "34.206.84.50",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2182,6 +2173,29 @@
             "tag": "رایگان | VLESS | @ARv2ray | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
             "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
+                "headers": {
+                    "Host": "sewut6.ir"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ARv2ray | US🇺🇸 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "speedtest.net",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -2211,7 +2225,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ARv2ray | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @ARv2ray | US🇺🇸 | 0️⃣3️⃣",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -2230,38 +2244,6 @@
                     "Host": "S2r7.ir"
                 },
                 "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ARv2ray | US🇺🇸 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "alf8.ir"
-                },
-                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
