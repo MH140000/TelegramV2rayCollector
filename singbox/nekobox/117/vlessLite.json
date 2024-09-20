@@ -136,7 +136,7 @@
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
@@ -254,7 +254,7 @@
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
@@ -1027,7 +1027,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1050,7 +1050,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1064,7 +1064,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1087,7 +1087,30 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "e4974999-3fd9-4da0-8d13-9492ed5ac487",
+            "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-Xv2ry2?ed=512",
+                "headers": {
+                    "Host": "www.speedtest.net.20.15.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "b67aabee-ab8a-430c-9b29-c76069a28f85",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1106,11 +1129,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣3️⃣",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "95e2d002-c0be-4bda-ba7a-1ef683ffcb9f",
+            "uuid": "6d30f6ef-b713-45c9-8736-da5911e0e84a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1134,38 +1157,6 @@
                     "Host": "joinshhproxybede.ir"
                 },
                 "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "2d813293-d830-43af-b81e-1b257330cf5a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/pKkBrz3q4jhs5kZOO\/MTI5LjE1NC41Telegram--VpnWedBaZ--Telegram--VpnWedBaZ--Telegram--Telegram--VpnWedBaZ--MC4xNTk=?ed=2560",
-                "headers": {
-                    "Host": "hopework.ir"
-                },
-                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
