@@ -116,9 +116,8 @@
                 "DE🇩🇪",
                 "NL🇳🇱",
                 "TR🇹🇷",
-                "FR🇫🇷",
-                "SG🇸🇬",
                 "AT🇦🇹",
+                "RU🇷🇺",
                 "GB🇬🇧"
             ]
         },
@@ -160,7 +159,7 @@
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @mftizi | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | RELAY🚩 | 0️⃣2️⃣",
@@ -234,15 +233,12 @@
                 "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | TR🇹🇷 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | SS | @iP_CF | SG🇸🇬 | 0️⃣1️⃣",
-                "رایگان | SS | @free4allVPN | SG🇸🇬 | 0️⃣1️⃣",
-                "رایگان | SS | @iP_CF | AT🇦🇹 | 0️⃣2️⃣",
+                "رایگان | SS | @iP_CF | AT🇦🇹 | 0️⃣1️⃣",
+                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣"
@@ -289,7 +285,7 @@
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -390,8 +386,8 @@
             "outbounds": [
                 "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -418,32 +414,20 @@
             "tolerance": 50
         },
         {
-            "tag": "FR🇫🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "SG🇸🇬",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @iP_CF | SG🇸🇬 | 0️⃣1️⃣",
-                "رایگان | SS | @free4allVPN | SG🇸🇬 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
             "tag": "AT🇦🇹",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @iP_CF | AT🇦🇹 | 0️⃣2️⃣"
+                "رایگان | SS | @iP_CF | AT🇦🇹 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "RU🇷🇺",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -1512,7 +1496,7 @@
             }
         },
         {
-            "tag": "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "15.204.87.225",
             "server_port": 8118,
@@ -3382,7 +3366,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "18.157.148.241",
             "server_port": 22222,
@@ -3403,7 +3387,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "18.157.136.247",
             "server_port": 22222,
@@ -3473,74 +3457,22 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "52.47.54.128",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "35.181.119.94",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | SS | @iP_CF | SG🇸🇬 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "sg.outlinekeys.net",
-            "server_port": 52252,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cZ8XyhCI9jwDJUkto8bQyI",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @free4allVPN | SG🇸🇬 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "159.65.129.128",
-            "server_port": 18814,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ZdWZ9QvFlbOOGreMoE3Bq8",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @iP_CF | AT🇦🇹 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @iP_CF | AT🇦🇹 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "212.113.106.76",
             "server_port": 29149,
             "method": "chacha20-ietf-poly1305",
             "password": "gpG52wwJzvrdWnLEtIrfGK",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "92.223.109.205",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ackkokOi",
             "plugin": "",
             "plugin_opts": ""
         },
