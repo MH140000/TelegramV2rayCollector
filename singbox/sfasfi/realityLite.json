@@ -108,8 +108,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | REALITY | @VpnWLF | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VpnWLF | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Capital_NET | US🇺🇸 | 0️⃣1️⃣"
             ]
         },
@@ -117,8 +117,8 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | REALITY | @VpnWLF | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VpnWLF | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Capital_NET | US🇺🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -126,7 +126,7 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @VpnWLF | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
             "server": "WLF-V-P-N-ID2.dnsfree.one",
             "server_port": 443,
@@ -154,7 +154,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @VpnWLF | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
             "server": "WLF-V-P-N-ID.dnsfree.one",
             "server_port": 443,
