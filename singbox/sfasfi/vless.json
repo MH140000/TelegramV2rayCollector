@@ -111,8 +111,8 @@
                 "RELAY🚩",
                 "US🇺🇸",
                 "SE🇸🇪",
-                "DE🇩🇪",
-                "NL🇳🇱"
+                "NL🇳🇱",
+                "DE🇩🇪"
             ]
         },
         {
@@ -204,10 +204,9 @@
                 "رایگان | VLESS | @v2ray_swhil | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ShadowProxy66 | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @ShadowProxy66 | NL🇳🇱 | 0️⃣2️⃣"
+                "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -326,22 +325,21 @@
             "tolerance": 50
         },
         {
-            "tag": "DE🇩🇪",
+            "tag": "NL🇳🇱",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @ShadowProxy66 | NL🇳🇱 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "NL🇳🇱",
+            "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @ShadowProxy66 | NL🇳🇱 | 0️⃣2️⃣"
+                "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2628,12 +2626,12 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @ShadowProxy66 | NL🇳🇱 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "3.73.31.113",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
+            "server": "45.88.200.179",
+            "server_port": 443,
+            "uuid": "52fe910a-2ef3-4755-93ad-82dfe61ccb4d",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -2642,21 +2640,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "server_name": "cloudflare.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bOOWOOCtt3hlDEv6eCVvCl9oBfXC72YIHEoMGwph-C0",
+                    "short_id": "42"
+                }
             }
         },
         {
@@ -2685,34 +2679,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ShadowProxy66 | NL🇳🇱 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "45.88.200.179",
-            "server_port": 443,
-            "uuid": "52fe910a-2ef3-4755-93ad-82dfe61ccb4d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "bOOWOOCtt3hlDEv6eCVvCl9oBfXC72YIHEoMGwph-C0",
-                    "short_id": "42"
-                }
             }
         },
         {
