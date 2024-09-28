@@ -959,7 +959,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "b114fade-c882-4be0-aa65-77d2ba5e4c5a",
+            "uuid": "d6cec167-58b4-49a7-bad9-214e6fecfb27",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -991,7 +991,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "94b50dec-4505-45f3-b1e1-2945d252fec9",
+            "uuid": "b114fade-c882-4be0-aa65-77d2ba5e4c5a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1023,7 +1023,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "586bf834-d300-4494-bb75-6a2e88abe0f8",
+            "uuid": "76f3d262-53d6-4a18-87ec-8b2f12bb91f5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1055,7 +1055,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "e7b9ad16-d9d2-4748-ab84-645bad60fcaf",
+            "uuid": "586bf834-d300-4494-bb75-6a2e88abe0f8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1087,7 +1087,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "cca237b1-928f-4fd8-a663-c58024054bae",
+            "uuid": "e7b9ad16-d9d2-4748-ab84-645bad60fcaf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1603,7 +1603,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "0e79446d-506b-46cb-bcce-b562be4c6af8",
+            "uuid": "92059336-1b44-490d-9097-25c98dbeea76",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1626,7 +1626,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "aa05598a-8652-4371-b72e-2df19e25a74c",
+            "uuid": "0e79446d-506b-46cb-bcce-b562be4c6af8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1649,7 +1649,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "aa05598a-8652-4371-b72e-2df19e25a74c",
+            "uuid": "0e79446d-506b-46cb-bcce-b562be4c6af8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2078,7 +2078,7 @@
             "type": "vless",
             "server": "iranserver.com",
             "server_port": 80,
-            "uuid": "94b50dec-4505-45f3-b1e1-2945d252fec9",
+            "uuid": "b114fade-c882-4be0-aa65-77d2ba5e4c5a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2644,6 +2644,38 @@
         {
             "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
+            "server": "104.18.218.118",
+            "server_port": 8443,
+            "uuid": "87dc118f-e4e8-4644-9d37-e23dcad17f89",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Join.VPNCUSTOMIZE.usa.speedtest.net.Naziitness.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram,VPNCUSTOMIZE?ed=8443",
+                "headers": {
+                    "Host": "Join.VPNCUSTOMIZE.usa.speedtest.net.Naziitness.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
             "server": "172.66.47.182",
             "server_port": 443,
             "uuid": "c46e9a8a-226e-4cc2-aeff-31c774e1e4f9",
@@ -2674,7 +2706,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -2700,38 +2732,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "Ev2RAyDeV.PaGEs.DEV."
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "104.16.14.99",
-            "server_port": 443,
-            "uuid": "03a987de-7e12-4b38-acbc-e19c90e1cc85",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ARCane-ROYAL.Pages.DEV",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ARCane-ROYAL.Pages.DEV"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
