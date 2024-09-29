@@ -174,9 +174,8 @@
                 "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
@@ -269,9 +268,8 @@
                 "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣1️⃣",
@@ -2055,12 +2053,12 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "joinmahdiserver-az7.pages.dev",
-            "server_port": 8443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
+            "server": "141.94.237.82",
+            "server_port": 8880,
+            "uuid": "43cbd73e-36ff-4fa0-9a80-280df505a08a",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -2069,67 +2067,40 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "JOInMahdIServER-Az7.PaGeS.DEv",
+                "server_name": "google.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/5MYfsbXPTJZd737O?ed=2560",
-                "headers": {
-                    "Host": "JoInmaHDiseRveR-Az7.paGES.dEv"
+                    "fingerprint": "random"
                 },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JG9LhBsn2LwpT3Iv4kk6oPql-rcPdxYYGVzUSnwxEmY",
+                    "short_id": "365302"
+                }
             }
         },
         {
             "tag": "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "104.18.5.250",
-            "server_port": 443,
-            "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
+            "server": "172.67.170.213",
+            "server_port": 8080,
+            "uuid": "9e67f15c-178f-494c-a843-f371e3b3fa5d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "iSaa1.PAGeS.DeV",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
-                "path": "\/BDwnEtVwG7BS0S9f?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "iSAA1.paGEs.DEV"
+                    "Host": "king1980.b91sptsl.workers.dev"
                 },
-                "max_early_data": 0,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAy",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
