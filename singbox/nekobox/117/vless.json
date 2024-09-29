@@ -108,6 +108,7 @@
                 "RELAY🚩",
                 "US🇺🇸",
                 "SE🇸🇪",
+                "DE🇩🇪",
                 "FR🇫🇷"
             ]
         },
@@ -198,6 +199,8 @@
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -309,6 +312,17 @@
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | SE🇸🇪 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "DE🇩🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2430,6 +2444,52 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "52.29.224.33",
+            "server_port": 80,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram🇨🇳 @WangCai_8 \/",
+                "headers": {
+                    "Host": "a.ssll.gay"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "130.162.61.18",
+            "server_port": 80,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram🇨🇳 @WangCai_8 \/",
+                "headers": {
+                    "Host": "a.ssll.gay"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
