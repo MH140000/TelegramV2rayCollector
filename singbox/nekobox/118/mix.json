@@ -127,7 +127,6 @@
                 "رایگان | VMESS | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @VpnWLF | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
@@ -152,6 +151,7 @@
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @mftizi | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VMESS | @V2rayng_Fast | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
@@ -252,7 +252,6 @@
                 "رایگان | VMESS | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @VpnWLF | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
@@ -286,6 +285,7 @@
             "outbounds": [
                 "رایگان | VMESS | @mftizi | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VMESS | @V2rayng_Fast | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
@@ -539,23 +539,6 @@
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "38.75.137.27",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1181,9 +1164,35 @@
         {
             "tag": "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "cdnjs.com",
+            "server": "104.16.67.38",
+            "server_port": 8080,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hms02.fxiaomi.sbs\/link",
+                "headers": {
+                    "Host": "8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vmess",
+            "server": "irhms03.dongfeng.cfd",
             "server_port": 443,
-            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
+            "uuid": "fa5b55cd-cafc-4de0-a4c8-722e02a9f58e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1196,7 +1205,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hdfy1c3.iraniancpi.uk",
+                "server_name": "hms03.dongfeng.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1206,9 +1215,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/QvtvPdDXXIlSdZMqnuxG",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "hdfy1c3.iraniancpi.uk"
+                    "Host": "hms03.dongfeng.cfd"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1315,7 +1324,33 @@
         {
             "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "162.159.140.93",
+            "server": "172.64.167.8",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "ip2.1457230.xyz"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "162.159.140.77",
             "server_port": 2086,
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
             "security": "auto",
@@ -1339,35 +1374,9 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "server31.beheshtbaneh.com",
-            "server_port": 8880,
-            "uuid": "4154143c-bbba-47a4-9f79-c2ed087cbcc9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "server31.beheshtbaneh.com"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
             "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣3️⃣",
             "type": "vmess",
-            "server": "172.64.175.213",
+            "server": "104.19.21.230",
             "server_port": 2086,
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
             "security": "auto",
@@ -1384,7 +1393,7 @@
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "ip2.1457230.xyz"
+                    "Host": "ip14.freegradely.xyz"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1610,7 +1619,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "92059336-1b44-490d-9097-25c98dbeea76",
+            "uuid": "34fafed1-db39-4a36-aca7-2de930cdb7b8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1633,7 +1642,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "0e79446d-506b-46cb-bcce-b562be4c6af8",
+            "uuid": "92059336-1b44-490d-9097-25c98dbeea76",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1656,7 +1665,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "0e79446d-506b-46cb-bcce-b562be4c6af8",
+            "uuid": "92059336-1b44-490d-9097-25c98dbeea76",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
