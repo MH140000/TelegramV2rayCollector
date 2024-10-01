@@ -135,7 +135,6 @@
                 "رایگان | VLESS | @lightning6 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @iP_CF | RELAY🚩 | 0️⃣1️⃣",
@@ -187,6 +186,7 @@
                 "رایگان | VLESS | @free_v2rayyy | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free_v2rayyy | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
@@ -237,7 +237,6 @@
                 "رایگان | VLESS | @lightning6 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @iP_CF | RELAY🚩 | 0️⃣1️⃣",
@@ -298,6 +297,7 @@
                 "رایگان | VLESS | @free_v2rayyy | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free_v2rayyy | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
@@ -693,29 +693,6 @@
                 "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
                 "headers": {
                     "Host": "www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir."
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "54851cbc-0199-45a1-a7e4-f16993e22ea6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2560",
-                "headers": {
-                    "Host": "shhproxy.com.www.speedtest.net.www.zula.ir.cloudflare.com.developsp.ir."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1842,7 +1819,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "Parsashonam-63",
+            "uuid": "Parsashonam-64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2087,9 +2064,9 @@
         {
             "tag": "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "speedtest.net",
+            "server": "SpeedTest.net",
             "server_port": 443,
-            "uuid": "Parsashonam-67",
+            "uuid": "e5bd8a2c-f311-47d5-9eff-225d4a07b718",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2108,9 +2085,41 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Parsashonam\/ws?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "Parsashonam0.com"
+                    "Host": "wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v22.drlimit.net"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "SpeedTest.net",
+            "server_port": 443,
+            "uuid": "e5bd8a2c-f311-47d5-9eff-225d4a07b718",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v09.drlimit.net"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2119,9 +2128,9 @@
         {
             "tag": "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "speedtest.net",
+            "server": "SpeedTest.net",
             "server_port": 443,
-            "uuid": "90042398-b786-4958-a763-aff7d53aa8c1",
+            "uuid": "e5bd8a2c-f311-47d5-9eff-225d4a07b718",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2140,11 +2149,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "path": "\/",
                 "headers": {
-                    "Host": "joinshhproxybede.ir"
+                    "Host": "wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v20.drlimit.net"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -2484,7 +2493,7 @@
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-63",
+            "uuid": "Parsashonam-64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
