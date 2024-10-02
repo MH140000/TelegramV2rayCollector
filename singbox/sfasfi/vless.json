@@ -111,8 +111,7 @@
                 "US🇺🇸",
                 "SE🇸🇪",
                 "RELAY🚩",
-                "DE🇩🇪",
-                "CY🇨🇾"
+                "DE🇩🇪"
             ]
         },
         {
@@ -203,8 +202,7 @@
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @customv2ray | CY🇨🇾 | 0️⃣1️⃣"
+                "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -326,16 +324,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "CY🇨🇾",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @customv2ray | CY🇨🇾 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2628,20 +2616,6 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @customv2ray | CY🇨🇾 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "185.153.181.124",
-            "server_port": 28643,
-            "uuid": "0087b4d2-2a37-43bd-bedb-e9a8523072fd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
