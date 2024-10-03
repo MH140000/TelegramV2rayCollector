@@ -183,7 +183,7 @@
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣3️⃣",
@@ -275,7 +275,7 @@
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣3️⃣",
@@ -822,7 +822,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "524906f1-6113-4cee-a963-920856a753c9",
+            "uuid": "cb6a20c1-4774-466a-97d5-4bee12393ebb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -845,7 +845,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "3e098fa2-c9a9-4518-a00d-a4555b1a8998",
+            "uuid": "524906f1-6113-4cee-a963-920856a753c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -868,7 +868,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "3e098fa2-c9a9-4518-a00d-a4555b1a8998",
+            "uuid": "524906f1-6113-4cee-a963-920856a753c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2325,6 +2325,38 @@
         {
             "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "e2f4d1fa-0a6d-48c3-a5bb-8b438e78af23",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "119f3a0b.chikiy123w.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "119f3a0b.chikiy123w.pages.dev"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
             "server": "104.18.218.118",
             "server_port": 443,
             "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
@@ -2352,20 +2384,6 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAy",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
