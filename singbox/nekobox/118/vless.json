@@ -876,7 +876,7 @@
             "type": "vless",
             "server": "iranserver.com",
             "server_port": 80,
-            "uuid": "b0d0c0f1-f969-450c-b3ed-84a61bb6c4c7",
+            "uuid": "24151688-263d-4fae-864f-1f095e6d1560",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1129,7 +1129,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "5668a5c8-6a51-442f-8d19-1f1ebb262d81",
+            "uuid": "ec92aacf-32ce-4a75-febc-70200e1d8ce5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1152,7 +1152,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "8b518688-bff8-4776-9a6f-2218c9c45b71",
+            "uuid": "5668a5c8-6a51-442f-8d19-1f1ebb262d81",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1940,7 +1940,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "24151688-263d-4fae-864f-1f095e6d1560",
+            "uuid": "7e38ce31-f444-42d8-903d-d4d5d8e7ae2c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1972,7 +1972,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "b0d0c0f1-f969-450c-b3ed-84a61bb6c4c7",
+            "uuid": "24151688-263d-4fae-864f-1f095e6d1560",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2250,23 +2250,14 @@
             "tag": "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
             "type": "vless",
             "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "8a1cdc19-023f-490b-9c9d-234704d3c162",
+            "server_port": 80,
+            "uuid": "4e12b9bd-5815-4f0d-aeb5-12a3e24171e1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
