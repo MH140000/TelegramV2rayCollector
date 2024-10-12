@@ -114,10 +114,12 @@
                 "RELAY🚩",
                 "SE🇸🇪",
                 "DE🇩🇪",
+                "IR🇮🇷",
                 "CY🇨🇾",
                 "FR🇫🇷",
                 "CH🇨🇭",
-                "GB🇬🇧"
+                "GB🇬🇧",
+                "RU🇷🇺"
             ]
         },
         {
@@ -227,14 +229,15 @@
                 "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VLESS | @DarkTeam_VPN | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | CY🇨🇾 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | SS | @free4allVPN | CH🇨🇭 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -380,6 +383,16 @@
             "tolerance": 50
         },
         {
+            "tag": "IR🇮🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @DarkTeam_VPN | IR🇮🇷 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "CY🇨🇾",
             "type": "urltest",
             "outbounds": [
@@ -394,7 +407,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | FR🇫🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -418,6 +430,16 @@
                 "رایگان | SS | @free4allVPN | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @bright_vpn | GB🇬🇧 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "RU🇷🇺",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -3072,6 +3094,20 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @DarkTeam_VPN | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "ir2.ordeloil.com",
+            "server_port": 2069,
+            "uuid": "89924dcb-c2b2-4eb0-a046-7ea17cf60479",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @ShadowProxy66 | CY🇨🇾 | 0️⃣2️⃣",
             "type": "vless",
             "server": "185.156.108.40",
@@ -3091,27 +3127,6 @@
             "server": "52.47.188.41",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "13.39.231.159",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -3174,6 +3189,16 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "92.223.109.205",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ackkokOi",
             "plugin": "",
             "plugin_opts": ""
         },
