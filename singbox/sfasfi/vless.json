@@ -111,7 +111,6 @@
                 "RELAY🚩",
                 "US🇺🇸",
                 "SE🇸🇪",
-                "IR🇮🇷",
                 "CY🇨🇾"
             ]
         },
@@ -131,7 +130,6 @@
                 "رایگان | VLESS | @lightning6 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣1️⃣",
@@ -162,6 +160,7 @@
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
@@ -202,7 +201,6 @@
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @DarkTeam_VPN | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | CY🇨🇾 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -225,7 +223,6 @@
                 "رایگان | VLESS | @lightning6 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣1️⃣",
@@ -256,6 +253,7 @@
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @bright_vpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
@@ -314,16 +312,6 @@
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | SE🇸🇪 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "IR🇮🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @DarkTeam_VPN | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -536,7 +524,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -559,21 +547,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
-            "uuid": "DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1374,6 +1348,20 @@
         },
         {
             "tag": "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "162.159.138.178",
+            "server_port": 8080,
+            "uuid": "42ae576a-0b4d-40d8-bcf5-9997d4fb0e41",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
             "server": "162.159.138.178",
             "server_port": 8080,
@@ -2412,20 +2400,6 @@
             "server": "185.146.173.52",
             "server_port": 8880,
             "uuid": "a85bf6a8-6891-43c2-86e6-4dbef7a7b3bf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @DarkTeam_VPN | IR🇮🇷 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "ir2.ordeloil.com",
-            "server_port": 2069,
-            "uuid": "89924dcb-c2b2-4eb0-a046-7ea17cf60479",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
