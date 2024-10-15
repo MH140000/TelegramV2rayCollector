@@ -108,9 +108,9 @@
                 "RELAY🚩",
                 "US🇺🇸",
                 "SE🇸🇪",
-                "DE🇩🇪",
                 "NL🇳🇱",
-                "CY🇨🇾"
+                "CY🇨🇾",
+                "DE🇩🇪"
             ]
         },
         {
@@ -131,6 +131,7 @@
                 "رایگان | VLESS | @lightning6 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣2️⃣",
@@ -178,6 +179,7 @@
                 "رایگان | VLESS | @ARv2ray | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free_v2rayyy | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free_v2rayyy | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @UnlimitedDev | US🇺🇸 | 0️⃣1️⃣",
@@ -202,10 +204,9 @@
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | NL🇳🇱 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ShadowProxy66 | CY🇨🇾 | 0️⃣2️⃣"
+                "رایگان | VLESS | @ShadowProxy66 | CY🇨🇾 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -229,6 +230,7 @@
                 "رایگان | VLESS | @lightning6 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣2️⃣",
@@ -285,6 +287,7 @@
                 "رایگان | VLESS | @ARv2ray | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free_v2rayyy | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free_v2rayyy | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @UnlimitedDev | US🇺🇸 | 0️⃣1️⃣",
@@ -324,17 +327,6 @@
             "tolerance": 50
         },
         {
-            "tag": "DE🇩🇪",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
             "tag": "NL🇳🇱",
             "type": "urltest",
             "outbounds": [
@@ -349,6 +341,16 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VLESS | @ShadowProxy66 | CY🇨🇾 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "DE🇩🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -642,6 +644,29 @@
                 "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
                 "headers": {
                     "Host": "www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "b013c315-1c80-4eb9-8788-8aaa846533e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2560",
+                "headers": {
+                    "Host": "shhproxy.com.www.speedtest.net.www.zula.ir.cloudflare.com.developsp.ir."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1586,9 +1611,9 @@
         {
             "tag": "رایگان | VLESS | @Parsashonam | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "speedtest.net",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
             "server_port": 443,
-            "uuid": "Parsashonam-70",
+            "uuid": "Parsashonam-71",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1598,7 +1623,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest.net",
+                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1889,6 +1914,38 @@
                 "path": "\/SVNTEAM,PROVIP,SVNTEAM?ed=1024",
                 "headers": {
                     "Host": "Speed.Site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @proxy_kafee | US🇺🇸 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "connectcarolina.sites.unc.edu",
+            "server_port": 443,
+            "uuid": "Joinin--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "connectcarolina.sites.unc.edu",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed",
+                "headers": {
+                    "Host": "snapptrip.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2294,7 +2351,7 @@
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-70",
+            "uuid": "Parsashonam-71",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2507,52 +2564,6 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "52.59.181.39",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "91.107.151.209",
-            "server_port": 58298,
-            "uuid": "4c942230-2910-4c2d-80eb-f3800c79dc7a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @ShadowProxy66 | NL🇳🇱 | 0️⃣1️⃣",
             "type": "vless",
             "server": "89.105.223.195",
@@ -2572,6 +2583,20 @@
             "server": "185.156.108.40",
             "server_port": 13784,
             "uuid": "2d722623-3740-4f73-9357-01ad1a25ce27",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "91.107.151.209",
+            "server_port": 58298,
+            "uuid": "4c942230-2910-4c2d-80eb-f3800c79dc7a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
