@@ -124,7 +124,7 @@
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣"
+                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣"
             ]
         },
         {
@@ -145,7 +145,7 @@
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣"
+                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -576,11 +576,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "104.16.67.38",
-            "server_port": 2096,
-            "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+            "server": "p1.v2raybrasil.xyz",
+            "server_port": 443,
+            "uuid": "51991d4c-bcbd-4424-a4f0-6ad9b6cc4d83",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -593,7 +593,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wormay18khodayatainlahzehshokret.abza.workers.dev",
+                "server_name": null,
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -603,9 +603,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top\/azumase.ren",
+                "path": "\/v2raybrasil.com",
                 "headers": {
-                    "Host": "wormay18khodayatainlahzehshokret.abza.workers.dev"
+                    "Host": "nsusa.v2ray.com.br"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
