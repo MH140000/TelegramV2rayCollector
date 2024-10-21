@@ -161,6 +161,7 @@
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @iP_CF | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @azadi_az_inja_migzare | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
@@ -208,7 +209,6 @@
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
@@ -276,6 +276,7 @@
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Watashi_VPN | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @iP_CF | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @azadi_az_inja_migzare | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣2️⃣",
@@ -323,7 +324,6 @@
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
@@ -1435,7 +1435,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "b65b80c5-f20c-4326-aedd-1f054aa68c65",
+            "uuid": "51f7c647-6b87-416f-a8ef-f249c5c26f11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1458,7 +1458,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "e9576711-8470-47c6-ba12-8a4d9d099ae9",
+            "uuid": "b65b80c5-f20c-4326-aedd-1f054aa68c65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1481,7 +1481,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "e9576711-8470-47c6-ba12-8a4d9d099ae9",
+            "uuid": "b65b80c5-f20c-4326-aedd-1f054aa68c65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1752,6 +1752,20 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @iP_CF | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "wolfshop.tixoshop.com",
+            "server_port": 45764,
+            "uuid": "6fce5411-cfad-479e-b964-79197524af10",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -2919,27 +2933,6 @@
             "server": "18.168.132.135",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "98.82.238.11",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
