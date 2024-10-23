@@ -115,7 +115,8 @@
                 "NL🇳🇱",
                 "ES🇪🇸",
                 "GB🇬🇧",
-                "CA🇨🇦"
+                "CA🇨🇦",
+                "RU🇷🇺"
             ]
         },
         {
@@ -240,7 +241,8 @@
                 "رایگان | VLESS | @V2RayTz | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | ES🇪🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣"
+                "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -459,6 +461,16 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "RU🇷🇺",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -3484,6 +3496,16 @@
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "92.223.109.205",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ackkokOi",
             "plugin": "",
             "plugin_opts": ""
         },
