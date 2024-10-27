@@ -144,6 +144,7 @@
                 "رایگان | VLESS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @iP_CF | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @azadi_az_inja_migzare | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "V2ray_Alpha\/=?ed=2560&security=tls&encryption=none&alpn=http\/1.1&host=bpb-v.PaGEs.DeV&type=ws&sni=BpB-v.PAgEs.Dev#رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣3️⃣",
@@ -232,6 +233,7 @@
                 "رایگان | VLESS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @iP_CF | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @azadi_az_inja_migzare | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "V2ray_Alpha\/=?ed=2560&security=tls&encryption=none&alpn=http\/1.1&host=bpb-v.PaGEs.DeV&type=ws&sni=BpB-v.PAgEs.Dev#رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣3️⃣",
@@ -1102,6 +1104,34 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @VpnWLF | US🇺🇸 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
+                }
             }
         },
         {
