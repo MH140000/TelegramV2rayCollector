@@ -171,7 +171,6 @@
                 "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
@@ -259,7 +258,6 @@
                 "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
@@ -1844,29 +1842,6 @@
         },
         {
             "tag": "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "62.60.138.121",
-            "server_port": 190,
-            "uuid": "38d53553-dbb6-45d2-8037-0308275892ac",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣3️⃣",
             "type": "vless",
             "server": "wolfshop.tixoshop.com",
             "server_port": 45764,
