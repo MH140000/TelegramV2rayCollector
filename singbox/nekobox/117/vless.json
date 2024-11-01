@@ -129,7 +129,6 @@
                 "رایگان | VLESS | @lightning6 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
@@ -192,6 +191,8 @@
                 "رایگان | VLESS | @free_v2rayyy | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
@@ -219,7 +220,6 @@
                 "رایگان | VLESS | @lightning6 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
@@ -300,6 +300,8 @@
                 "رایگان | VLESS | @free_v2rayyy | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | SE🇸🇪 | 0️⃣1️⃣"
             ],
@@ -531,7 +533,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -554,21 +556,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
-            "uuid": "DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2268,6 +2256,52 @@
                     "Host": "1.v.v.V-_-_-V2ray-_-_-V.v.v.mv.speedtest.net.www.Zula.ir.check-host.net.mashtimJi.iR."
                 },
                 "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "019990b3-2ec5-4d55-96bd-3d8d9959a5e9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernett",
+                "headers": {
+                    "Host": "lc66.lebasnoo.ir."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "ef9237fa-eead-42a0-8b12-59babf3fd7a7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernett",
+                "headers": {
+                    "Host": "lc67.lebasnoo.ir."
+                },
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
