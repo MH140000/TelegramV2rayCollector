@@ -107,7 +107,6 @@
                 "URL-TEST | رایگان",
                 "رایگان | VMESS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VMESS | @DeamNet_Proxy | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
@@ -115,9 +114,8 @@
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣3️⃣"
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣"
             ]
         },
         {
@@ -126,7 +124,6 @@
             "outbounds": [
                 "رایگان | VMESS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VMESS | @DeamNet_Proxy | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
@@ -134,9 +131,8 @@
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣3️⃣"
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -209,42 +205,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @DeamNet_Proxy | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "glweidf.cfd",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -464,11 +424,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "37.114.33.109",
-            "server_port": 12213,
-            "uuid": "cdc95a8e-3acb-436f-8fc3-336ebd544003",
+            "server": "104.16.67.38",
+            "server_port": 2096,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -478,12 +438,31 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-flat-hat-00f2.ravapim426.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/glweidf.cfd\/linkws",
+                "headers": {
+                    "Host": "worker-flat-hat-00f2.ravapim426.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
             "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "172.67.163.197",
+            "server": "172.67.190.98",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -498,7 +477,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "b.serkat.org",
+                "server_name": "lammaland.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -510,33 +489,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "b.serkat.org"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣3️⃣",
-            "type": "vmess",
-            "server": "172.64.167.29",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "ip11.6016725.xyz"
+                    "Host": "lammaland.org"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
