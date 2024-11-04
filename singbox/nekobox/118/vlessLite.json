@@ -145,9 +145,9 @@
                 "رایگان | VLESS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayCollectorDonate | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @customv2ray | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @UnlimitedDev | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @UnlimitedDev | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣1️⃣",
@@ -232,9 +232,9 @@
                 "رایگان | VLESS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayCollectorDonate | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @customv2ray | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @UnlimitedDev | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @UnlimitedDev | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣1️⃣",
@@ -1202,7 +1202,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @customv2ray | NL🇳🇱 | 0️⃣2️⃣",
             "type": "vless",
             "server": "ip.v2catch.buzz",
             "server_port": 2053,
@@ -1257,11 +1257,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @UnlimitedDev | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "live.wkrq.com",
+            "server": "104.17.234.114",
             "server_port": 443,
-            "uuid": "6ab373bb-4e17-4a75-a034-53b308dcf33c",
+            "uuid": "0a28b11e-49ff-442f-8120-0261397344a3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1271,7 +1271,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "live.wkrq.com",
+                "server_name": "UNLIMITEDDEV1.unlimiteddev-vpn.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1280,9 +1280,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8080",
                 "headers": {
-                    "Host": "UNLIMITEDDEV.zr.ir"
+                    "Host": "UNLIMITEDDEV1.unlimiteddev-vpn.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1293,7 +1293,7 @@
             "type": "vless",
             "server": "104.17.234.114",
             "server_port": 443,
-            "uuid": "d46a92b5-8042-45c5-8f55-3aac665cc871",
+            "uuid": "0183c5f5-482f-4481-bd18-bb3c4e211392",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1325,7 +1325,7 @@
             "type": "vless",
             "server": "live.wkrq.com",
             "server_port": 443,
-            "uuid": "a2bb1393-eccb-4ade-a757-9fea436f53e7",
+            "uuid": "6ab373bb-4e17-4a75-a034-53b308dcf33c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
