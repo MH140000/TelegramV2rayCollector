@@ -154,7 +154,7 @@
                 "رایگان | VLESS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayCollectorDonate | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @customv2ray | NL🇳🇱 | 0️⃣2️⃣",
+                "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣2️⃣",
@@ -212,6 +212,7 @@
                 "رایگان | TROJAN | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣"
@@ -267,7 +268,7 @@
                 "رایگان | VLESS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayCollectorDonate | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @customv2ray | NL🇳🇱 | 0️⃣2️⃣",
+                "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣2️⃣",
@@ -325,6 +326,7 @@
                 "رایگان | TROJAN | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @VPNGate_Config | RU🇷🇺 | 0️⃣1️⃣"
@@ -1588,7 +1590,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @customv2ray | NL🇳🇱 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
             "server": "ip.v2catch.buzz",
             "server_port": 2053,
@@ -3104,6 +3106,18 @@
                 "headers": {
                     "Host": "b96ef9ae.trojanfree-76s.pages.dev"
                 }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "df.xiguajiasu.xyz",
+            "server_port": 46002,
+            "password": "4ea1d07c-41c2-42b5-954d-414fee051856",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
