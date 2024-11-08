@@ -178,7 +178,7 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
@@ -266,7 +266,7 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣1️⃣",
@@ -1253,7 +1253,7 @@
             "type": "vless",
             "server": "104.17.234.114",
             "server_port": 443,
-            "uuid": "0c0aad8e-f479-4562-9515-5c0db05176a2",
+            "uuid": "bc976de8-8c78-4209-efaa-dbce24b9e568",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1285,7 +1285,7 @@
             "type": "vless",
             "server": "104.17.234.114",
             "server_port": 443,
-            "uuid": "c52a607f-ce85-4525-a2ed-667921e5f61c",
+            "uuid": "0c0aad8e-f479-4562-9515-5c0db05176a2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1317,7 +1317,7 @@
             "type": "vless",
             "server": "104.17.234.114",
             "server_port": 443,
-            "uuid": "0a28b11e-49ff-442f-8120-0261397344a3",
+            "uuid": "c52a607f-ce85-4525-a2ed-667921e5f61c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2147,11 +2147,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "104.26.10.137",
-            "server_port": 443,
-            "uuid": "22c3edb8-d637-11ee-aaa8-00505603e70d",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "b356376a-e403-5cb1-8e4f-c99bef97a468",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2159,20 +2159,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "st-fr-1.brocdn.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/websocket",
+                "path": "\/",
                 "headers": {
-                    "Host": "st-fr-1.brocdn.com"
+                    "Host": "eLi-jOiN-ELiv2RAy.cOm."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2180,36 +2171,6 @@
         },
         {
             "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "bc5e7e48-9b47-4903-a57a-f4723f5dd3be",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.felafel.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ConfigTell,@ConfigTell,@ConfigTell",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "104.26.11.137",
             "server_port": 443,
@@ -2235,6 +2196,38 @@
                 "path": "\/websocket",
                 "headers": {
                     "Host": "st-gb-1.brocdn.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "104.26.10.137",
+            "server_port": 443,
+            "uuid": "22c3edb8-d637-11ee-aaa8-00505603e70d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "st-fr-1.brocdn.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "st-fr-1.brocdn.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
