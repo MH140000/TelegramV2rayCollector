@@ -133,7 +133,7 @@
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
@@ -173,7 +173,6 @@
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
@@ -225,7 +224,7 @@
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣"
@@ -283,7 +282,6 @@
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
@@ -806,11 +804,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "e78d9575-2052-4d32-bc80-4435b1045a3b",
+            "server": "151.101.130.228",
+            "server_port": 443,
+            "uuid": "041f671a-63f5-4af1-a492-8cbff5797b8a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -818,13 +816,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
+                "path": "\/5Ve373mPjKg4vceF?ed",
                 "headers": {
-                    "Host": "barkatc2.ir"
+                    "Host": "Falcunargo.net"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -1762,9 +1769,9 @@
         {
             "tag": "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "www.visa.com",
+            "server": "108.162.195.192",
             "server_port": 443,
-            "uuid": "1b3b276f-44b4-4c39-bfdf-67ff6337b41f",
+            "uuid": "2928d83a-ca75-4d52-b437-fa78c7601378",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1774,7 +1781,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "POOrIaREd--persEPolIS.pAGEs.Dev",
+                "server_name": "freedom-1rj.pages.dev",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1783,41 +1790,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@V2ray_AlphaV2rayNGns\/?ed=2560",
+                "path": "\/freedom-1rj.pages.dev\/?ed=2560",
                 "headers": {
-                    "Host": "poORiaReD--PErsePOlIs.PagES.DEv"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "172.66.47.74",
-            "server_port": 443,
-            "uuid": "105c7a94-ddd4-4025-bf6f-5be4fc657354",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "SHAh-9Aq.PAGes.deV",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@Azarakhsh_Proxy\/?ed=2560",
-                "headers": {
-                    "Host": "ShAh-9aQ.PaGEs.DEV"
+                    "Host": "freedom-1rj.pages.dev"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
