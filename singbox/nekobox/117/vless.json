@@ -108,7 +108,6 @@
                 "US🇺🇸",
                 "SE🇸🇪",
                 "RELAY🚩",
-                "IR🇮🇷",
                 "DE🇩🇪",
                 "TR🇹🇷",
                 "GB🇬🇧"
@@ -197,8 +196,7 @@
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @liq_VPN | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @liq_VPN | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @liq_VPN | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | TR🇹🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | GB🇬🇧 | 0️⃣3️⃣"
             ],
@@ -313,20 +311,10 @@
             "tolerance": 50
         },
         {
-            "tag": "IR🇮🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @liq_VPN | IR🇮🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @liq_VPN | DE🇩🇪 | 0️⃣2️⃣"
+                "رایگان | REALITY | @liq_VPN | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2380,28 +2368,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @liq_VPN | IR🇮🇷 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "81.12.35.63",
-            "server_port": 5001,
-            "uuid": "64d45405-ae66-4d37-98e4-8b36548e3c75",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "liq-vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @liq_VPN | DE🇩🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @liq_VPN | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
             "server": "rolxrp.redi-mopol.cord.city.lor.codmoviez.info",
             "server_port": 4033,
