@@ -137,6 +137,7 @@
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Parsashonam | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @free_v2rayyy | SE🇸🇪 | 0️⃣3️⃣",
@@ -145,7 +146,6 @@
                 "رایگان | VLESS | @servermomo | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @XsV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @XsV2ray | RELAY🚩 | 0️⃣2️⃣",
@@ -177,7 +177,7 @@
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
@@ -226,6 +226,7 @@
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -243,7 +244,6 @@
                 "رایگان | VLESS | @servermomo | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ServerNett | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | SE🇸🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -284,7 +284,7 @@
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
@@ -786,6 +786,38 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "766949f2-43d4-4797-bf66-b2c0ced9c3bd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v14.drlimitemergency.net"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
             "type": "vless",
             "server": "Zmaoz.Faculty.UcdavIS.Edu",
@@ -946,29 +978,6 @@
                 "path": "\/servernett",
                 "headers": {
                     "Host": "lc70.lebasnoo.ir."
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @vmess_vless_v2rayng | SE🇸🇪 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "af9c101a-64c3-4678-b588-7fe1fc8fe698",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/servernett",
-                "headers": {
-                    "Host": "lc61.lebasnoo.ir."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1718,11 +1727,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @vmess_vless_v2rayng | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "172.66.47.155",
-            "server_port": 443,
-            "uuid": "34a83286-ba4e-4f0a-ac08-77a95469eeaf",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "d5415b12-f59e-49d1-bacd-9e8144cafb2a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1730,20 +1739,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazesh18.pages.dev",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2560",
                 "headers": {
-                    "Host": "pardazesh18.pages.dev"
+                    "Host": "shhproxy.com.www.speedtest.net.www.zula.ir.cloudflare.com.developsp.ir."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2105,9 +2105,9 @@
         {
             "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "104.16.60.8",
+            "server": "172.67.73.241",
             "server_port": 443,
-            "uuid": "962a733d-2614-0b9b-7ffe-9ac92ffea8eb",
+            "uuid": "f4397322-d5fa-11ee-aaa8-00505603e70d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2117,7 +2117,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ahmedquran19.xyz",
+                "server_name": "st-pl-1.brocdn.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -2126,9 +2126,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/current_time",
+                "path": "\/websocket",
                 "headers": {
-                    "Host": "ahmedquran19.xyz"
+                    "Host": "st-pl-1.brocdn.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
