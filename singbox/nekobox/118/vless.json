@@ -113,6 +113,7 @@
                 "US🇺🇸",
                 "SE🇸🇪",
                 "RELAY🚩",
+                "IR🇮🇷",
                 "DE🇩🇪",
                 "CA🇨🇦"
             ]
@@ -198,6 +199,7 @@
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @liq_VPN | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @customv2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | CA🇨🇦 | 0️⃣3️⃣"
             ],
@@ -304,6 +306,16 @@
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "IR🇮🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @liq_VPN | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2254,6 +2266,20 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @liq_VPN | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "81.12.35.61",
+            "server_port": 1003,
+            "uuid": "da636f9c-d176-4d65-a87b-825a45837b90",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
