@@ -112,6 +112,7 @@
                 "US🇺🇸",
                 "SE🇸🇪",
                 "FR🇫🇷",
+                "IR🇮🇷",
                 "DE🇩🇪",
                 "GB🇬🇧",
                 "RU🇷🇺"
@@ -220,6 +221,7 @@
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣3️⃣",
+                "رایگان | VLESS | @liq_VPN | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣1️⃣",
@@ -360,6 +362,16 @@
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "IR🇮🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @liq_VPN | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2897,6 +2909,20 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @liq_VPN | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "81.12.35.61",
+            "server_port": 1003,
+            "uuid": "da636f9c-d176-4d65-a87b-825a45837b90",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
