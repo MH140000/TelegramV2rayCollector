@@ -167,6 +167,9 @@
                 "رایگان | VLESS | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣3️⃣",
@@ -249,6 +252,9 @@
                 "رایگان | VLESS | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣3️⃣",
@@ -1883,6 +1889,84 @@
                     "Host": "dubleostore.io"
                 },
                 "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "2f1f7fbf-f37d-4275-c014-298a83f4e5a8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "172.66.44.233",
+            "server_port": 443,
+            "uuid": "38720105-063f-40f5-a5eb-f3198b9b617d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "aksnmaioas.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "aksnmaioas.pages.dev"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "104.26.14.85",
+            "server_port": 2096,
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hagh.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hagh.pages.dev"
+                },
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
