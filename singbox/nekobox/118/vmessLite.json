@@ -112,11 +112,13 @@
                 "URL-TEST | رایگان",
                 "رایگان | VMESS | @free4allVPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @customv2ray | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VMESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | AU🇦🇺 | 0️⃣1️⃣"
+                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | AU🇦🇺 | 0️⃣2️⃣"
             ]
         },
         {
@@ -125,11 +127,13 @@
             "outbounds": [
                 "رایگان | VMESS | @free4allVPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @customv2ray | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VMESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | AU🇦🇺 | 0️⃣1️⃣"
+                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | AU🇦🇺 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -174,7 +178,7 @@
         {
             "tag": "رایگان | VMESS | @customv2ray | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "es.pulau.org",
+            "server": "d.masjide.org",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -189,7 +193,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "es.pulau.org",
+                "server_name": "d.masjide.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -201,7 +205,43 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "es.pulau.org"
+                    "Host": "d.masjide.org"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @customv2ray | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "Back.MsV2ray.online",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -332,7 +372,33 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | AU🇦🇺 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "65.75.192.48",
+            "server_port": 37543,
+            "uuid": "4674cbfc-f9ab-4c47-eec1-ba0a98ae370e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/67jfsf",
+                "headers": {
+                    "Host": "65.75.192.48"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | AU🇦🇺 | 0️⃣2️⃣",
             "type": "vmess",
             "server": "172.105.172.209",
             "server_port": 443,
