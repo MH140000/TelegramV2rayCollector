@@ -174,7 +174,7 @@
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣2️⃣",
@@ -264,7 +264,7 @@
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣2️⃣",
@@ -2051,9 +2051,9 @@
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "004be5ab-f2a1-4400-9a99-51e5126b19e7",
+            "server": "172.66.44.56",
+            "server_port": 443,
+            "uuid": "3df56fd0-d1b7-4793-b877-acd356d960f3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2061,22 +2061,31 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
                 "headers": {
-                    "Host": "ftp.debian.org.www.digikala.com.www.speedtest.net.SnappFoodSuppOrt.ShoP."
+                    "Host": "aestingdownloadupload.pages.dev"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "fc3431fc-69af-449d-8e6b-b31187f90002",
+            "server": "199.34.228.178",
+            "server_port": 443,
+            "uuid": "fca01448-d84a-436e-9aec-3be1ebdfb350",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2084,11 +2093,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "sB-1u6.Pages.DEV",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=1024",
+                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
                 "headers": {
-                    "Host": "maznet---_-_---maznet2.iMamhussaIn.sbs."
+                    "Host": "sB-1u6.Pages.DEV"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2097,9 +2115,9 @@
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "151.101.3.8",
+            "server": "167.82.30.71",
             "server_port": 80,
-            "uuid": "2266e5c0-1971-49aa-a454-e10a46ea0ee2",
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2109,9 +2127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE?ed=2480",
+                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
                 "headers": {
-                    "Host": "api.nhl.ir"
+                    "Host": "samane.ir"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
