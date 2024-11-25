@@ -105,18 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | REALITY | @Lockey_vpn | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | CH🇨🇭 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | REALITY | @Lockey_vpn | DE🇩🇪 | 0️⃣1️⃣"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @Lockey_vpn | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | CH🇨🇭 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | REALITY | @Lockey_vpn | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -155,62 +151,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ConfigsHUB | CH🇨🇭 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "195.15.215.198",
-            "server_port": 443,
-            "uuid": "872aad60-d4ff-4c9d-a1cb-c36f412614a5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "microsoft.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "bz_CfzxBvjSpYzMQIMKb7C2ttpovR4-4gyABZhjw0QM",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "154.21.195.198",
-            "server_port": 24290,
-            "uuid": "4b249b4b-6494-494d-b168-74862af97878",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "swdist.apple.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM",
-                    "short_id": ""
-                }
             }
         },
         {
