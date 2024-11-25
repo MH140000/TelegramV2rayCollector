@@ -113,7 +113,8 @@
                 "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | NO🇳🇴 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | IE🇮🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣2️⃣"
             ]
@@ -127,7 +128,8 @@
                 "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | NO🇳🇴 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | IE🇮🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣2️⃣"
             ],
@@ -248,11 +250,32 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @ConfigsHUB | IE🇮🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "52.212.133.245",
+            "server": "13.42.245.236",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "16.170.129.178",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
