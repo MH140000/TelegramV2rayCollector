@@ -111,7 +111,7 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @Lockey_vpn | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣"
+                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣"
             ]
         },
         {
@@ -119,7 +119,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @Lockey_vpn | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣"
+                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -161,11 +161,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "31.44.2.233",
-            "server_port": 8443,
-            "uuid": "94c1df7c-d368-46e8-ac98-002402a48d29",
+            "server": "deko.austriaport.ir",
+            "server_port": 3030,
+            "uuid": "2afdb6dd-a57e-4a37-9729-8ca1f8753083",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -175,7 +175,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sourceforge.net",
+                "server_name": "refersion.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -183,16 +183,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "FtH0nhy0PapdzzYinNlcH3-i5AKmWPWQEjW2AO-Lp0s",
-                    "short_id": "d077e28db8"
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "JoinBadeChannel@antimeli",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
