@@ -107,10 +107,9 @@
                 "URL-TEST | رایگان",
                 "FR🇫🇷",
                 "DE🇩🇪",
-                "HK🇭🇰",
                 "US🇺🇸",
                 "RELAY🚩",
-                "PL🇵🇱"
+                "FI🇫🇮"
             ]
         },
         {
@@ -119,11 +118,10 @@
             "outbounds": [
                 "رایگان | VMESS | @free4allVPN | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @free4allVPN | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | VMESS | @customv2ray | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VMESS | @mftizi | HK🇭🇰 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | PL🇵🇱 | 0️⃣1️⃣"
+                "رایگان | VMESS | @free1_vpn | FI🇫🇮 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -143,18 +141,7 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @free4allVPN | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | VMESS | @customv2ray | DE🇩🇪 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "HK🇭🇰",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VMESS | @mftizi | HK🇭🇰 | 0️⃣1️⃣"
+                "رایگان | VMESS | @free4allVPN | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -164,7 +151,8 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣"
+                "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -181,10 +169,10 @@
             "tolerance": 50
         },
         {
-            "tag": "PL🇵🇱",
+            "tag": "FI🇫🇮",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @Hope_Net | PL🇵🇱 | 0️⃣1️⃣"
+                "رایگان | VMESS | @free1_vpn | FI🇫🇮 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -263,59 +251,6 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @customv2ray | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "denc36.xtooltech.cfd",
-            "server_port": 443,
-            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "adenc36v.xtooltech.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "adenc36v.xtooltech.cfd"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @mftizi | HK🇭🇰 | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "hkt2.bika.hk",
-            "server_port": 30251,
-            "uuid": "9e88a10b-655c-5120-89d0-408634169561",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -336,6 +271,32 @@
                 "path": "\/",
                 "headers": {
                     "Host": "tms.dingtalk.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "104.21.238.87",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "e4.6929198.xyz"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -368,11 +329,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | PL🇵🇱 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @free1_vpn | FI🇫🇮 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "128.204.223.115",
-            "server_port": 44085,
-            "uuid": "1db458f2-5df2-4fa5-8754-497c7ef0681b",
+            "server": "hra.app-browser.org",
+            "server_port": 443,
+            "uuid": "43eae510-e1bc-4036-e919-86a628f983ef",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -382,6 +343,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hra.app-browser.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
