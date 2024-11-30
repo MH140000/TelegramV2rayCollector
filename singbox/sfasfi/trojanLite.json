@@ -114,6 +114,8 @@
                 "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣"
             ]
         },
@@ -127,6 +129,8 @@
                 "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -241,9 +245,9 @@
         {
             "tag": "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "104.21.69.44",
+            "server": "173.245.59.182",
             "server_port": 443,
-            "password": "auto",
+            "password": "bpb-trojan",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -251,7 +255,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pAges.dEv.",
+                "server_name": "fcspring.ggff.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -260,9 +264,65 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@custom_config?ed=2560",
+                "path": "\/tr?ed",
                 "headers": {
-                    "Host": "custom-2024.pages.dev"
+                    "Host": "fcspring.ggff.net"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "190.93.245.12",
+            "server_port": 443,
+            "password": "bpb-trojan",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fcspring.ggff.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/tr?ed",
+                "headers": {
+                    "Host": "fcspring.ggff.net"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
+            "type": "trojan",
+            "server": "141.101.114.52",
+            "server_port": 443,
+            "password": "bpb-trojan",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fcspring.ggff.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/tr?ed",
+                "headers": {
+                    "Host": "fcspring.ggff.net"
                 }
             }
         },
