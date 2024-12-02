@@ -323,34 +323,6 @@
         {
             "tag": "رایگان | TROJAN | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "162.159.197.109",
-            "server_port": 443,
-            "password": "blue2024",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hb.lii2010.us.kg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hb.lii2010.us.kg"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
-            "type": "trojan",
             "server": "104.17.234.12",
             "server_port": 443,
             "password": "VPNCUSTOMIZE-VPNCUSTOMIZE",
@@ -373,6 +345,34 @@
                 "path": "\/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed",
                 "headers": {
                     "Host": "1.2.3.4.5.6.7.8.9.10.www.speedtest.net.VPNCUSTOMIZE.abrha.co.za"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "104.16.178.249",
+            "server_port": 443,
+            "password": "blue2024",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ha.lii2010.us.kg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed",
+                "headers": {
+                    "Host": "ha.lii2010.us.kg"
                 }
             }
         },
