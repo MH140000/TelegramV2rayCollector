@@ -111,8 +111,7 @@
                 "SE🇸🇪",
                 "IE🇮🇪",
                 "CA🇨🇦",
-                "RELAY🚩",
-                "TW🇹🇼"
+                "RELAY🚩"
             ]
         },
         {
@@ -124,8 +123,7 @@
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | TW🇹🇼 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -168,16 +166,6 @@
             "outbounds": [
                 "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "TW🇹🇼",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @ConfigsHUB | TW🇹🇼 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -320,27 +308,6 @@
                 "path": "\/trlBYH5QQYGYnWgP5T?ed=2560",
                 "headers": {
                     "Host": "bpb-worker-panel-bcr.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @ConfigsHUB | TW🇹🇼 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "1.170.251.154",
-            "server_port": 24236,
-            "password": "c4ccdba8-dfae-4354-a78c-3d5f113f15d7",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ddns.200566.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
