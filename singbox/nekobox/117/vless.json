@@ -108,8 +108,7 @@
                 "US🇺🇸",
                 "SE🇸🇪",
                 "RELAY🚩",
-                "DE🇩🇪",
-                "IE🇮🇪"
+                "DE🇩🇪"
             ]
         },
         {
@@ -138,7 +137,7 @@
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Parsashonam | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
@@ -177,6 +176,7 @@
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣3️⃣",
@@ -188,9 +188,7 @@
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | IE🇮🇪 | 0️⃣1️⃣"
+                "رایگان | VLESS | @Outlinev2rayNG | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -222,7 +220,7 @@
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -279,6 +277,7 @@
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣3️⃣",
@@ -299,18 +298,7 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | DE🇩🇪 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "IE🇮🇪",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @ConfigsHUB | IE🇮🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -931,11 +919,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "1cc424e8-66ba-4ede-ab9b-407245e78cba",
+            "server": "Zmaoz.Faculty.UcdavIS.Edu",
+            "server_port": 443,
+            "uuid": "49d65fc2-8413-4d97-9303-ad34f0bdeef4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -943,13 +931,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Zmaoz.Faculty.UcdavIS.Edu.",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
+                "path": "\/@melov2ray\/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpnd=2048",
                 "headers": {
-                    "Host": "barkatc1.ir"
+                    "Host": "meloch-de.com"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -1342,7 +1339,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1354,7 +1351,7 @@
                 "type": "ws",
                 "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
                 "headers": {
-                    "Host": "www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir."
+                    "Host": "www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.harmale.ir."
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1365,7 +1362,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1379,7 +1376,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1941,17 +1938,40 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "Www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "46e35e68-b04f-464b-93ac-ca069aded819",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
+                "headers": {
+                    "Host": "www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.harmale.ir."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
@@ -2194,38 +2214,6 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "3.78.234.125",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @Outlinev2rayNG | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
             "server": "46.202.152.9",
@@ -2237,38 +2225,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ConfigsHUB | IE🇮🇪 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "3.251.37.124",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
