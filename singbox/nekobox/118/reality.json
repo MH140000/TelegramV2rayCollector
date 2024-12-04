@@ -110,36 +110,36 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "AE🇦🇪"
+                "NL🇳🇱"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @customv2ray | AE🇦🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "AE🇦🇪",
+            "tag": "NL🇳🇱",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @customv2ray | AE🇦🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @customv2ray | AE🇦🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "uae.kitten-tube.com",
+            "server": "mmd.aabolshoop.ir",
             "server_port": 443,
-            "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
-            "flow": "xtls-rprx-vision",
+            "uuid": "e504c905-5201-4bfa-9471-df414486764e",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -148,17 +148,24 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "adobe.com",
+                "server_name": "sourceforge.net",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k",
-                    "short_id": "4048A3da"
+                    "public_key": "dm4LXLsgssC0eUZUFcLyjFR2pkLrMU_Wb1OufHJnBEg",
+                    "short_id": "9af649c306eb98"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
