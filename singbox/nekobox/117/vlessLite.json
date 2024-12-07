@@ -162,8 +162,7 @@
                 "رایگان | VLESS | @VmessProtocol | TR🇹🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣3️⃣",
@@ -239,8 +238,7 @@
                 "رایگان | VLESS | @VmessProtocol | TR🇹🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @free1_vpn | RELAY🚩 | 0️⃣3️⃣",
@@ -1716,32 +1714,9 @@
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
-                "headers": {
-                    "Host": "www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.dalekishe.ir."
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "live.989bull.com",
-            "server_port": 443,
-            "uuid": "SAVTEAM7",
+            "server": "v2.yunchun.top",
+            "server_port": 2096,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1751,7 +1726,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "live.989bull.com",
+                "server_name": "v2.yUnChUN.tOP",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1760,20 +1735,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam?ed=443",
+                "path": "\/gbmgywmhrx9fwzsk\/ynbilnlvdxnlzi5pc2vnyxjvlmnvbq==?ed=2560",
                 "headers": {
-                    "Host": "Savteam.CI"
+                    "Host": "v2.yUnChUN.tOP"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "151.101.194.133",
+            "server": "v2.yunchun.top",
             "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1783,7 +1758,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mio.splashthat.com",
+                "server_name": "v2.yunCHUn.toP",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1792,11 +1767,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/f0taij0njqobq4qi\/ynbilnlvdxnlzi5pc2vnyxjvlmnvbq==?ed=2560",
                 "headers": {
-                    "Host": "cdiuw63.net"
+                    "Host": "v2.yunCHUn.toP"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
