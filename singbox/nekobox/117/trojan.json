@@ -105,19 +105,31 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
+                "DE🇩🇪",
                 "SE🇸🇪",
-                "IE🇮🇪",
-                "RU🇷🇺"
+                "GB🇬🇧"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "DE🇩🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -127,35 +139,67 @@
             "tag": "SE🇸🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "IE🇮🇪",
+            "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "RU🇷🇺",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "52.28.182.156",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "3.66.249.138",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
             "type": "trojan",
             "server": "51.21.28.14",
             "server_port": 22222,
@@ -176,11 +220,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @ConfigsHUB | SE🇸🇪 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "16.16.224.111",
+            "server": "13.61.88.43",
             "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -197,9 +241,9 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "34.250.181.138",
+            "server": "18.133.41.102",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -214,34 +258,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "get.fragmentary.info",
-            "server_port": 443,
-            "password": "PU3f7528NtNXnQqb9X263rGSD",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "get.fragmentary.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/socks5tobefree",
-                "headers": {
-                    "Host": "get.fragmentary.info"
                 }
             }
         },
