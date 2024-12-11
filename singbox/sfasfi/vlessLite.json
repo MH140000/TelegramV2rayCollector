@@ -161,13 +161,11 @@
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @v2ray1_ng | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | FI🇫🇮 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
@@ -240,13 +238,11 @@
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @v2ray1_ng | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | FI🇫🇮 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
@@ -1580,21 +1576,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @v2ray1_ng | IR🇮🇷 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "84.47.232.14",
-            "server_port": 2052,
-            "uuid": "5647a1dc-e52a-4be2-f79f-afd6c78baa1b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
             "server": "osi.dornagamesco.ir",
             "server_port": 1620,
@@ -1684,30 +1666,9 @@
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "abc4.iphone-shopp.ir",
-            "server_port": 150,
-            "uuid": "TLS-V2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2086,
-            "uuid": "a7cbca7d-3284-4612-92a8-d62a959e2ad6",
+            "server": "servger.sanjesh.online",
+            "server_port": 7642,
+            "uuid": "d0709789-47b8-4c7b-9cfd-91a868307064",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1717,11 +1678,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | FI🇫🇮 | 0️⃣3️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "65.109.176.108",
-            "server_port": 2053,
-            "uuid": "47e9b63c-6a86-4ae6-acd0-4361f475f53a",
+            "server": "ns2.esfahansiman.com",
+            "server_port": 2052,
+            "uuid": "dbe2b913-3933-49a2-b662-206bea47d9da",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
