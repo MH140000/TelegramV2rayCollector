@@ -116,6 +116,9 @@
                 "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @prrofile_purple | MX🇲🇽 | 0️⃣2️⃣",
                 "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VMESS | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | VMESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VMESS | @ConfigsHUB | IN🇮🇳 | 0️⃣3️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣"
@@ -131,6 +134,9 @@
                 "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @prrofile_purple | MX🇲🇽 | 0️⃣2️⃣",
                 "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VMESS | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | VMESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VMESS | @ConfigsHUB | IN🇮🇳 | 0️⃣3️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣"
@@ -315,6 +321,76 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "193.160.130.245",
+            "server_port": 443,
+            "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "beyonddsz.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "beyonddsz.cfd"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "162.251.62.115",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @ConfigsHUB | IN🇮🇳 | 0️⃣3️⃣",
+            "type": "vmess",
+            "server": "20.193.131.152",
+            "server_port": 23294,
+            "uuid": "e6f0541f-af71-4e16-9cd8-5a612934b7a6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

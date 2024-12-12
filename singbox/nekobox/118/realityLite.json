@@ -111,7 +111,10 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | TR🇹🇷 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣"
             ]
         },
         {
@@ -119,7 +122,10 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | TR🇹🇷 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -178,6 +184,90 @@
                     "enabled": true,
                     "public_key": "fPtoPIDDJIW4pSY8TAFM0BKPA0ELOkX7ssc3i23SXlE",
                     "short_id": "75813316"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "74.48.100.195",
+            "server_port": 54157,
+            "uuid": "c0a863a0-e9fa-43c3-8328-5387a00aa1e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sega.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ConfigsHUB | TR🇹🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "176.98.41.45",
+            "server_port": 13509,
+            "uuid": "dbc34aa9-3cb1-477a-c47d-998f8badf0e8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.sega.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "51.158.243.62",
+            "server_port": 443,
+            "uuid": "fd17fd03-844b-4c4b-9551-27f2b055d4f8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1gKloUYtea1EJfBcatiTkmJVdCbb6SfVrnL6Lz-RYj0",
+                    "short_id": "42"
                 }
             }
         },
