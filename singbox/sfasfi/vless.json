@@ -141,6 +141,7 @@
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
@@ -173,8 +174,6 @@
                 "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
@@ -218,6 +217,7 @@
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
@@ -268,8 +268,6 @@
                 "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
@@ -921,9 +919,9 @@
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "hajlab.ucdavis.edu",
+            "server": "six.app",
             "server_port": 443,
-            "uuid": "76042bdb-886d-4ef2-b069-fa514e2629cf",
+            "uuid": "787cbde8-126c-4c39-93f7-56cfe44527c0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -931,22 +929,36 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+            "transport": {
+                "type": "ws",
+                "path": "\/@",
+                "headers": {
+                    "Host": "doWnloadlynEt.iR."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "Ay.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
                 "headers": {
-                    "Host": "joinshhproxybedeeeee.ir"
+                    "Host": "deinssw26.net"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -1662,70 +1674,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "104.24.31.103",
-            "server_port": 443,
-            "uuid": "6c0ed3fb-f0b0-5b53-a762-f8f8d832bdba",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vfarid.xcdi.wOrKErs.deV",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless-ws\/",
-                "headers": {
-                    "Host": "vfarid.xcdi.wOrKErs.deV"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "104.21.112.1",
-            "server_port": 443,
-            "uuid": "ec6e3722-1456-44eb-8349-d565aa774174",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-vpnhttpinjectorfree-31.hawage8393.workers.dev",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@VPNHTTPInjectorfree-Telegram:@VPNHTTPInjectorfree-Telegram:@VPNHTTPInjectorfree",
-                "headers": {
-                    "Host": "telegram-vpnhttpinjectorfree-31.hawage8393.workers.dev"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
