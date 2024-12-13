@@ -163,9 +163,9 @@
                 "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
@@ -238,9 +238,9 @@
                 "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
@@ -1688,12 +1688,12 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "23.187.72.90",
-            "server_port": 49510,
-            "uuid": "08e9220b-a099-4628-a0ff-26885421642f",
-            "flow": "xtls-rprx-vision",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "da484056-3c28-4996-b5ae-550768fc03b3",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1702,39 +1702,29 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "addons.mozilla.org",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-                    "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "joinshhproxybedeeeeeee.ir"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "209.250.227.192",
-            "server_port": 2048,
-            "uuid": "08074685-1f9b-419b-87ea-c2c9d51b9461",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ConfigsHUB | SE🇸🇪 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "ef4def1d-a5e3-4f4a-86fc-6de8505514e4",
+            "server": "146.190.176.58",
+            "server_port": 443,
+            "uuid": "9f6728a4-000e-429c-948a-0f8bad5f2334",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1744,11 +1734,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN?ed=443",
                 "headers": {
-                    "Host": "weed.servernet.fun."
+                    "Host": ""
                 },
                 "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "Areare",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram------@Archive_Android-----Telegam-----@Archive_Androd-----Telegrm---@Archive_Andod-----Telegrm----@Archve_Android-----Telegram---@Archive_Android-----Telegrm------@Archive_Androd-----Telgam-----@Archive_Andoid-----Telegram----@Archive_Android-----Telegram----@Archive_Android----Telgram----@Archive_Android----Telegram-@Archive_Adrod----Telgam----@Archive_Android----Teleram----@Archve_Android----Telegram----@Archive_Androd--------Telegram------@Archive_Android----Telegam------@Achive_Andoid-----Telegra------@Archve_Androd------Telegram--@Archive_Android--------Telegram------@Archive_Android--------Telegrm------@Arche_Android--------Telegram------@Archve_Android--------Telegr-----@Archive_Android-----Telegrm------@Archve_Android----Telegrm------Telegram----@Archive_Android----Telegrm----@Archive_Android----Telegam----@Archive_Android----Telegram-@Archve_Andoid----Telegram----@Archive_Androd-----Telegam----@Archive_Android-----Telegram-Archive_Androi---@Archive_Android--------Telegrm------@Archive_Android--------Telegram------@Archive_Android--------Telegam------@Archive_Android--------Telegram------@Archive_Android--------Telegram------@Archive_Android---Tlegam------@Archive_Android---Telegram--@Archive_Android-------Telegram--------@Archive_Andrid-----Telegram-----@Archive_Android-----Telegram-----@Archive_Andod----Telegrm----@Archive_Android-----Telgram-----@Archive_Android-----Telegrm------@Archive_Android-----Telegam-----Telegrm---Telegam--------@Archive_Android-----Telegram-----@Archive_Androd-----Telegram-----@Archive_Andoid",
+                "headers": {
+                    "Host": "ArchiveAndroid.Org"
+                },
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
