@@ -109,9 +109,9 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "FR🇫🇷",
+                "MX🇲🇽",
                 "DE🇩🇪",
-                "US🇺🇸",
-                "RU🇷🇺"
+                "US🇺🇸"
             ]
         },
         {
@@ -119,12 +119,12 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @free4allVPN | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VMESS | @prrofile_purple | MX🇲🇽 | 0️⃣1️⃣",
+                "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | RU🇷🇺 | 0️⃣3️⃣"
+                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -141,10 +141,20 @@
             "tolerance": 50
         },
         {
+            "tag": "MX🇲🇽",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VMESS | @prrofile_purple | MX🇲🇽 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -158,16 +168,6 @@
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "RU🇷🇺",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VMESS | @Hope_Net | RU🇷🇺 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -210,7 +210,24 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @prrofile_purple | MX🇲🇽 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "79.127.229.54",
+            "server_port": 18000,
+            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vmess",
             "server": "frankfurt03.zgjok.com",
             "server_port": 443,
@@ -344,32 +361,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "a1.984952.xyz"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @Hope_Net | RU🇷🇺 | 0️⃣3️⃣",
-            "type": "vmess",
-            "server": "194.87.68.196",
-            "server_port": 17296,
-            "uuid": "51932ec4-6a01-41b6-84bb-c4b721ae1c81",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "194.87.68.196"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
