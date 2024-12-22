@@ -110,29 +110,31 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | REALITY | @v2ray1_ng | TR🇹🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @v2ray1_ng | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VmessProtocol | HU🇭🇺 | 0️⃣1️⃣",
-                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @v2ray1_ng | TR🇹🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @v2ray1_ng | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VmessProtocol | HU🇭🇺 | 0️⃣1️⃣",
-                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @v2ray1_ng | TR🇹🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @v2ray1_ng | FR🇫🇷 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "log.twixspace.com",
-            "server_port": 443,
-            "uuid": "956f1324-85dc-42c2-a37d-ac87c47f6cac",
+            "server": "217.182.105.238",
+            "server_port": 1210,
+            "uuid": "15c64822-1a11-419c-9ec2-7cb2807ec3b4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -142,7 +144,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wordpress.org",
+                "server_name": "ubuntu.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -150,13 +152,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "dUCso1FAr-zors9NhEC__IqYI3fEjyfLvRqksj9lmxw",
-                    "short_id": "f99c4b933314ec6d"
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": "7fe29733"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": null,
+                "service_name": "@@jet_config-@jet_config-@jet_config",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -191,7 +193,35 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "213.176.66.228",
+            "server_port": 37021,
+            "uuid": "8363e5e4-b97f-4ddf-bbcd-4e8f8d826a35",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Gk3eR3mV55k5P3tg-MzqMpNolmML8q9zBOf6A102e1Y",
+                    "short_id": "bc721eb6"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
             "server": "mysql-panel.karaj-game-farsi.ir",
             "server_port": 1413,
