@@ -150,8 +150,6 @@
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣2️⃣",
@@ -236,8 +234,6 @@
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣2️⃣",
@@ -1100,70 +1096,6 @@
                 "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
                     "Host": "api.nhl2.ir"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "tel--ZEDMODEON",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
-                "headers": {
-                    "Host": "isa.ir"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "Join--ZEDMODEON",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "headers": {
-                    "Host": "snappshop.ir"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
