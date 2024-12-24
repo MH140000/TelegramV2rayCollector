@@ -115,8 +115,7 @@
                 "رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | KR🇰🇷 | 0️⃣2️⃣"
+                "رایگان | VMESS | @Hope_Net | RU🇷🇺 | 0️⃣1️⃣"
             ]
         },
         {
@@ -133,8 +132,7 @@
                 "رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | KR🇰🇷 | 0️⃣2️⃣"
+                "رایگان | VMESS | @Hope_Net | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -440,28 +438,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @Hope_Net | RU🇷🇺 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "5.78.95.241",
-            "server_port": 39121,
-            "uuid": "1989c64a-74d1-44a9-bd91-13c9f4687cf0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @Hope_Net | KR🇰🇷 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "217.142.132.109",
-            "server_port": 23451,
-            "uuid": "2abe4c96-8542-48c5-b19d-9eec92586680",
+            "server": "176.32.35.194",
+            "server_port": 31416,
+            "uuid": "d019aa37-84f0-4461-bc6c-5eafa7006f8f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -476,7 +457,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "seoul-1ddns.aboutanime.eu.org"
+                    "Host": "176.32.35.194"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
