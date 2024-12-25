@@ -109,7 +109,6 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @Outlinev2rayNG | RU🇷🇺 | 0️⃣1️⃣"
             ]
@@ -119,7 +118,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @Outlinev2rayNG | RU🇷🇺 | 0️⃣1️⃣"
             ],
@@ -152,34 +150,6 @@
                     "enabled": true,
                     "public_key": "Gk3eR3mV55k5P3tg-MzqMpNolmML8q9zBOf6A102e1Y",
                     "short_id": "bc721eb6"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "49.12.193.119",
-            "server_port": 443,
-            "uuid": "a79760d9-f9e9-43cf-a1d5-61ed225d7e62",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VEdfB9tka6Sry4ry3ooI2jrw2e2QGWGf_gMbBtiY2gc",
-                    "short_id": "fc6248fb4124"
                 }
             }
         },
