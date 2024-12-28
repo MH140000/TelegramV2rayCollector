@@ -109,7 +109,7 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @proxy_kafee | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣"
+                "رایگان | REALITY | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣"
             ]
         },
         {
@@ -117,7 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @proxy_kafee | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣"
+                "رایگان | REALITY | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -152,11 +152,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "ddns.200566.xyz",
-            "server_port": 30340,
-            "uuid": "1a668915-d98f-4440-8bac-2c51d508f811",
+            "server": "138.124.25.81",
+            "server_port": 3990,
+            "uuid": "33dc6301-e4bf-4612-94f5-7006fe062892",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -166,7 +166,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "addons.mozilla.org",
+                "server_name": "refersion.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -174,8 +174,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "JKYZG1ImyL6B0TuQyE2XH0XWtX0pI6Cv0fe9ohsjcH0",
-                    "short_id": ""
+                    "public_key": "9Rb63f9TzE_MfARSSWTge7s3RpfPZfErIauYjKruRhQ",
+                    "short_id": "1dfbb004e009c8f9"
                 }
             }
         },
