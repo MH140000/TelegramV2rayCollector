@@ -156,12 +156,13 @@
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | NL🇳🇱 | 0️⃣2️⃣",
+                "رایگان | VLESS | @VmessProtocol | NL🇳🇱 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @free1_vpn | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
@@ -224,12 +225,13 @@
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | NL🇳🇱 | 0️⃣2️⃣",
+                "رایگان | VLESS | @VmessProtocol | NL🇳🇱 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @free1_vpn | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
@@ -705,7 +707,7 @@
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "a4c665c7-d08e-49fd-892a-b48c3565a3a0",
+            "uuid": "96126750-8f87-4b11-8ebc-9cd75ce25476",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -737,7 +739,7 @@
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "a4c665c7-d08e-49fd-892a-b48c3565a3a0",
+            "uuid": "96126750-8f87-4b11-8ebc-9cd75ce25476",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1401,7 +1403,35 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "ddns.200566.xyz",
+            "server_port": 30340,
+            "uuid": "1a668915-d98f-4440-8bac-2c51d508f811",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JKYZG1ImyL6B0TuQyE2XH0XWtX0pI6Cv0fe9ohsjcH0",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @VmessProtocol | NL🇳🇱 | 0️⃣2️⃣",
             "type": "vless",
             "server": "45.131.7.7",
             "server_port": 8443,
@@ -1433,7 +1463,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @VmessProtocol | NL🇳🇱 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @VmessProtocol | NL🇳🇱 | 0️⃣3️⃣",
             "type": "vless",
             "server": "45.131.6.6",
             "server_port": 8443,
@@ -1467,9 +1497,9 @@
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
             "server_port": 443,
-            "uuid": "Biain--ZEDMODEON",
+            "uuid": "Parsashonam-140",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1479,7 +1509,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1488,20 +1518,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "path": "\/@Parsashonam\/ws?ed=2560",
                 "headers": {
-                    "Host": "ndmo.ir"
+                    "Host": "ParsashonamVPN.ir"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
+            "server": "pscresearch.faculty.ucdavis.edu",
             "server_port": 443,
-            "uuid": "tel--ZEDMODEON",
+            "uuid": "04c924c7-551e-4c67-b3fa-9cca9e8cdc78",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1511,7 +1541,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "server_name": "pscresearch.faculty.ucdavis.edu",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1520,20 +1550,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "path": "\/ws\/",
                 "headers": {
-                    "Host": "setadiran.ir"
+                    "Host": "ihrcxextyuj.com"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | VLESS | @free1_vpn | IR🇮🇷 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "TLS.zeoaeriedo-saioesrio.ir",
-            "server_port": 2000,
-            "uuid": "b834ec4d-c317-46ca-807e-e7742d4643d7",
+            "server": "zarin3i1.alireza031.pw",
+            "server_port": 49342,
+            "uuid": "d7c8dc05-cde7-404a-9245-021b97fabe27",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1542,15 +1572,17 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Zarin3",
+                "headers": {
+                    "Host": "yBYTT.divarcdn.com,kDhBx.snappfood.ir,vOAjf.yjc.ir,Lpi2l.digikala.com,N5NBR.tic.ir"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
             "type": "vless",
             "server": "bg.com",
             "server_port": 80,
