@@ -108,12 +108,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣"
             ]
         },
@@ -121,12 +121,12 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -134,9 +134,9 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "13.49.155.35",
+            "server": "63.177.122.119",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -155,9 +155,9 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "34.247.9.99",
+            "server": "3.67.20.48",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -176,9 +176,9 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
             "type": "trojan",
-            "server": "34.249.11.184",
+            "server": "13.51.128.154",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -222,7 +222,7 @@
             "type": "trojan",
             "server": "fr1.test3.net",
             "server_port": 443,
-            "password": "6dfcf870-c4fa-11ef-b58c-1239d0255272",
+            "password": "6f9fdb90-c4fc-11ef-b99b-1239d0255272",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -239,11 +239,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @ConfigsHUB | FR🇫🇷 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "uk1.test3.net",
+            "server": "fr1.test3.net",
             "server_port": 443,
-            "password": "5a257090-c4fa-11ef-83b7-1239d0255272",
+            "password": "59896fc0-c4fc-11ef-96ca-1239d0255272",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -264,7 +264,7 @@
             "type": "trojan",
             "server": "fr1.test3.net",
             "server_port": 443,
-            "password": "46a2def0-c4fa-11ef-ad20-1239d0255272",
+            "password": "47a8b270-c4fc-11ef-abf6-1239d0255272",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
