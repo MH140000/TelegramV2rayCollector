@@ -105,8 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "DE🇩🇪",
-                "TW🇹🇼"
+                "DE🇩🇪"
             ]
         },
         {
@@ -114,8 +113,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣2️⃣"
+                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -127,16 +125,6 @@
             "outbounds": [
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "TW🇹🇼",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -181,34 +169,6 @@
                     "enabled": true,
                     "public_key": "LRnxYf6GAqSZwr6JWbVSnq_pKW99mXJ5VjhtLJMzom0",
                     "short_id": "5c75A51C"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "ddns.200566.xyz",
-            "server_port": 30340,
-            "uuid": "1a668915-d98f-4440-8bac-2c51d508f811",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "addons.mozilla.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JKYZG1ImyL6B0TuQyE2XH0XWtX0pI6Cv0fe9ohsjcH0",
-                    "short_id": ""
                 }
             }
         },
