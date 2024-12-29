@@ -115,6 +115,7 @@
                 "MX🇲🇽",
                 "JP🇯🇵",
                 "MD🇲🇩",
+                "DK🇩🇰",
                 "DE🇩🇪",
                 "IE🇮🇪"
             ]
@@ -129,6 +130,7 @@
                 "رایگان | VMESS | @prrofile_purple | MX🇲🇽 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | JP🇯🇵 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2ray1_ng | MD🇲🇩 | 0️⃣2️⃣",
+                "رایگان | VMESS | @ConfigsHUB | DK🇩🇰 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @free1_vpn | IE🇮🇪 | 0️⃣1️⃣"
             ],
@@ -182,6 +184,16 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @v2ray1_ng | MD🇲🇩 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "DK🇩🇰",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VMESS | @ConfigsHUB | DK🇩🇰 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -363,6 +375,23 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @ConfigsHUB | DK🇩🇰 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "193.29.107.234",
+            "server_port": 49020,
+            "uuid": "2e967dd5-8d24-4099-a901-412dcb4024fd",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
