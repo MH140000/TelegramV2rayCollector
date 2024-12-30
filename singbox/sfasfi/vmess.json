@@ -111,6 +111,7 @@
                 "FR🇫🇷",
                 "US🇺🇸",
                 "JP🇯🇵",
+                "IR🇮🇷",
                 "DE🇩🇪",
                 "IE🇮🇪"
             ]
@@ -121,9 +122,11 @@
             "outbounds": [
                 "رایگان | VMESS | @free4allVPN | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | VMESS | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @prrofile_purple | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | JP🇯🇵 | 0️⃣2️⃣",
+                "رایگان | VMESS | @v2ray1_ng | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @free1_vpn | IE🇮🇪 | 0️⃣1️⃣"
             ],
@@ -136,7 +139,8 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @free4allVPN | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣1️⃣"
+                "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | VMESS | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -158,6 +162,16 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @ShadowProxy66 | JP🇯🇵 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "IR🇮🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VMESS | @v2ray1_ng | IR🇮🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -256,6 +270,42 @@
             }
         },
         {
+            "tag": "رایگان | VMESS | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "indiavideo.sbs",
+            "server_port": 443,
+            "uuid": "425c5e6e-30a0-4984-8a13-ee6f72053162",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "indiavideo.sbs"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "رایگان | VMESS | @prrofile_purple | US🇺🇸 | 0️⃣1️⃣",
             "type": "vmess",
             "server": "151.101.2.216",
@@ -313,6 +363,23 @@
             "server": "13.112.49.171",
             "server_port": 48897,
             "uuid": "3374de7b-61ca-4ef4-ae94-ad0e0e759db0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @v2ray1_ng | IR🇮🇷 | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "185.29.223.164",
+            "server_port": 32718,
+            "uuid": "c398fa1f-fac5-4d76-9452-f0aee44cbc66",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
