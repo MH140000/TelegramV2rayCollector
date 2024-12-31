@@ -156,12 +156,10 @@
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @VmessProtocol | AE🇦🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @free1_vpn | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣",
+                "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
@@ -225,12 +223,10 @@
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @VmessProtocol | AE🇦🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @free1_vpn | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣",
+                "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
@@ -1410,53 +1406,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @VmessProtocol | IR🇮🇷 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "92.242.220.21",
-            "server_port": 58021,
-            "uuid": "31dfe29f-8ae1-4284-aa84-b1869b812e28",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @VmessProtocol | AE🇦🇪 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "181.215.205.104",
-            "server_port": 443,
-            "uuid": "ce7b5e36-a3a0-4f61-af4d-6ca132f892c5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "adobe.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k",
-                    "short_id": "4048A3da"
-                }
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "speedtest.net",
+            "server": "fishlab.ucdavis.edu",
             "server_port": 80,
-            "uuid": "bea3e2e7-5433-43b3-db13-6b481e8dab5a",
+            "uuid": "TELEGRAM-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1466,9 +1420,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/olem\/ws?ed=1024@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
                 "headers": {
-                    "Host": "foffmelo.com"
+                    "Host": "Doogh-nufilter.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1479,7 +1433,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
-            "uuid": "e4638cbb-c39f-4ef0-d626-e2e104557ca2",
+            "uuid": "b5162299-f153-4594-8367-15a108e2bb68",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1489,7 +1443,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu.",
+                "server_name": "zmaoz.faculty.ucdavis.edu",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1498,20 +1452,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/olem\/ws?ed=4096@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
                 "headers": {
-                    "Host": "fonmelo.com"
+                    "Host": "JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VLESS | @free1_vpn | IR🇮🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | FR🇫🇷 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "zarin3i1.alireza031.pw",
-            "server_port": 49342,
-            "uuid": "d7c8dc05-cde7-404a-9245-021b97fabe27",
+            "server": "151.101.120.121",
+            "server_port": 80,
+            "uuid": "b5162299-f153-4594-8367-15a108e2bb68",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1521,16 +1475,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Zarin3",
+                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
                 "headers": {
-                    "Host": "yBYTT.divarcdn.com,kDhBx.snappfood.ir,vOAjf.yjc.ir,Lpi2l.digikala.com,N5NBR.tic.ir"
+                    "Host": "JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
             "server": "bg.com",
             "server_port": 80,
