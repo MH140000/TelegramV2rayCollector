@@ -108,8 +108,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "DE🇩🇪",
-                "IT🇮🇹"
+                "DE🇩🇪"
             ]
         },
         {
@@ -117,8 +116,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @ConfigsHUB | IT🇮🇹 | 0️⃣3️⃣"
+                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -130,16 +128,6 @@
             "outbounds": [
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "IT🇮🇹",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @ConfigsHUB | IT🇮🇹 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -184,34 +172,6 @@
                     "enabled": true,
                     "public_key": "fPtoPIDDJIW4pSY8TAFM0BKPA0ELOkX7ssc3i23SXlE",
                     "short_id": "75813316"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ConfigsHUB | IT🇮🇹 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "194.165.59.20",
-            "server_port": 443,
-            "uuid": "80c32a2b-d074-4069-b82f-cf5f0bcf8aaf",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdnjs.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "p1dCL7vkrK9KPfZ0EudMxZXyZbBaH2Asqvd6NHJfnyE",
-                    "short_id": "2eec1cff2b290424"
                 }
             }
         },
