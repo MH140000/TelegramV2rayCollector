@@ -116,7 +116,9 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -127,7 +129,9 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -172,6 +176,62 @@
                     "enabled": true,
                     "public_key": "fPtoPIDDJIW4pSY8TAFM0BKPA0ELOkX7ssc3i23SXlE",
                     "short_id": "75813316"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "49.12.106.37",
+            "server_port": 56745,
+            "uuid": "08e887ac-be53-4499-9728-c393ce935593",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmd.10.isovpn.shop",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "reeGxEx25Fzh3KrT4p-YYOw84ugb5LUG_h8atOpPUQg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "91.107.156.225",
+            "server_port": 7869,
+            "uuid": "c0e7d787-4162-41fe-b5c8-c73d0d728d97",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mega.de",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6LvV2B0l_OISYEHxe7p_KgGBZwJb9lzSYlXEvOzOvwc",
+                    "short_id": "5af5c37f"
                 }
             }
         },
