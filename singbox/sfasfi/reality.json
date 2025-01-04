@@ -108,28 +108,28 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "FR🇫🇷",
-                "TW🇹🇼"
+                "NL🇳🇱",
+                "TW🇹🇼",
+                "FR🇫🇷"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @v2ray1_ng | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣"
+                "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
+                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "FR🇫🇷",
+            "tag": "NL🇳🇱",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @v2ray1_ng | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣"
+                "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -146,12 +146,22 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @v2ray1_ng | FR🇫🇷 | 0️⃣1️⃣",
+            "tag": "FR🇫🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "vippro.mispd.ir",
-            "server_port": 443,
-            "uuid": "40c71f2a-98bb-4d5d-8c6f-de690acf24f0",
-            "flow": "xtls-rprx-vision",
+            "server": "174.138.13.224",
+            "server_port": 15891,
+            "uuid": "ae2228d1-9b8f-4914-9e0a-68a115f8dbe1",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -160,23 +170,23 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "ftp.debian.org",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "-e-Py1tk4hBqFmmL-p_1l7imBS6eGWx1lVqbHWwA2yo",
-                    "short_id": "6d49a78191f4d90f"
+                    "public_key": "4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0",
+                    "short_id": "10f1"
                 }
             }
         },
         {
-            "tag": "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "cuvip.doubledou.icu",
+            "server": "twb.doubledou.icu",
             "server_port": 443,
             "uuid": "2add6241-8fe8-3922-8347-da25e8ced601",
             "flow": "xtls-rprx-vision",
@@ -202,9 +212,9 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "twb.doubledou.icu",
+            "server": "cuvip.doubledou.icu",
             "server_port": 443,
             "uuid": "2add6241-8fe8-3922-8347-da25e8ced601",
             "flow": "xtls-rprx-vision",
