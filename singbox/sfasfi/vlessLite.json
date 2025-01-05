@@ -143,15 +143,16 @@
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | REALITY | @v2ray1_ng | AM🇦🇲 | 0️⃣1️⃣",
-                "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2ray1_ng | BR🇧🇷 | 0️⃣3️⃣",
+                "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | VLESS | @v2ray1_ng | BR🇧🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | BE🇧🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
@@ -205,15 +206,16 @@
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | REALITY | @v2ray1_ng | AM🇦🇲 | 0️⃣1️⃣",
-                "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2ray1_ng | BR🇧🇷 | 0️⃣3️⃣",
+                "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | VLESS | @v2ray1_ng | BR🇧🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | BE🇧🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
@@ -1159,42 +1161,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @v2ray1_ng | AM🇦🇲 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "45.129.185.185",
-            "server_port": 2087,
-            "uuid": "26a45f68-0dd0-4952-ab1e-2c3d023d2431",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.cloudflare.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "StgXQYbkKSkAHHzakVldKHVmrBXhe_J87e7bydUIOGw",
-                    "short_id": "83cdb009"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣1️⃣",
             "type": "vless",
             "server": "174.138.13.224",
             "server_port": 15891,
@@ -1222,7 +1189,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @v2ray1_ng | BR🇧🇷 | 0️⃣3️⃣",
+            "tag": "رایگان | VLESS | @v2ray1_ng | BR🇧🇷 | 0️⃣2️⃣",
             "type": "vless",
             "server": "199.232.112.11",
             "server_port": 443,
@@ -1379,11 +1346,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | BE🇧🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "fast.gambronservice.site",
+            "server": "151.101.66.219",
             "server_port": 80,
-            "uuid": "a0f8dbb6-f306-4061-a973-cdce1c88eb9d",
+            "uuid": "1185a1af-2ad7-5abe-90fb-ca183a3abd96",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1393,9 +1360,73 @@
             },
             "transport": {
                 "type": "ws",
+                "path": "\/l?ed=443ed=2560",
+                "headers": {
+                    "Host": "ELiV2RAY-0.iR."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "ns4.esfahansiman.com",
+            "server_port": 443,
+            "uuid": "dbf66532-f25a-44ed-be20-fc29c5b662c3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "WWW.pegAh-Esfahan.De.",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "edu.tabligh.au"
+                    "Host": "WWW.pegAh-Esfahan.De."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "cloud.xmsvx.com",
+            "server_port": 443,
+            "uuid": "4d8426b2-0af1-4eb5-a231-b62152d7b9b9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.989bull.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TorVipxyy",
+                "headers": {
+                    "Host": "aft.vc"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
