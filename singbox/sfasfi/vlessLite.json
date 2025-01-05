@@ -141,6 +141,7 @@
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
@@ -155,8 +156,7 @@
                 "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
@@ -208,6 +208,7 @@
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
@@ -222,8 +223,7 @@
                 "رایگان | REALITY | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
@@ -1078,6 +1078,20 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "v5.vixsm.ir",
+            "server_port": 443,
+            "uuid": "b5e3d701-3b7e-4fc6-a107-5c82a3f8b414",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1451,9 +1465,9 @@
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "151.101.194.133",
+            "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "6c89998c-82b7-4570-e460-96c098e84eb3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1463,7 +1477,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mio.splashthat.com",
+                "server_name": "zmaoz.faculty.ucdavis.edu.",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1472,65 +1486,35 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/olem\/ws?ed=4096@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
                 "headers": {
-                    "Host": "12.irfrn11sn.net"
+                    "Host": "fonmelo.com"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "104.17.134.62",
-            "server_port": 443,
-            "uuid": "18722220-9249-0051-5849-e8a8f1f76424",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "3e92c450-e23d-4826-e952-9cbe5a508e73",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hvxoo.metahkh.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ConfigsHUB | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "103.184.44.0",
-            "server_port": 443,
-            "uuid": "cd3def3e-1936-4055-b491-55960275fae4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "rov.cloudsafario.online",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+                "type": "ws",
+                "path": "\/olem\/ws?ed=1024@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "headers": {
+                    "Host": "foffmelo.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
