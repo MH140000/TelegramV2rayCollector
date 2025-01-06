@@ -110,20 +110,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @v2ray1_ng | AM🇦🇲 | 0️⃣1️⃣",
-                "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣3️⃣"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @v2ray1_ng | AM🇦🇲 | 0️⃣1️⃣",
-                "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -159,104 +153,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @v2ray1_ng | AM🇦🇲 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "45.129.185.185",
-            "server_port": 2087,
-            "uuid": "26a45f68-0dd0-4952-ab1e-2c3d023d2431",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.cloudflare.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "StgXQYbkKSkAHHzakVldKHVmrBXhe_J87e7bydUIOGw",
-                    "short_id": "83cdb009"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @v2ray1_ng | NL🇳🇱 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "174.138.13.224",
-            "server_port": 15891,
-            "uuid": "ae2228d1-9b8f-4914-9e0a-68a115f8dbe1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0",
-                    "short_id": "10f1"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "owl.applegrafix.com",
-            "server_port": 443,
-            "uuid": "a5a76b9c-833f-464e-e590-129dd111c66d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wordpress.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sprL7tMyJtcGE08gTDHd-1wY_IuNiwaddkGCvHZzHnw",
-                    "short_id": "7c174089"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
