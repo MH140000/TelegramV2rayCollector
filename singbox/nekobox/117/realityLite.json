@@ -108,8 +108,9 @@
                 "رایگان | REALITY | @proxy_kafee | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | CY🇨🇾 | 0️⃣2️⃣"
+                "رایگان | REALITY | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣1️⃣"
             ]
         },
         {
@@ -119,8 +120,9 @@
                 "رایگان | REALITY | @proxy_kafee | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | CY🇨🇾 | 0️⃣2️⃣"
+                "رایگان | REALITY | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -211,12 +213,12 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "188.245.240.68",
-            "server_port": 2083,
-            "uuid": "dda6dc2f-fba7-424b-8413-adfe056c1de1",
-            "flow": "xtls-rprx-vision",
+            "server": "vippro.mispd.ir",
+            "server_port": 443,
+            "uuid": "59b40e12-bc22-425c-9056-330d49b2ff7e",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -225,23 +227,23 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "tgju.org",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "hwKuMbkMN0NuBzsoBMDh6VRlWDv7UBXyw6-1MUlFAms",
-                    "short_id": "e0f1ce196ee5"
+                    "public_key": "B9s5sNb0bSLLiUhofHrgaBPGrS6yz3VEpvPXG-YDGwE",
+                    "short_id": "c4"
                 }
             }
         },
         {
-            "tag": "رایگان | REALITY | @ConfigsHUB | CY🇨🇾 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "45.82.255.149",
+            "server": "46.4.65.250",
             "server_port": 443,
             "uuid": "46ce658d-c433-430a-84aa-5980026badac",
             "flow": "xtls-rprx-vision",
@@ -262,6 +264,34 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "49.12.106.37",
+            "server_port": 55822,
+            "uuid": "Telegram@v2rayng_vpnn",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmd.10.isovpn.shop",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "swrGFiH1GGLp80EgD_iDAuyb701VeVirfXCbI_5cinw",
                     "short_id": ""
                 }
             }
