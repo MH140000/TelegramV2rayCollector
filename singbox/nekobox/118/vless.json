@@ -150,6 +150,7 @@
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
@@ -162,7 +163,7 @@
                 "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @proxy_kafee | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
@@ -180,7 +181,7 @@
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpnmasi | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray1_ng | SK🇸🇰 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | SK🇸🇰 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣"
@@ -219,6 +220,7 @@
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
@@ -249,7 +251,7 @@
                 "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -294,7 +296,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ConfigsHUB | IR🇮🇷 | 0️⃣2️⃣"
+                "رایگان | VLESS | @ConfigsHUB | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -1001,6 +1003,29 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "spd.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "5a1f53fa-7e58-4705-deb4-1c099f9aaef6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "fdsfr4ewrfcvdsafa.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
             "server": "151.101.2.216",
@@ -1271,7 +1296,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
             "server": "TLS.zeoaeriedo-saioesrio.ir",
             "server_port": 2000,
@@ -1754,7 +1779,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ConfigsHUB | IR🇮🇷 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | IR🇮🇷 | 0️⃣1️⃣",
             "type": "vless",
             "server": "178.239.144.176",
             "server_port": 2015,
