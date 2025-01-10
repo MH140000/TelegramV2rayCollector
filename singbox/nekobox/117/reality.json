@@ -107,6 +107,7 @@
                 "URL-TEST | رایگان",
                 "TR🇹🇷",
                 "DE🇩🇪",
+                "JP🇯🇵",
                 "NL🇳🇱"
             ]
         },
@@ -116,7 +117,7 @@
             "outbounds": [
                 "رایگان | REALITY | @liq_VPN | TR🇹🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @customv2ray | JP🇯🇵 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -137,8 +138,17 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "JP🇯🇵",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @customv2ray | JP🇯🇵 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -211,11 +221,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | REALITY | @customv2ray | JP🇯🇵 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "49.12.106.37",
-            "server_port": 55822,
-            "uuid": "Telegram@v2rayng_vpnn",
+            "server": "sakura.aaaa.gay",
+            "server_port": 443,
+            "uuid": "d2093082-a38a-316b-adcb-71013e595bd0",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -225,15 +235,15 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmd.10.isovpn.shop",
+                "server_name": "tesla.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "swrGFiH1GGLp80EgD_iDAuyb701VeVirfXCbI_5cinw",
+                    "public_key": "zRZhlkKjUeqtIk9j6yy95aX-2krqQVyWORLv5tQkQGM",
                     "short_id": ""
                 }
             }
