@@ -153,9 +153,9 @@
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=none&encryption=none&host=edge.validbv3528.ir&type=ws#رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=none&encryption=none&host=edge.validbv3528.ir&type=ws#رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
@@ -219,9 +219,9 @@
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=none&encryption=none&host=edge.validbv3528.ir&type=ws#رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=none&encryption=none&host=edge.validbv3528.ir&type=ws#رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
@@ -1419,40 +1419,33 @@
             }
         },
         {
-            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=none&encryption=none&host=edge.validbv3528.ir&type=ws#رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "167.82.1.103",
-            "server_port": 80,
-            "uuid": "42f36835-730c-4ecc-9daf-20121ae7ba47",
+            "server": "141.227.132.158",
+            "server_port": 10056,
+            "uuid": "tell--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=none&encryption=none&host=edge.validbv3528.ir&type=ws#رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @ConfigsHUB | FR🇫🇷 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "167.82.0.0",
-            "server_port": 80,
-            "uuid": "42f36835-730c-4ecc-9daf-20121ae7ba47",
+            "server": "141.227.136.32",
+            "server_port": 38818,
+            "uuid": "0d30dbbd-442b-4522-a098-7e3b9117d83f",
             "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "156.67.30.77",
-            "server_port": 443,
-            "uuid": "1051bfbb-90db-4261-b5e4-8b91f62b436f",
-            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1461,7 +1454,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "spotify.com",
+                "server_name": "sourceforge.net",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -1469,9 +1462,48 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SDUAmbkyV3wQEEXwV9wpwTqS2qi7gOekiZNpS1jfcXc",
-                    "short_id": "d59cd3"
+                    "public_key": "3uG4qqXt1YcoCdfVxisTqXFhVF4HwBhpVKEoFz8jsz4",
+                    "short_id": "ae4ab95b"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | US🇺🇸 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "clearcreditrepair.com",
+            "server_port": 443,
+            "uuid": "de5e2ff9-688e-4514-8942-33c13c80591c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "clearcreditrepair.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram,@FreeV2rng--Telegram,@FreeV2rng--Telegram,@FreeV2rng--Telegram,@FreeV2rng--Telegram,@FreeV2rng--Telegram,@FreeV2rng--Telegram,@FreeV2rng?ed=2560",
+                "headers": {
+                    "Host": "ELiV2RAY.cc"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
