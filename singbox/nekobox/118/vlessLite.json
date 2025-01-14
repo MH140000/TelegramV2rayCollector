@@ -116,6 +116,7 @@
                 "رایگان | VLESS | @VlessConfig | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VlessConfig | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2pedia | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2pedia | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2pedia | US🇺🇸 | 0️⃣3️⃣",
@@ -137,8 +138,7 @@
                 "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayNGn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @prrofile_purple | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | VLESS | @prrofile_purple | FI🇫🇮 | 0️⃣3️⃣",
+                "رایگان | VLESS | @prrofile_purple | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | REALITY | @customv2ray | JP🇯🇵 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
@@ -183,6 +183,7 @@
                 "رایگان | VLESS | @VlessConfig | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VlessConfig | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2pedia | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2pedia | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2pedia | US🇺🇸 | 0️⃣3️⃣",
@@ -204,8 +205,7 @@
                 "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayNGn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @prrofile_purple | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | VLESS | @prrofile_purple | FI🇫🇮 | 0️⃣3️⃣",
+                "رایگان | VLESS | @prrofile_purple | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | REALITY | @customv2ray | JP🇯🇵 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
@@ -388,9 +388,9 @@
         {
             "tag": "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "c2.vact.ir",
+            "server": "c1.vact.ir",
             "server_port": 2083,
-            "uuid": "a87e1042-5c49-4923-b83f-4856968214ea",
+            "uuid": "fe43d215-c05f-4de1-8ee7-2620b20cb248",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -408,13 +408,48 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "IXXrQcqXgzopBeSGpCO_u53keeKZaN1AoOzdyLA-Mzo",
-                    "short_id": "11a4b6bca8"
+                    "public_key": "Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18",
+                    "short_id": "90278dfc"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "c1.vact.ir",
+            "server_port": 2083,
+            "uuid": "3d469d13-db99-4240-9c12-d7e2a6618962",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18",
+                    "short_id": "90278dfc"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -958,9 +993,23 @@
         {
             "tag": "رایگان | VLESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "TLS.zeoaeriedo-saioesrio.ir",
-            "server_port": 2000,
-            "uuid": "d28832c6-b491-4592-9133-c62806d487f3",
+            "server": "Silamai-637hamine.oulipa.ir",
+            "server_port": 48397,
+            "uuid": "Telegram_lombo_channel",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @prrofile_purple | US🇺🇸 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "mmd.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "5ac7082e-a26c-4669-b3f0-4c255f5809e4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -969,46 +1018,13 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @prrofile_purple | DE🇩🇪 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "best1.bestshop10.ir",
-            "server_port": 16072,
-            "uuid": "d7807075-738b-4032-8124-f11eb88dd097",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @prrofile_purple | FI🇫🇮 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "bestco.bestshop10.ir",
-            "server_port": 40240,
-            "uuid": "308a14d1-cfae-405f-9d69-2922f87ee79b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+                "type": "ws",
+                "path": "\/@v2rayNG_VPNN@v2rayNG_VPNN@v2rayNG_VPNN@v2rayNG_VPNN@v2rayNG_VPNN@v2rayNG_VPNN@v2rayNG_VPNN@v2rayNG_VPNN@v2rayNG_VPNN",
+                "headers": {
+                    "Host": "mmd4.ir"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
