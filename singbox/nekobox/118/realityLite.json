@@ -114,9 +114,11 @@
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @proxy_kafee | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @customv2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @Outlinev2rayNG | AT🇦🇹 | 0️⃣2️⃣"
             ]
         },
         {
@@ -127,9 +129,11 @@
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @proxy_kafee | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @customv2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @Outlinev2rayNG | AT🇦🇹 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -140,7 +144,7 @@
             "type": "vless",
             "server": "c1.vact.ir",
             "server_port": 2083,
-            "uuid": "b8b6aa29-7abc-47c0-bcc2-b28c69ef6b84",
+            "uuid": "051e5334-d946-4fac-920d-d731e240cd93",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -175,7 +179,7 @@
             "type": "vless",
             "server": "c2.vact.ir",
             "server_port": 2083,
-            "uuid": "6c64e6f2-94b5-45b4-b90b-2fe959b78805",
+            "uuid": "78e610b2-c477-47d8-b3f8-5fe820258806",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -210,7 +214,7 @@
             "type": "vless",
             "server": "c1.vact.ir",
             "server_port": 2083,
-            "uuid": "035ce4e2-b793-418a-838b-3508df309930",
+            "uuid": "b8b6aa29-7abc-47c0-bcc2-b28c69ef6b84",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -273,6 +277,34 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @V2rayNGn | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "188.245.184.26",
+            "server_port": 1633,
+            "uuid": "b4989d33-3db4-4b14-b32a-9ade1cbf888d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
+                    "short_id": "9bc0a55a5379c0ed"
+                }
             }
         },
         {
@@ -370,6 +402,34 @@
                     "enabled": true,
                     "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
                     "short_id": "9bc0a55a5379c0ed"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @Outlinev2rayNG | AT🇦🇹 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "62.60.238.211",
+            "server_port": 8443,
+            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bunny.net",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
+                    "short_id": "f8d8d12585198cb5"
                 }
             }
         },
