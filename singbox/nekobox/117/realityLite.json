@@ -106,7 +106,9 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @proxy_kafee | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣"
             ]
         },
@@ -115,7 +117,9 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @proxy_kafee | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -124,6 +128,41 @@
         },
         {
             "tag": "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "c1.vact.ir",
+            "server_port": 2083,
+            "uuid": "6b90d287-1f9c-44b3-8f35-d1fec2506bb6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18",
+                    "short_id": "90278dfc"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
             "server": "c2.vact.ir",
             "server_port": 2083,
@@ -158,11 +197,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @proxy_kafee | DE🇩🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣3️⃣",
             "type": "vless",
             "server": "c1.vact.ir",
             "server_port": 2083,
-            "uuid": "82b21fa8-9ff0-409b-aaf1-46a4bd46dead",
+            "uuid": "051e5334-d946-4fac-920d-d731e240cd93",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -190,6 +229,34 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @v2ray1_ng | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "138.124.61.246",
+            "server_port": 443,
+            "uuid": "V2rayArgoN-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1tA2CIltAtu_CMKCMWqH4zuRi-EA9LFG9Wz6SI0_sG4",
+                    "short_id": "ff"
+                }
             }
         },
         {
