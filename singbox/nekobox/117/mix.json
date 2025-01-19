@@ -171,6 +171,7 @@
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @fnet00 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣",
@@ -188,6 +189,8 @@
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | SS | @azadi_az_inja_migzare | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | DE🇩🇪 | 0️⃣2️⃣",
@@ -288,6 +291,7 @@
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @fnet00 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣",
@@ -341,6 +345,8 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | DE🇩🇪 | 0️⃣2️⃣",
@@ -1771,6 +1777,27 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @fnet00 | US🇺🇸 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "638723765344749214.amsterdam-blk-dra.info",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
             "server": "N29.fastly80-2.hosting-ip.com",
@@ -2057,6 +2084,41 @@
         {
             "tag": "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
+            "server": "c1.vact.ir",
+            "server_port": 2083,
+            "uuid": "af1dcc3d-3f2e-4593-bbe5-e5a749ef6486",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18",
+                    "short_id": "90278dfc"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "vless",
             "server": "c2.vact.ir",
             "server_port": 2083,
             "uuid": "66fb8b78-605b-4708-8510-f1b36d1fc7e6",
@@ -2079,6 +2141,41 @@
                     "enabled": true,
                     "public_key": "IXXrQcqXgzopBeSGpCO_u53keeKZaN1AoOzdyLA-Mzo",
                     "short_id": "11a4b6bca8"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "c1.vact.ir",
+            "server_port": 2083,
+            "uuid": "6b90d287-1f9c-44b3-8f35-d1fec2506bb6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18",
+                    "short_id": "90278dfc"
                 }
             },
             "transport": {
