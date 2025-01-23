@@ -116,7 +116,6 @@
                 "RU🇷🇺",
                 "NL🇳🇱",
                 "FR🇫🇷",
-                "IR🇮🇷",
                 "LV🇱🇻"
             ]
         },
@@ -149,6 +148,7 @@
                 "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @fnet00 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
@@ -184,8 +184,6 @@
                 "رایگان | VLESS | @ShadowProxy66 | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | LV🇱🇻 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -221,6 +219,7 @@
                 "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @fnet00 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
@@ -319,17 +318,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @fnet00 | FR🇫🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "IR🇮🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @Outlinev2rayNG | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | IR🇮🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -1006,6 +994,27 @@
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @fnet00 | US🇺🇸 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "638723765344749214.amsterdam-blk-dra.info",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1902,43 +1911,6 @@
                     "public_key": "Gk3eR3mV55k5P3tg-MzqMpNolmML8q9zBOf6A102e1Y",
                     "short_id": "bc721eb6"
                 }
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | IR🇮🇷 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "v7.vixsm.ir",
-            "server_port": 6880,
-            "uuid": "dba910a2-845a-4e63-8a88-098d6fd79a30",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | IR🇮🇷 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "80.71.149.53",
-            "server_port": 8880,
-            "uuid": "f6aa25e8-0a8a-4328-93f7-5af7680e8710",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "bama.ir"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
