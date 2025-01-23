@@ -116,7 +116,8 @@
             "outbounds": [
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | FR🇫🇷 | 0️⃣1️⃣"
@@ -131,7 +132,8 @@
             "outbounds": [
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -229,11 +231,39 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "c2.vact.ir",
+            "server": "138.124.61.246",
+            "server_port": 443,
+            "uuid": "V2rayArgoN-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1tA2CIltAtu_CMKCMWqH4zuRi-EA9LFG9Wz6SI0_sG4",
+                    "short_id": "ff"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "c1.vact.ir",
             "server_port": 2083,
-            "uuid": "66fb8b78-605b-4708-8510-f1b36d1fc7e6",
+            "uuid": "f3386570-fbed-4adb-ba0a-0cd0e663965e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -251,8 +281,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "IXXrQcqXgzopBeSGpCO_u53keeKZaN1AoOzdyLA-Mzo",
-                    "short_id": "11a4b6bca8"
+                    "public_key": "Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18",
+                    "short_id": "90278dfc"
                 }
             },
             "transport": {
