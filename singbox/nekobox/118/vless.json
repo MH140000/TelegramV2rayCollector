@@ -118,6 +118,7 @@
                 "FI🇫🇮",
                 "RU🇷🇺",
                 "CH🇨🇭",
+                "AE🇦🇪",
                 "CY🇨🇾",
                 "LV🇱🇻"
             ]
@@ -184,7 +185,8 @@
                 "رایگان | VLESS | @ShadowProxy66 | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2ray1_ng | CH🇨🇭 | 0️⃣1️⃣",
-                "رایگان | REALITY | @Outlinev2rayNG | CY🇨🇾 | 0️⃣2️⃣",
+                "رایگان | REALITY | @Outlinev2rayNG | AE🇦🇪 | 0️⃣2️⃣",
+                "رایگان | REALITY | @Outlinev2rayNG | CY🇨🇾 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | LV🇱🇻 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -322,10 +324,20 @@
             "tolerance": 50
         },
         {
+            "tag": "AE🇦🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @Outlinev2rayNG | AE🇦🇪 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "CY🇨🇾",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @Outlinev2rayNG | CY🇨🇾 | 0️⃣2️⃣"
+                "رایگان | REALITY | @Outlinev2rayNG | CY🇨🇾 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -1897,7 +1909,35 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @Outlinev2rayNG | CY🇨🇾 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @Outlinev2rayNG | AE🇦🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "193.123.90.77",
+            "server_port": 443,
+            "uuid": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "itunes.apple.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3tyvN86mGzMnYhAMX06SJMYSWhG02rqzTr7GjS-OaWI",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @Outlinev2rayNG | CY🇨🇾 | 0️⃣3️⃣",
             "type": "vless",
             "server": "171.22.120.155",
             "server_port": 443,
