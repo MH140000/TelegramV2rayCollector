@@ -113,7 +113,7 @@
                 "RELAY🚩",
                 "US🇺🇸",
                 "DE🇩🇪",
-                "FR🇫🇷"
+                "AU🇦🇺"
             ]
         },
         {
@@ -124,7 +124,7 @@
                 "رایگان | VMESS | @prrofile_purple | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | FR🇫🇷 | 0️⃣1️⃣"
+                "رایگان | VMESS | @v2ray1_ng | AU🇦🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -162,10 +162,10 @@
             "tolerance": 50
         },
         {
-            "tag": "FR🇫🇷",
+            "tag": "AU🇦🇺",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @Hope_Net | FR🇫🇷 | 0️⃣1️⃣"
+                "رایگان | VMESS | @v2ray1_ng | AU🇦🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -267,11 +267,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | FR🇫🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @v2ray1_ng | AU🇦🇺 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "368bf030-db51-11ef-b336-205c6d5f5d78",
+            "server": "20.213.20.185",
+            "server_port": 17718,
+            "uuid": "c206e022-34c6-4fe3-a232-b9c07ba3165d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -281,15 +281,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "eu-2.hihu.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
