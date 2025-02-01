@@ -115,8 +115,8 @@
                 "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VMESS | @v2ray1_ng | AU🇦🇺 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣"
+                "رایگان | VMESS | @Hope_Net | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣2️⃣"
             ]
         },
         {
@@ -130,8 +130,8 @@
                 "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VMESS | @v2ray1_ng | AU🇦🇺 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣"
+                "رایگان | VMESS | @Hope_Net | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -284,7 +284,33 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @Hope_Net | FR🇫🇷 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "368bf030-db51-11ef-b336-205c6d5f5d78",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/xa62zvle",
+                "headers": {
+                    "Host": "eu-2.hihu.net"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣2️⃣",
             "type": "vmess",
             "server": "54.95.100.206",
             "server_port": 28788,
@@ -308,32 +334,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "104.19.48.236",
-            "server_port": 2082,
-            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dabai.in104.25.248.188",
-                "headers": {
-                    "Host": "100-4-150-250.s4.db-link01.top"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
