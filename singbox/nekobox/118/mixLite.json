@@ -112,8 +112,7 @@
                 "URL-TEST | رایگان",
                 "رایگان | VMESS | @free4allVPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | VMESS | @ShadowProxy66 | AU🇦🇺 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VMESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2ray1_ng | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
@@ -150,7 +149,8 @@
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
@@ -201,8 +201,7 @@
             "outbounds": [
                 "رایگان | VMESS | @free4allVPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | VMESS | @ShadowProxy66 | AU🇦🇺 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VMESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2ray1_ng | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
@@ -239,7 +238,8 @@
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
@@ -340,24 +340,7 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @ShadowProxy66 | AU🇦🇺 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "20.213.20.185",
-            "server_port": 17718,
-            "uuid": "c206e022-34c6-4fe3-a232-b9c07ba3165d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | VMESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vmess",
             "server": "159.69.120.98",
             "server_port": 41391,
@@ -1337,7 +1320,21 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "tnl38.vipradvin.ir",
+            "server_port": 8099,
+            "uuid": "e33cecdf-a8a7-4cf6-8585-4c6decdfb116",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣3️⃣",
             "type": "vless",
             "server": "638734201752780236.berlin-mpl-dr.info",
             "server_port": 8880,
