@@ -111,6 +111,7 @@
                 "RELAY🚩",
                 "CY🇨🇾",
                 "FI🇫🇮",
+                "IR🇮🇷",
                 "NL🇳🇱"
             ]
         },
@@ -181,6 +182,7 @@
                 "رایگان | VLESS | @Outlinev2rayNG | CY🇨🇾 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | NL🇳🇱 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -299,6 +301,16 @@
             "outbounds": [
                 "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | FI🇫🇮 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "IR🇮🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2048,6 +2060,20 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "s26.radnikmax.ir",
+            "server_port": 8452,
+            "uuid": "99b5c293-c875-4531-aa29-38e75e706afc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
