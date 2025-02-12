@@ -162,6 +162,7 @@
                 "رایگان | VLESS | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @v2ray1_ng | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣3️⃣",
@@ -251,6 +252,7 @@
                 "رایگان | VLESS | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @v2ray1_ng | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣3️⃣",
@@ -1451,6 +1453,29 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @v2ray1_ng | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "mods.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "9e55e24c-8de9-4357-8a37-9cf1212c6491",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mods.lnmarketplace.net",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
