@@ -115,9 +115,8 @@
                 "DE🇩🇪",
                 "RELAY🚩",
                 "FI🇫🇮",
-                "GB🇬🇧",
                 "NL🇳🇱",
-                "CY🇨🇾",
+                "GB🇬🇧",
                 "RU🇷🇺",
                 "SI🇸🇮"
             ]
@@ -157,10 +156,8 @@
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @lrnbymaa | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
@@ -175,10 +172,10 @@
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxy_kafee | FI🇫🇮 | 0️⃣2️⃣",
                 "رایگان | VLESS | @prrofile_purple | FI🇫🇮 | 0️⃣1️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | FI🇫🇮 | 0️⃣3️⃣",
+                "رایگان | VLESS | @azadi_az_inja_migzare | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | VLESS | @prrofile_purple | GB🇬🇧 | 0️⃣2️⃣",
                 "@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#رایگان | VLESS | @Outlinev2rayNG | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | VLESS | @customv2ray | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | VLESS | @ShadowProxy66 | CY🇨🇾 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | SI🇸🇮 | 0️⃣2️⃣"
             ],
@@ -239,10 +236,8 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray1_ng | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @lrnbymaa | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣"
+                "رایگان | REALITY | @lrnbymaa | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -274,7 +269,18 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VLESS | @proxy_kafee | FI🇫🇮 | 0️⃣2️⃣",
-                "رایگان | VLESS | @prrofile_purple | FI🇫🇮 | 0️⃣1️⃣"
+                "رایگان | VLESS | @prrofile_purple | FI🇫🇮 | 0️⃣1️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | FI🇫🇮 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "NL🇳🇱",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @azadi_az_inja_migzare | NL🇳🇱 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -286,26 +292,6 @@
             "outbounds": [
                 "رایگان | VLESS | @prrofile_purple | GB🇬🇧 | 0️⃣2️⃣",
                 "@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#رایگان | VLESS | @Outlinev2rayNG | GB🇬🇧 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "NL🇳🇱",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @customv2ray | NL🇳🇱 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "CY🇨🇾",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @ShadowProxy66 | CY🇨🇾 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -419,9 +405,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
-                    "Host": "tapsi.shop"
+                    "Host": "snapp.taxi"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -453,7 +439,7 @@
                 "type": "ws",
                 "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
-                    "Host": "snappshop.ir"
+                    "Host": "tapsi.shop"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -485,7 +471,7 @@
                 "type": "ws",
                 "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
-                    "Host": "gisheh7.ir"
+                    "Host": "snappshop.ir"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1132,9 +1118,9 @@
         {
             "tag": "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "c1.vact.ir",
+            "server": "c2.vact.ir",
             "server_port": 2083,
-            "uuid": "fc32cfd1-2984-4f1a-99db-4452d4f64fd7",
+            "uuid": "2693fc99-d4ec-4b01-b3af-7fbb0cbf21e1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1152,43 +1138,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "wOmjhFY8A0ePI29U00Ic3VTgYZGSe8iY8bu7QlYpiRU",
-                    "short_id": "73e4feeb0580"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "c1.vact.ir",
-            "server_port": 2083,
-            "uuid": "50809112-690a-4ba4-bd99-99400122a587",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wOmjhFY8A0ePI29U00Ic3VTgYZGSe8iY8bu7QlYpiRU",
-                    "short_id": "73e4feeb0580"
+                    "public_key": "SAeP7A2HlP9QndrqUydIxf8LQc0dqnXxTDORbINMKh0",
+                    "short_id": "0c2cffaec6"
                 }
             },
             "transport": {
@@ -1243,41 +1194,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "c2.vact.ir",
-            "server_port": 2083,
-            "uuid": "2693fc99-d4ec-4b01-b3af-7fbb0cbf21e1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SAeP7A2HlP9QndrqUydIxf8LQc0dqnXxTDORbINMKh0",
-                    "short_id": "0c2cffaec6"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1683,35 +1599,28 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @prrofile_purple | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | FI🇫🇮 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "87.121.79.113",
-            "server_port": 443,
-            "uuid": "5eaf0943-2ba0-49ae-a3dc-2957429a85d5",
+            "server": "37.27.249.94",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#رایگان | VLESS | @Outlinev2rayNG | GB🇬🇧 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "5.181.23.67",
-            "server_port": 80,
-            "uuid": "09e30204-6e54-5f5c-9fff-73328d9bb927",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @customv2ray | NL🇳🇱 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @azadi_az_inja_migzare | NL🇳🇱 | 0️⃣1️⃣",
             "type": "vless",
             "server": "mods.lnmarketplace.net",
             "server_port": 443,
@@ -1734,11 +1643,25 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ShadowProxy66 | CY🇨🇾 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @prrofile_purple | GB🇬🇧 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "185.153.183.198",
-            "server_port": 3237,
-            "uuid": "1d86846c-5a27-43c8-8981-57bb75c82195",
+            "server": "87.121.79.113",
+            "server_port": 443,
+            "uuid": "5eaf0943-2ba0-49ae-a3dc-2957429a85d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#رایگان | VLESS | @Outlinev2rayNG | GB🇬🇧 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "5.181.23.67",
+            "server_port": 80,
+            "uuid": "09e30204-6e54-5f5c-9fff-73328d9bb927",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
