@@ -108,10 +108,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "DE🇩🇪",
-                "TR🇹🇷",
-                "SE🇸🇪",
-                "NL🇳🇱"
+                "DE🇩🇪"
             ]
         },
         {
@@ -121,10 +118,7 @@
                 "رایگان | REALITY | @ipV2Ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @lrnbymaa | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @flyv2ray | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ShadowProxy66 | TR🇹🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ShadowProxy66 | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ShadowProxy66 | NL🇳🇱 | 0️⃣3️⃣"
+                "رایگان | REALITY | @flyv2ray | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -138,36 +132,6 @@
                 "رایگان | REALITY | @lrnbymaa | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @flyv2ray | DE🇩🇪 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "TR🇹🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @ShadowProxy66 | TR🇹🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "SE🇸🇪",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @ShadowProxy66 | SE🇸🇪 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "NL🇳🇱",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @ShadowProxy66 | NL🇳🇱 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -281,9 +245,9 @@
         {
             "tag": "رایگان | REALITY | @flyv2ray | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "c1.vact.ir",
+            "server": "c2.vact.ir",
             "server_port": 2083,
-            "uuid": "32048988-f16a-488b-9047-f62184c37ab9",
+            "uuid": "d36c5ca0-38fd-4c96-a2c1-c6591ec49445",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -301,8 +265,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "wOmjhFY8A0ePI29U00Ic3VTgYZGSe8iY8bu7QlYpiRU",
-                    "short_id": "73e4feeb0580"
+                    "public_key": "SAeP7A2HlP9QndrqUydIxf8LQc0dqnXxTDORbINMKh0",
+                    "short_id": "0c2cffaec6"
                 }
             },
             "transport": {
@@ -311,90 +275,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ShadowProxy66 | TR🇹🇷 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "62.133.63.97",
-            "server_port": 443,
-            "uuid": "a93352eb-6c60-4c08-9160-5c82a661c2fd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ShadowProxy66 | SE🇸🇪 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "81.177.215.78",
-            "server_port": 443,
-            "uuid": "db848785-09ce-4854-a985-57cdb92d3444",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ShadowProxy66 | NL🇳🇱 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "185.234.65.81",
-            "server_port": 443,
-            "uuid": "e27afe25-93b1-4bdf-803f-65139e985fe0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c",
-                    "short_id": ""
-                }
             }
         },
         {
