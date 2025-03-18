@@ -115,10 +115,12 @@
                 "DE🇩🇪",
                 "RU🇷🇺",
                 "FR🇫🇷",
+                "JP🇯🇵",
                 "SE🇸🇪",
                 "NL🇳🇱",
                 "CH🇨🇭",
                 "FI🇫🇮",
+                "CN🇨🇳",
                 "CA🇨🇦",
                 "LT🇱🇹"
             ]
@@ -197,10 +199,10 @@
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxy_kafee | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Parsashonam | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
@@ -210,6 +212,7 @@
                 "رایگان | SS | @free4allVPN | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | CH🇨🇭 | 0️⃣3️⃣",
                 "رایگان | REALITY | @v2ray1_ng | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣2️⃣"
             ],
@@ -317,8 +320,7 @@
             "tag": "RU🇷🇺",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @ShadowProxy66 | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | RU🇷🇺 | 0️⃣1️⃣"
+                "رایگان | VMESS | @ShadowProxy66 | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -331,6 +333,16 @@
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @proxy_kafee | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "JP🇯🇵",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -376,6 +388,16 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @v2ray1_ng | FI🇫🇮 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "CN🇨🇳",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2210,32 +2232,6 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | RU🇷🇺 | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "176.32.35.148",
-            "server_port": 21012,
-            "uuid": "41657114-7fdd-4dfb-b905-f92227e757f5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "176.32.35.148"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
             "tag": "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣2️⃣",
             "type": "vmess",
             "server": "51.77.20.131",
@@ -2292,6 +2288,42 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "18.182.53.96",
+            "server_port": 22357,
+            "uuid": "3519dfc0-fa27-41cc-8c19-981818f9f6d5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "0000000000000000000000000073.cgroup-node-for-bigairport.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "0000000000000000000000000073.cgroup-node-for-bigairport.sbs"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
@@ -2480,6 +2512,18 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "df.xiguajiasu.xyz",
+            "server_port": 46002,
+            "password": "4ea1d07c-41c2-42b5-954d-414fee051856",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
