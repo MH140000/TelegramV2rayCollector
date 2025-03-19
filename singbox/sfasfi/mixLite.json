@@ -116,6 +116,7 @@
                 "رایگان | VMESS | @prrofile_purple | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | CH🇨🇭 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Helix_Servers | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Helix_Servers | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Parsashonam | US🇺🇸 | 0️⃣1️⃣",
@@ -186,11 +187,13 @@
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
                 "Telegram@V2ray_Alpha&security=tls&host=bpb-hd.aaronchin.xyz&type=ws&sni=bpb-hd.aaronchin.xyz#رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
                 "@v2ray_alpha&security=tls&alpn=h2,http\/1.1&host=301.pooriam.ir&fp=randomized&type=ws&sni=301.pOORiAm.ir#رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @VmessProtocol | IN🇮🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CH🇨🇭 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣2️⃣"
+                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣3️⃣",
+                "رایگان | SS | @VmessProtocol | BH🇧🇭 | 0️⃣1️⃣"
             ]
         },
         {
@@ -205,6 +208,7 @@
                 "رایگان | VMESS | @prrofile_purple | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | CH🇨🇭 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Helix_Servers | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Helix_Servers | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Parsashonam | US🇺🇸 | 0️⃣1️⃣",
@@ -275,11 +279,13 @@
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
                 "Telegram@V2ray_Alpha&security=tls&host=bpb-hd.aaronchin.xyz&type=ws&sni=bpb-hd.aaronchin.xyz#رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
                 "@v2ray_alpha&security=tls&alpn=h2,http\/1.1&host=301.pooriam.ir&fp=randomized&type=ws&sni=301.pOORiAm.ir#رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @VmessProtocol | IN🇮🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CH🇨🇭 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣2️⃣"
+                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣3️⃣",
+                "رایگان | SS | @VmessProtocol | BH🇧🇭 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -500,6 +506,42 @@
                 "path": "\/",
                 "headers": {
                     "Host": "tms.dingtalk.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "La05.890614.XYz",
+            "server_port": 443,
+            "uuid": "60cdd89e-a9cf-4850-8577-e3c6abf5515d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/gyCVORfjoXYyHHcJBuLd",
+                "headers": {
+                    "Host": "la05.890614.xyz"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2230,6 +2272,27 @@
             }
         },
         {
+            "tag": "رایگان | TROJAN | @VmessProtocol | IN🇮🇳 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "185.67.125.177",
+            "server_port": 443,
+            "password": "3747000103274291200",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "quality-albacore.adder289.quest",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "رایگان | SS | @free4allVPN | CH🇨🇭 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "156.146.62.162",
@@ -2270,12 +2333,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "45.87.175.199",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "QCXDxuDlTTMD7jtgHUjIoj",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VmessProtocol | BH🇧🇭 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "admin.c3.webramz.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
             "plugin": "",
             "plugin_opts": ""
         },
