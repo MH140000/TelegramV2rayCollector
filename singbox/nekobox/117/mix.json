@@ -113,7 +113,6 @@
                 "FI🇫🇮",
                 "PH🇵🇭",
                 "JP🇯🇵",
-                "FR🇫🇷",
                 "IN🇮🇳",
                 "NL🇳🇱",
                 "CA🇨🇦",
@@ -196,8 +195,8 @@
                 "رایگان | REALITY | @vpn_xw | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @prrofile_purple | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | CH🇨🇭 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CH🇨🇭 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Parsashonam | SE🇸🇪 | 0️⃣2️⃣",
@@ -208,7 +207,6 @@
                 "رایگان | VLESS | @ShadowProxy66 | FI🇫🇮 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | PH🇵🇭 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | JP🇯🇵 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | IN🇮🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣3️⃣",
@@ -312,8 +310,8 @@
                 "رایگان | REALITY | @vpn_xw | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @prrofile_purple | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -369,16 +367,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VLESS | @ShadowProxy66 | JP🇯🇵 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "FR🇫🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2295,7 +2283,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "3.77.136.159",
             "server_port": 22222,
@@ -2316,7 +2304,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "3.123.117.245",
             "server_port": 22222,
@@ -2509,27 +2497,6 @@
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "51.44.31.130",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
