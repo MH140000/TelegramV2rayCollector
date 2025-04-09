@@ -146,7 +146,6 @@
                 "رایگان | VLESS | @MsV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @MsV2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | REALITY | @v2ray1_ng | FI🇫🇮 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣3️⃣",
@@ -212,7 +211,6 @@
                 "رایگان | VLESS | @MsV2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @MsV2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | REALITY | @v2ray1_ng | FI🇫🇮 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣3️⃣",
@@ -463,6 +461,38 @@
             "tag": "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
             "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray22",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "m.mashti.link",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "m.mashti.link"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "telegram-ArV2ray",
             "flow": "",
@@ -483,7 +513,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -511,29 +541,6 @@
                     "Host": "p.mashti.link"
                 },
                 "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "telegram-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
-                "headers": {
-                    "Host": "Www.speedtest.net.aq.sPeedtest3.sbs."
-                },
-                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -1281,34 +1288,6 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @v2ray1_ng | FI🇫🇮 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "37.27.15.167",
-            "server_port": 2089,
-            "uuid": "7a24dbf2-455a-480e-ae03-f99d436d43c6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "bvEBes1y2n6327dEgJyZTR6Xz_EuyfLdkEX7DxWGFFg",
-                    "short_id": "e3c5c005cae07eb8"
-                }
             }
         },
         {
