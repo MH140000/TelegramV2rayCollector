@@ -105,16 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣2️⃣"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -123,9 +121,9 @@
         {
             "tag": "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "hetzner.unironically.ir",
-            "server_port": 2097,
-            "uuid": "de3e121a-8405-4888-98ec-8914c1850a2d",
+            "server": "mw2.niassa.ir",
+            "server_port": 443,
+            "uuid": "b78fb3f5-e6a9-4e00-859f-3a886b19b394",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -135,7 +133,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sourceforge.net",
+                "server_name": "eset.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -143,51 +141,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs",
-                    "short_id": "2665af94c7b25f90"
+                    "public_key": "3Yzz5Unz5elPLlaQkzgBxirSUbvIRbg9XlJ1Vruc4RI",
+                    "short_id": "8819"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "fdvsdv",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @FreakConfig | DE🇩🇪 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "hetzner.unironically.ir",
-            "server_port": 1370,
-            "uuid": "de3e121a-8405-4888-98ec-8914c1850a2d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs",
-                    "short_id": "2665af94c7b25f90"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "fdvsdv",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
