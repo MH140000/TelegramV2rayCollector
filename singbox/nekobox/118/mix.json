@@ -119,6 +119,7 @@
                 "NO🇳🇴",
                 "US🇺🇸",
                 "RU🇷🇺",
+                "HK🇭🇰",
                 "LT🇱🇹",
                 "SE🇸🇪",
                 "FR🇫🇷",
@@ -200,6 +201,7 @@
                 "رایگان | VLESS | @vpnmasi | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @free1_vpn | RU🇷🇺 | 0️⃣3️⃣",
+                "رایگان | VMESS | @Hope_Net | HK🇭🇰 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Helix_Servers | LT🇱🇹 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | LT🇱🇹 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | LT🇱🇹 | 0️⃣2️⃣",
@@ -210,6 +212,7 @@
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2pedia | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2pedia | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @fnet00 | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outline_Vpn | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outline_Vpn | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | VLESS | @prrofile_purple | NL🇳🇱 | 0️⃣1️⃣",
@@ -374,6 +377,16 @@
             "tolerance": 50
         },
         {
+            "tag": "HK🇭🇰",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VMESS | @Hope_Net | HK🇭🇰 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "LT🇱🇹",
             "type": "urltest",
             "outbounds": [
@@ -404,7 +417,8 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VLESS | @V2pedia | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @V2pedia | FR🇫🇷 | 0️⃣2️⃣"
+                "رایگان | VLESS | @V2pedia | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @fnet00 | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2057,6 +2071,32 @@
             }
         },
         {
+            "tag": "رایگان | VMESS | @Hope_Net | HK🇭🇰 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "f5370a2e-sv2sg0-sw2c3o-1thts.hk3.p5pv.com",
+            "server_port": 80,
+            "uuid": "cb96c846-fd6d-11ef-a910-f23c9164ca5d",
+            "security": "auto",
+            "alter_id": 2,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "f5370a2e-sv2sg0-sw2c3o-1thts.hk3.p5pv.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @Helix_Servers | LT🇱🇹 | 0️⃣1️⃣",
             "type": "vless",
             "server": "csgo-news.film2serial.cloud",
@@ -2230,6 +2270,29 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @fnet00 | FR🇫🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "162.19.228.119",
+            "server_port": 80,
+            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/http",
+                "headers": {
+                    "Host": "google.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
