@@ -142,6 +142,7 @@
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VLESS | @Outline_Vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣3️⃣",
@@ -162,7 +163,7 @@
                 "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣3️⃣",
@@ -221,6 +222,7 @@
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VLESS | @Outline_Vpn | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @MsV2ray | US🇺🇸 | 0️⃣3️⃣",
@@ -259,7 +261,7 @@
                 "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣3️⃣",
@@ -724,6 +726,27 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @Outline_Vpn | US🇺🇸 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "84.32.9.104",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
             "type": "vless",
             "server": "speedtest.net",
@@ -1169,7 +1192,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
             "server": "104.16.148.244",
             "server_port": 2087,
