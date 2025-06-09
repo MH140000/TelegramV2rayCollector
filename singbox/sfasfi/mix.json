@@ -109,9 +109,11 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "BR🇧🇷",
+                "SG🇸🇬",
                 "US🇺🇸",
                 "FR🇫🇷",
                 "GB🇬🇧",
+                "FI🇫🇮",
                 "CH🇨🇭",
                 "SE🇸🇪",
                 "RELAY🚩",
@@ -120,7 +122,6 @@
                 "NL🇳🇱",
                 "DE🇩🇪",
                 "RU🇷🇺",
-                "SG🇸🇬",
                 "PT🇵🇹",
                 "JP🇯🇵"
             ]
@@ -130,6 +131,9 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @DeamNet_Proxy | BR🇧🇷 | 0️⃣1️⃣",
+                "رایگان | VMESS | @DeamNet_Proxy | SG🇸🇬 | 0️⃣2️⃣",
+                "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣2️⃣",
+                "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣3️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Parsashonam | US🇺🇸 | 0️⃣1️⃣",
@@ -153,10 +157,12 @@
                 "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | VMESS | @Awlix_ir | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | VMESS | @v2ray1_ng | FI🇫🇮 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2ray_vpn_ir | CH🇨🇭 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Parsashonam | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
@@ -183,7 +189,6 @@
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @v2_team | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vpn_xw | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vpn_xw | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpn_xw | IR🇮🇷 | 0️⃣3️⃣",
@@ -194,7 +199,6 @@
                 "رایگان | REALITY | @proxystore11 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @proxystore11 | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | PT🇵🇹 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @yaney_01 | JP🇯🇵 | 0️⃣1️⃣"
             ],
@@ -207,6 +211,18 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @DeamNet_Proxy | BR🇧🇷 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "SG🇸🇬",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VMESS | @DeamNet_Proxy | SG🇸🇬 | 0️⃣2️⃣",
+                "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣2️⃣",
+                "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -248,6 +264,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | VMESS | @Awlix_ir | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -261,6 +278,16 @@
                 "رایگان | VMESS | @ShadowProxy66 | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "FI🇫🇮",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VMESS | @v2ray1_ng | FI🇫🇮 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -323,7 +350,6 @@
             "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VLESS | @v2_team | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vpn_xw | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vpn_xw | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpn_xw | IR🇮🇷 | 0️⃣3️⃣"
@@ -376,16 +402,6 @@
             "tolerance": 50
         },
         {
-            "tag": "SG🇸🇬",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
             "tag": "PT🇵🇹",
             "type": "urltest",
             "outbounds": [
@@ -428,6 +444,60 @@
                     "Host": "pq-brazil1.09vpn.com"
                 },
                 "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @DeamNet_Proxy | SG🇸🇬 | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "62.146.232.156",
+            "server_port": 33281,
+            "uuid": "24eda0ea-acf0-4538-a001-f746a480237a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "43.156.217.68",
+            "server_port": 41283,
+            "uuid": "4839e0b9-b275-47ea-81ab-9bfd38bbe7af",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "199.232.13.59",
+            "server_port": 80,
+            "uuid": "d41d2d38-8d13-4458-b9cf-1dfc8b0fe2b7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "JoinBede-ELiV2.Ray.io"
+                },
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -942,6 +1012,42 @@
             }
         },
         {
+            "tag": "رایگان | VMESS | @Awlix_ir | FR🇫🇷 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "172.67.170.13",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @VmessProtocol | FR🇫🇷 | 0️⃣2️⃣",
             "type": "vless",
             "server": "95.164.45.70",
@@ -998,6 +1104,32 @@
             "password": "2UNhq6bcq57shMzvVCgmWrnbobjgW3au5pv658oUHkJS7CRkMLpdu1WnYBzaVZDt66x6dmbJ3k9zeNKKth4mG8pstXRUnQaT",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | VMESS | @v2ray1_ng | FI🇫🇮 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "185.146.173.25",
+            "server_port": 80,
+            "uuid": "46181c32-8c82-413a-b836-8375e5e513eb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
+                "headers": {
+                    "Host": "google.whatsapp.snapp.torob.basalam.sarzamiiinahang.ir."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
         },
         {
             "tag": "رایگان | VMESS | @v2ray_vpn_ir | CH🇨🇭 | 0️⃣1️⃣",
@@ -1599,20 +1731,6 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @v2_team | IR🇮🇷 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "94.182.105.30",
-            "server_port": 44062,
-            "uuid": "dea94163-2cb3-466f-b32d-05922f0a02c4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @vpn_xw | IR🇮🇷 | 0️⃣1️⃣",
             "type": "vless",
             "server": "185.143.233.120",
@@ -1868,29 +1986,6 @@
                     "Host": "ru05.abvpn.ru"
                 },
                 "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "199.232.13.59",
-            "server_port": 80,
-            "uuid": "d41d2d38-8d13-4458-b9cf-1dfc8b0fe2b7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "JoinBede-ELiV2.Ray.io"
-                },
-                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
