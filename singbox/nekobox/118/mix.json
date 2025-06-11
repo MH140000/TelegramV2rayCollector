@@ -116,7 +116,6 @@
                 "US🇺🇸",
                 "CY🇨🇾",
                 "CA🇨🇦",
-                "GB🇬🇧",
                 "CH🇨🇭",
                 "SE🇸🇪",
                 "CZ🇨🇿",
@@ -126,7 +125,7 @@
                 "DK🇩🇰",
                 "PH🇵🇭",
                 "JP🇯🇵",
-                "HK🇭🇰"
+                "GB🇬🇧"
             ]
         },
         {
@@ -134,6 +133,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @DeamNet_Proxy | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2_team | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2_team | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ipV2Ray | RELAY🚩 | 0️⃣1️⃣",
@@ -158,6 +158,7 @@
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | VMESS | @Awlix_ir | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @customv2ray | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @customv2ray | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | VMESS | @prrofile_purple | DE🇩🇪 | 0️⃣1️⃣",
@@ -189,10 +190,6 @@
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | CY🇨🇾 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | CA🇨🇦 | 0️⃣3️⃣",
-                "رایگان | VMESS | @v2ray1_ng | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | GB🇬🇧 | 0️⃣3️⃣",
-                "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2ray_vpn_ir | CH🇨🇭 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Parsashonam | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
@@ -206,7 +203,8 @@
                 "رایگان | TROJAN | @v2ray1_ng | DK🇩🇰 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | PH🇵🇭 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @yaney_01 | JP🇯🇵 | 0️⃣1️⃣",
-                "رایگان | SS | @DeamNet_Proxy | HK🇭🇰 | 0️⃣3️⃣"
+                "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -217,6 +215,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @DeamNet_Proxy | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2_team | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2_team | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ipV2Ray | RELAY🚩 | 0️⃣1️⃣",
@@ -250,6 +249,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | VMESS | @Awlix_ir | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @customv2ray | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @customv2ray | FR🇫🇷 | 0️⃣3️⃣"
             ],
@@ -317,19 +317,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @ShadowProxy66 | CA🇨🇦 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "GB🇬🇧",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VMESS | @v2ray1_ng | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | GB🇬🇧 | 0️⃣3️⃣",
-                "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -430,10 +417,11 @@
             "tolerance": 50
         },
         {
-            "tag": "HK🇭🇰",
+            "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @DeamNet_Proxy | HK🇭🇰 | 0️⃣3️⃣"
+                "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -470,6 +458,42 @@
                 "path": "\/eisasqa",
                 "headers": {
                     "Host": "foxlux.fovi.tk"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "cloudgetservice.mcloudservice.site",
+            "server_port": 2083,
+            "uuid": "698d9a5b-59dc-4ea6-b404-cd9e967fc54c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvkws",
+                "headers": {
+                    "Host": "CanaDa-138.blAzecAnAdA.SITe"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1053,6 +1077,42 @@
             "tag": "رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣",
             "type": "vmess",
             "server": "development.net",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Awlix_ir | FR🇫🇷 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "172.67.170.13",
             "server_port": 443,
             "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
@@ -1809,64 +1869,6 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @v2ray1_ng | GB🇬🇧 | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "51.38.64.209",
-            "server_port": 44023,
-            "uuid": "7da457da-ed0f-437d-c81d-6c35885bbea3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | GB🇬🇧 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "45.140.167.59",
-            "server_port": 8880,
-            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "mx2.drawnrisha.one",
-            "server_port": 55988,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Zc6cLCqRjEndhKvHW3Tv92DXrpMmQBhVTi8V3g6GvoNKZAoPbUkiLvAa9cGzY2NxA7N5fqrgBWeyqxJT2erSZdUJB84b9oiJ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "mx2.drawnrisha.one",
-            "server_port": 55988,
-            "method": "chacha20-ietf-poly1305",
-            "password": "x6EKaChK1zEYVfctyXeTfyCSPRFFHcDQ1nah5TEknRPe7BNddwijrGDX7xaYR4NRNRfCK9LtQLEgahMfAGCTqZTxCdzVKGg9",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "رایگان | VMESS | @v2ray_vpn_ir | CH🇨🇭 | 0️⃣1️⃣",
             "type": "vmess",
             "server": "186.190.215.193",
@@ -2139,12 +2141,22 @@
             }
         },
         {
-            "tag": "رایگان | SS | @DeamNet_Proxy | HK🇭🇰 | 0️⃣3️⃣",
+            "tag": "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "203.23.128.33",
-            "server_port": 990,
+            "server": "mx2.drawnrisha.one",
+            "server_port": 55988,
             "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
+            "password": "Zc6cLCqRjEndhKvHW3Tv92DXrpMmQBhVTi8V3g6GvoNKZAoPbUkiLvAa9cGzY2NxA7N5fqrgBWeyqxJT2erSZdUJB84b9oiJ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @DeamNet_Proxy | GB🇬🇧 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "mx2.drawnrisha.one",
+            "server_port": 55988,
+            "method": "chacha20-ietf-poly1305",
+            "password": "x6EKaChK1zEYVfctyXeTfyCSPRFFHcDQ1nah5TEknRPe7BNddwijrGDX7xaYR4NRNRfCK9LtQLEgahMfAGCTqZTxCdzVKGg9",
             "plugin": "",
             "plugin_opts": ""
         },
