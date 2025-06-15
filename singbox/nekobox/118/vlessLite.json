@@ -134,8 +134,6 @@
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | VLESS | @prrofile_purple | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @prrofile_purple | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣2️⃣",
@@ -153,9 +151,7 @@
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣3️⃣",
-                "رایگان | REALITY | @flyv2ray | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣"
+                "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣"
             ]
         },
         {
@@ -186,8 +182,6 @@
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | VLESS | @prrofile_purple | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @prrofile_purple | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣2️⃣",
@@ -205,9 +199,7 @@
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣3️⃣",
-                "رایگان | REALITY | @flyv2ray | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣"
+                "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -676,52 +668,6 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @prrofile_purple | RELAY🚩 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2086,
-            "uuid": "0623826f-6b43-4a96-ac3f-4dabaeaa61a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "0601.nemister03.workers.dev"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @prrofile_purple | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 8880,
-            "uuid": "0623826f-6b43-4a96-ac3f-4dabaeaa61a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "0601.nemister03.workers.dev"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
             "server": "151.101.59.221",
@@ -1129,53 +1075,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @flyv2ray | FR🇫🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "57.130.19.124",
-            "server_port": 2055,
-            "uuid": "5e236508-63e4-45b3-a7d7-f9cd81af89df",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kifpool.me",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HdhATsM5cYDWfhAt0LyrttGBoscuoT4M3fOSvYN8sEQ",
-                    "short_id": "54994c92a0"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "151.101.6.200",
+            "server": "172.67.11.138",
             "server_port": 80,
-            "uuid": "9a620099-7df2-4935-9c01-d52a3897512a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "fadebdad-95ba-4f69-a16a-b0f0b7845483",
+            "uuid": "b55ec078-3b17-4ed1-a697-71f464cdcaaa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1185,11 +1089,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "LIGHTNING6.ir"
+                    "Host": "kssepa.sabzipolobamahi.dpdns.org"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
