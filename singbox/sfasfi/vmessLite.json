@@ -115,7 +115,7 @@
                 "رایگان | VMESS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VMESS | @prrofile_purple | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Awlix_ir | FR🇫🇷 | 0️⃣1️⃣"
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣"
             ]
         },
         {
@@ -129,7 +129,7 @@
                 "رایگان | VMESS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VMESS | @prrofile_purple | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Awlix_ir | FR🇫🇷 | 0️⃣1️⃣"
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -368,11 +368,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Awlix_ir | FR🇫🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "172.67.170.13",
+            "server": "172.67.204.19",
             "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -385,7 +385,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.sbs",
+                "server_name": null,
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -395,9 +395,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/azumase.ren",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
