@@ -113,7 +113,8 @@
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VLESS | @V2pedia | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2pedia | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | VLESS | @V2pedia | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ARv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Lockey_vpn | RELAY🚩 | 0️⃣1️⃣",
@@ -150,8 +151,7 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | AM🇦🇲 | 0️⃣1️⃣",
-                "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣3️⃣"
+                "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣"
             ]
         },
         {
@@ -166,7 +166,8 @@
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VLESS | @V2pedia | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2pedia | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | VLESS | @V2pedia | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ARv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ARv2ray | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Lockey_vpn | RELAY🚩 | 0️⃣1️⃣",
@@ -203,8 +204,7 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | AM🇦🇲 | 0️⃣1️⃣",
-                "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣3️⃣"
+                "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -380,7 +380,35 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @V2pedia | GB🇬🇧 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @V2pedia | GB🇬🇧 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "a3.gozarino.com",
+            "server_port": 2323,
+            "uuid": "f684156b-84d8-477e-bd91-4033d72b58df",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @V2pedia | GB🇬🇧 | 0️⃣2️⃣",
             "type": "vless",
             "server": "102.177.189.29",
             "server_port": 8880,
@@ -1276,20 +1304,6 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @FreakConfig | SG🇸🇬 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "43.156.217.68",
-            "server_port": 41283,
-            "uuid": "4839e0b9-b275-47ea-81ab-9bfd38bbe7af",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
