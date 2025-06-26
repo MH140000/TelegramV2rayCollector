@@ -118,6 +118,7 @@
                 "IT🇮🇹",
                 "RU🇷🇺",
                 "KZ🇰🇿",
+                "AE🇦🇪",
                 "GB🇬🇧",
                 "DE🇩🇪"
             ]
@@ -147,6 +148,7 @@
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_vpn_ir | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2_team | RELAY🚩 | 0️⃣1️⃣",
@@ -178,14 +180,13 @@
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @XsV2ray | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ipV2Ray | SG🇸🇬 | 0️⃣1️⃣",
-                "رایگان | VLESS | @free1_vpn | SG🇸🇬 | 0️⃣3️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2rayNGn | IT🇮🇹 | 0️⃣2️⃣",
-                "رایگان | VLESS | @proxystore11 | IT🇮🇹 | 0️⃣1️⃣",
                 "رایگان | VLESS | @customv2ray | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | KZ🇰🇿 | 0️⃣1️⃣",
+                "رایگان | VLESS | @v2ray1_ng | AE🇦🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | REALITY | @flyv2ray | DE🇩🇪 | 0️⃣2️⃣"
             ],
@@ -218,6 +219,7 @@
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vless_vmess | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_vpn_ir | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @free1_vpn | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | US🇺🇸 | 0️⃣1️⃣"
             ],
@@ -275,8 +277,7 @@
             "tag": "SG🇸🇬",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VLESS | @ipV2Ray | SG🇸🇬 | 0️⃣1️⃣",
-                "رایگان | VLESS | @free1_vpn | SG🇸🇬 | 0️⃣3️⃣"
+                "رایگان | VLESS | @ipV2Ray | SG🇸🇬 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -298,8 +299,7 @@
             "tag": "IT🇮🇹",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VLESS | @V2rayNGn | IT🇮🇹 | 0️⃣2️⃣",
-                "رایگان | VLESS | @proxystore11 | IT🇮🇹 | 0️⃣1️⃣"
+                "رایگان | VLESS | @V2rayNGn | IT🇮🇹 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -320,6 +320,16 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @ShadowProxy66 | KZ🇰🇿 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "AE🇦🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VLESS | @v2ray1_ng | AE🇦🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -772,6 +782,20 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "ipfast.maketunnelim.lat",
+            "server_port": 80,
+            "uuid": "ec2c4dfe-7df7-4200-a330-c48b4b9e3b3b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1515,20 +1539,6 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @free1_vpn | SG🇸🇬 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "43.156.217.68",
-            "server_port": 41283,
-            "uuid": "4839e0b9-b275-47ea-81ab-9bfd38bbe7af",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
             "type": "vless",
             "server": "185.146.173.237",
@@ -1612,20 +1622,6 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @proxystore11 | IT🇮🇹 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "ipfast.maketunnelim.lat",
-            "server_port": 80,
-            "uuid": "ec2c4dfe-7df7-4200-a330-c48b4b9e3b3b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @customv2ray | RU🇷🇺 | 0️⃣3️⃣",
             "type": "vless",
             "server": "185.148.104.245",
@@ -1673,6 +1669,29 @@
                     "enabled": true,
                     "public_key": "Jwam5OBjXf4bffZzA3IqzfcNONIMhYMgjysXPU44XFU",
                     "short_id": "c4da507c203b545a"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @v2ray1_ng | AE🇦🇪 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "iro.goodratkhooda.info",
+            "server_port": 56833,
+            "uuid": "e947c1b3-5eee-4007-b29e-e960c73242b3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
