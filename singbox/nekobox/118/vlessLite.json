@@ -142,8 +142,10 @@
                 "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @prrofile_purple | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @UnlimitedDev | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vmessorg | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @vmessorg | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
@@ -208,8 +210,10 @@
                 "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outline_Vpn | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @prrofile_purple | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @UnlimitedDev | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vmessorg | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @vmessorg | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
@@ -956,6 +960,20 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @prrofile_purple | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "185.29.223.151",
+            "server_port": 2083,
+            "uuid": "064ba335-b5f7-4bd8-83b7-81255581b220",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @UnlimitedDev | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
             "server": "199.232.214.172",
@@ -975,6 +993,20 @@
             "server": "91.99.203.193",
             "server_port": 443,
             "uuid": "153ee04c-dcc1-4ef8-a146-8fb31cec1f48",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @vmessorg | IR🇮🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "irt.oremote.org",
+            "server_port": 16103,
+            "uuid": "f3cfe074-ba7f-4a28-8050-080815435597",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
