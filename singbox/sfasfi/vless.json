@@ -144,7 +144,7 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @XsV2ray | IT🇮🇹 | 0️⃣1️⃣",
                 "رایگان | VLESS | @V2rayNGn | IT🇮🇹 | 0️⃣3️⃣",
@@ -164,8 +164,6 @@
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vless_vmess | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @proxystore11 | LT🇱🇹 | 0️⃣1️⃣",
                 "رایگان | REALITY | @free1_vpn | FI🇫🇮 | 0️⃣1️⃣"
@@ -201,7 +199,7 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -257,8 +255,6 @@
             "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vmessorg | IR🇮🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -776,6 +772,29 @@
         {
             "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
+            "server": "104.17.209.145",
+            "server_port": 80,
+            "uuid": "92f481b6-ad92-43e4-a683-2bb0aeaa9846",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "dw.alibichareh.dpdns.org"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
             "server": "104.16.241.234",
             "server_port": 80,
             "uuid": "92f481b6-ad92-43e4-a683-2bb0aeaa9846",
@@ -791,29 +810,6 @@
                 "path": "\/?ed=2590",
                 "headers": {
                     "Host": "dw.alibichareh.dpdns.org"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "172.67.92.147",
-            "server_port": 80,
-            "uuid": "b8be6118-0dd7-4402-ae1a-69b2816f3a7f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "br.presskiwi.dpdns.org"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1203,34 +1199,6 @@
             "server": "185.146.173.39",
             "server_port": 8880,
             "uuid": "Parsashonam-113",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "v2test.bing-net.com",
-            "server_port": 9820,
-            "uuid": "268e0e0b-fba4-4cba-873e-19d263e8c93a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "v2test.bing-net.com",
-            "server_port": 9820,
-            "uuid": "fd8be8ca-e1e8-477f-9a97-d8d8e63455ed",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
