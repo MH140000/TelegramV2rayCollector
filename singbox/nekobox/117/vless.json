@@ -111,6 +111,7 @@
                 "DE🇩🇪",
                 "SE🇸🇪",
                 "NL🇳🇱",
+                "IR🇮🇷",
                 "RO🇷🇴",
                 "GB🇬🇧",
                 "FR🇫🇷",
@@ -157,7 +158,7 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣3️⃣",
@@ -205,6 +206,7 @@
                 "رایگان | VLESS | @azadi_az_inja_migzare | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray1_ng | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | REALITY | @customv2ray | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmessorg | RO🇷🇴 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣3️⃣",
@@ -254,7 +256,7 @@
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @fnet00 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣3️⃣"
@@ -347,6 +349,16 @@
                 "رایگان | VLESS | @azadi_az_inja_migzare | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray1_ng | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vmess_vless_v2rayng | NL🇳🇱 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "IR🇮🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @customv2ray | IR🇮🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -1214,6 +1226,38 @@
         {
             "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
+            "server": "172.67.145.189",
+            "server_port": 2083,
+            "uuid": "ec7a6b6d-94b6-45df-9d62-491f53a508be",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "FrEEdoM.pAnOtOSU.sTORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/6fqYRq6DD1shcFIO\/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560",
+                "headers": {
+                    "Host": "freedom.panotosu.store"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
             "server": "104.21.112.1",
             "server_port": 80,
             "uuid": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
@@ -1231,29 +1275,6 @@
                     "Host": "zoomgov.vipren.biz.id"
                 },
                 "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @Outlinev2rayNG | RELAY🚩 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "104.16.198.192",
-            "server_port": 8080,
-            "uuid": "6c9bc0f8-b75b-4291-bcf4-e2feaa1df6bf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Hg.L06m2f84Ap.ZULaIr.ORG."
-                },
-                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -2188,6 +2209,34 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @customv2ray | IR🇮🇷 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "Host.iranservers.space",
+            "server_port": 1020,
+            "uuid": "ac2a2fca-5477-49d3-b419-9da98032607e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fInGVxoPLyML5AI8QonrXDCozxPVzIHNY1SRKnsRjBc",
+                    "short_id": "8b"
+                }
             }
         },
         {
