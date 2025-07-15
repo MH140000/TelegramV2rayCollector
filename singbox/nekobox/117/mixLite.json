@@ -112,6 +112,7 @@
                 "رایگان | VMESS | @customv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @SafeNet_Server | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Parsashonam | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Parsashonam | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Parsashonam | RELAY🚩 | 0️⃣3️⃣",
@@ -170,6 +171,7 @@
                 "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2rayngvpn | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @FalconPolV2rayNG | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
@@ -203,9 +205,8 @@
                 "رایگان | SS | @iP_CF | LT🇱🇹 | 0️⃣3️⃣",
                 "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | SS | @DeamNet_Proxy | BO🇧🇴 | 0️⃣1️⃣",
-                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣2️⃣",
-                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣3️⃣"
+                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣2️⃣"
             ]
         },
         {
@@ -219,6 +220,7 @@
                 "رایگان | VMESS | @customv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @SafeNet_Server | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Parsashonam | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Parsashonam | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Parsashonam | RELAY🚩 | 0️⃣3️⃣",
@@ -277,6 +279,7 @@
                 "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2rayngvpn | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @FalconPolV2rayNG | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣3️⃣",
@@ -310,9 +313,8 @@
                 "رایگان | SS | @iP_CF | LT🇱🇹 | 0️⃣3️⃣",
                 "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | SS | @DeamNet_Proxy | BO🇧🇴 | 0️⃣1️⃣",
-                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣2️⃣",
-                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣3️⃣"
+                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -478,6 +480,42 @@
                 "path": "\/",
                 "headers": {
                     "Host": "tms.dingtalk.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "azarbayjab1.1p1.pages.dev",
+            "server_port": 443,
+            "uuid": "e537f2f5-2a0c-4f59-92c9-832ca6433bf3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/irvideo.cfd\/linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560",
+                "headers": {
+                    "Host": "yellow-paper-029c.yvonna.workers.dev"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1771,6 +1809,29 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @FalconPolV2rayNG | IR🇮🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "sec.lucyshoping.ir",
+            "server_port": 11885,
+            "uuid": "91c2a01e-be0b-4296-bfd8-630e9ec6d8d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -2511,17 +2572,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @DeamNet_Proxy | BO🇧🇴 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "185.93.173.218",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "45.87.175.22",
             "server_port": 8080,
@@ -2531,7 +2582,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣3️⃣",
+            "tag": "رایگان | SS | @DeamNet_Proxy | LT🇱🇹 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "45.87.175.157",
             "server_port": 8080,
