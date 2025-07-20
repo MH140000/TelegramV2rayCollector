@@ -112,7 +112,6 @@
                 "رایگان | VMESS | @iP_CF | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @iP_CF | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @prrofile_purple | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @customv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @customv2ray | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
@@ -138,8 +137,7 @@
                 "رایگان | VLESS | @lightning6 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @CloudCityy | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @CloudCityy | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @CUSTOMVPNSERVER | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @CUSTOMVPNSERVER | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @CUSTOMVPNSERVER | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣3️⃣",
@@ -217,6 +215,7 @@
                 "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | BO🇧🇴 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣"
             ]
         },
@@ -228,7 +227,6 @@
                 "رایگان | VMESS | @iP_CF | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VMESS | @iP_CF | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @prrofile_purple | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @customv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @customv2ray | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
@@ -254,8 +252,7 @@
                 "رایگان | VLESS | @lightning6 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @CloudCityy | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @CloudCityy | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @CUSTOMVPNSERVER | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @CUSTOMVPNSERVER | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @CUSTOMVPNSERVER | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DigiV2ray | US🇺🇸 | 0️⃣3️⃣",
@@ -333,6 +330,7 @@
                 "رایگان | SS | @free4allVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @free4allVPN | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | BO🇧🇴 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -451,23 +449,6 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @prrofile_purple | IR🇮🇷 | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "prom.learn-new.ir",
-            "server_port": 80,
-            "uuid": "ff453ef4-1c89-4045-a42f-603f4e5850fb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1045,49 +1026,17 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @CUSTOMVPNSERVER | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @CUSTOMVPNSERVER | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "pishgam.sdcards.ir",
-            "server_port": 2082,
-            "uuid": "f9a66045-768f-4807-a43a-642cf9ead90d",
+            "server": "91.99.195.73",
+            "server_port": 443,
+            "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER-@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER-@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER?ed=2087",
-                "headers": {
-                    "Host": "soltan.amirarshia.shop"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @CUSTOMVPNSERVER | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "pishgam.sdcards.ir",
-            "server_port": 2082,
-            "uuid": "Telegram---CUSTOMVPNSERVER---",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER-@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER-@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER-Telegram-@CUSTOMVPNSERVER?ed=2087",
-                "headers": {
-                    "Host": "Amir.pmme.top"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
@@ -2828,6 +2777,16 @@
             "tag": "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "64.74.163.130",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @DeamNet_Proxy | BO🇧🇴 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "185.93.173.218",
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "f8f7aCzcPKbsF8p3",
