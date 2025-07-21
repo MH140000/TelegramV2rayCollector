@@ -112,9 +112,10 @@
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @iP_CF | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | REALITY | @v2rayngvpn | CZ🇨🇿 | 0️⃣1️⃣",
+                "رایگان | REALITY | @v2rayngvpn | CZ🇨🇿 | 0️⃣3️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ShadowProxy66 | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ShadowProxy66 | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ShadowProxy66 | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | REALITY | @v2ray1_ng | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | REALITY | @proxystore11 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @proxystore11 | DE🇩🇪 | 0️⃣2️⃣",
@@ -130,9 +131,10 @@
             "outbounds": [
                 "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @iP_CF | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | REALITY | @v2rayngvpn | CZ🇨🇿 | 0️⃣1️⃣",
+                "رایگان | REALITY | @v2rayngvpn | CZ🇨🇿 | 0️⃣3️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ShadowProxy66 | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ShadowProxy66 | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ShadowProxy66 | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | REALITY | @v2ray1_ng | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | REALITY | @proxystore11 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @proxystore11 | DE🇩🇪 | 0️⃣2️⃣",
@@ -209,7 +211,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @v2rayngvpn | CZ🇨🇿 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @v2rayngvpn | CZ🇨🇿 | 0️⃣3️⃣",
             "type": "vless",
             "server": "194.182.79.43",
             "server_port": 25245,
@@ -272,7 +274,35 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @ShadowProxy66 | RU🇷🇺 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @ShadowProxy66 | CA🇨🇦 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "amazon-13.cristiano.name.ng",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ShadowProxy66 | RU🇷🇺 | 0️⃣3️⃣",
             "type": "vless",
             "server": "a.ru.maviks.ru",
             "server_port": 443,
