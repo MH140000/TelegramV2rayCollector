@@ -118,7 +118,8 @@
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VLESS | @V2pedia | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @V2pedia | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @V2pedia | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ARv2ray | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | REALITY | @ARv2ray | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ARv2ray | NL🇳🇱 | 0️⃣3️⃣",
@@ -220,7 +221,8 @@
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @melov2ray | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VLESS | @V2pedia | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @V2pedia | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @V2pedia | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ARv2ray | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | REALITY | @ARv2ray | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ARv2ray | NL🇳🇱 | 0️⃣3️⃣",
@@ -533,7 +535,30 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @V2pedia | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @V2pedia | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "91.107.170.215",
+            "server_port": 80,
+            "uuid": "28ec01eb-1683-4e4e-a766-4d6123350942",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ali",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @V2pedia | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
