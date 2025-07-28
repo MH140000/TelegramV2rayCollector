@@ -163,8 +163,6 @@
                 "رایگان | VLESS | @v2rayNG_Matsuri | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2rayNG_Matsuri | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayNG_Matsuri | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | REALITY | @v2rayngvpn | PL🇵🇱 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
@@ -257,8 +255,6 @@
                 "رایگان | VLESS | @v2rayNG_Matsuri | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2rayNG_Matsuri | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayNG_Matsuri | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | REALITY | @v2rayngvpn | PL🇵🇱 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | US🇺🇸 | 0️⃣2️⃣",
@@ -302,7 +298,7 @@
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-286",
+            "uuid": "Parsashonam-288",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -316,7 +312,7 @@
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-285",
+            "uuid": "Parsashonam-287",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1489,66 +1485,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "172.64.151.232",
-            "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @v2rayngvpn | PL🇵🇱 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "ptshop.carbutik.ir",
-            "server_port": 8880,
-            "uuid": "0c78fe8f-8a9b-4b7d-ba2c-b58fa2ee60d1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uFxizQtVudLmc6HOF_MJ0KVW4r4UbOdSyLOelTzzEAI",
-                    "short_id": "c2c50ac7a4"
-                }
             }
         },
         {
