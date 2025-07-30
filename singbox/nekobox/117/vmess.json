@@ -108,7 +108,7 @@
                 "IR🇮🇷",
                 "FI🇫🇮",
                 "US🇺🇸",
-                "LV🇱🇻"
+                "RELAY🚩"
             ]
         },
         {
@@ -120,7 +120,7 @@
                 "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @ShadowProxy66 | LV🇱🇻 | 0️⃣2️⃣"
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -159,10 +159,10 @@
             "tolerance": 50
         },
         {
-            "tag": "LV🇱🇻",
+            "tag": "RELAY🚩",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @ShadowProxy66 | LV🇱🇻 | 0️⃣2️⃣"
+                "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -257,7 +257,7 @@
         {
             "tag": "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "172.67.88.20",
+            "server": "104.25.146.16",
             "server_port": 443,
             "uuid": "af6eedf5-f2b4-447f-8b93-5fca33af06f8",
             "security": "auto",
@@ -272,7 +272,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "172.67.88.20",
+                "server_name": "104.25.146.16",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -291,11 +291,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @ShadowProxy66 | LV🇱🇻 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "216.173.69.250",
-            "server_port": 8443,
-            "uuid": "91382092-2330-455b-8a1c-9c129cfe661a",
+            "server": "147.78.140.231",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -306,11 +306,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "llow-disk-4b7b.bigapax481.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
                 "headers": {
-                    "Host": "216.173.69.250"
+                    "Host": "llow-disk-4b7b.bigapax481.workers.dev"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
