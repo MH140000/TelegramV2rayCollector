@@ -114,7 +114,8 @@
                 "رایگان | REALITY | @v2_team | AE🇦🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2_team | AE🇦🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @NIM_VPN_ir | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @NIM_VPN_ir | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @NIM_VPN_ir | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @NIM_VPN_ir | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @XsV2ray | IT🇮🇹 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VPNCUSTOMIZE | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VPNCUSTOMIZE | RELAY🚩 | 0️⃣2️⃣",
@@ -145,6 +146,7 @@
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @iP_CF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @iP_CF | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2rayNGn | US🇺🇸 | 0️⃣1️⃣",
@@ -209,7 +211,8 @@
                 "رایگان | REALITY | @v2_team | AE🇦🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2_team | AE🇦🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @NIM_VPN_ir | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | VLESS | @NIM_VPN_ir | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VLESS | @NIM_VPN_ir | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @NIM_VPN_ir | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @XsV2ray | IT🇮🇹 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VPNCUSTOMIZE | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VPNCUSTOMIZE | RELAY🚩 | 0️⃣2️⃣",
@@ -240,6 +243,7 @@
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣2️⃣",
+                "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @iP_CF | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @iP_CF | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @V2rayNGn | US🇺🇸 | 0️⃣1️⃣",
@@ -302,7 +306,7 @@
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-290",
+            "uuid": "Parsashonam-291",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -316,7 +320,7 @@
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-289",
+            "uuid": "Parsashonam-290",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -454,7 +458,30 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @NIM_VPN_ir | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @NIM_VPN_ir | IR🇮🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "ht1.xservers.ir",
+            "server_port": 443,
+            "uuid": "ce02ef89-4a22-40d3-a962-9a8e12c252fe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nl1.blackismyfavorite.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @NIM_VPN_ir | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "n0.asmdns.net",
             "server_port": 2082,
@@ -1163,6 +1190,20 @@
         },
         {
             "tag": "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "v2test.bing-net.com",
+            "server_port": 9820,
+            "uuid": "13a1c108-a919-44fb-a3bf-a9550db565cd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @Watashi_VPN | IR🇮🇷 | 0️⃣3️⃣",
             "type": "vless",
             "server": "v2test.bing-net.com",
             "server_port": 9820,
